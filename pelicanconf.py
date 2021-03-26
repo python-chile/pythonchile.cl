@@ -8,7 +8,7 @@ DESCRIPTION = (
     "a lo largo del país, fortaleciendo a los miembros de la comunidad para generar un impacto "
     "positivo en el desarrollo de Python a nivel nacional y mundial."
 )
-SITEURL = "/home/cmaureir/repos/pycl/output"
+SITEURL = ""
 
 PATH = "content"
 
