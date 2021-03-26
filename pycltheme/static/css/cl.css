@@ -1,0 +1,151 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e1432e;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+
+.cabecera-index {
+  color: white;
+  height: 50vh;
+  min-height: 300px;
+  background-image: url("../images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*
+  background: linear-gradient(-45deg, #376d9c, #52a4e7, #0072d6, #0057a8);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  */
+}
+
+.cabecera {
+  color: white;
+  height: 10vh;
+  min-height: 100px;
+  background-image: url("../images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cabecera p, h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Adaptation for small screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 1em;
+    }
+    #custom-nav {
+        background-color: rgba(0,0,0,0);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}
+
+.img-header {
+  height: 5vh;
+  min-height: 20px;
+  margin-right: 5px;
+}
+
+.cabecera-index .img-responsive {
+  height: 25vh;
+  min-height: 100px;
+}
+
+.entradas-blog {
+  background: #e3e3e3;
+}
+
+.redes-sociales {
+  background: #343a40;
+}
+
+.fab:hover {
+  color: rgba(255, 67, 46, 1);
+}
+
+.patrocinadores {
+  color: white;
+  background: rgba(255, 67, 46, .9);
+}
+
+/* Images from cards with the same height */
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.list-inline-item {
+  margin: 15px 30px 0px 30px;
+}
+
+/* Footer */
+.footer{
+  /*background: #376d9c;*/
+  background: #0057a8;
+  color:white;
+}
+
+.enlaces ul {
+    list-style-type: none;
+}
+
+.enlaces  li a{
+    color: white;
+    transition: color .2s;
+}
+.enlaces li a:hover{
+      text-decoration:none;
+      color: rgba(255, 67, 46, 1);
+}
+
+.footer a {
+    color:white;
+    transition: color .2s;
+}
+
+.contacto i {
+  /* Reduce icons size */
+  font-size: 18px;
+}
+
+.copyright p {
+  border-top:1px solid rgba(255,255,255,.1);
+}

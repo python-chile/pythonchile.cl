@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/cl.css" />
+        <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        {% endif %}
+        {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+
+  <header class="cabecera">
+    <div class="container h-100">
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-transparent navbar-expand-lg navbar-dark" id="custom-nav">
+          <img class="d-none d-sm-block img-header" src="{{SITEURL}}/theme/images/logo.png" />
+      <a class="navbar-brand" href="#">Python Chile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          {% for name, d in MENUELEMENTS.items() %}
+            {% if not d["children"] %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ d["url"] }}">{{ d["title"] }}</a>
+              </li>
+            {% else %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ d["title"] }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                {% for _, c in d["children"].items() %}
+                  <a class="dropdown-item" href="{{ c["url"] }}">{{ c["title"] }}</a>
+                {% endfor %}
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+  <!-- Redes Sociales -->
+    <!--<div class="mt-5 pt-5 pb-5 redes-sociales">-->
+  <div class="redes-sociales">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+            {% for name, d in REDES.items() %}
+              <li class="list-inline-item">
+                <a href="{{ d["url"] }}">
+                  <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+            </div>
+       </div>
+    </div>
+  </div>
+
+  <div class="pt-5 pb-5 blog-entries">
+    <div class="container">
+    {% block content %}
+    {% endblock %}
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 acerca">
+          <h2>Python Chile</h2>
+          <p class="pr-5 text-white-50">
+          Nuestro objetivo es ser el lugar de encuentro de todos los entusiastas de Python a lo
+          largo del país, fortaleciendo a los miembros de la comunidad para generar un impacto
+          positivo en el desarrollo de Python a nivel nacional y mundial.
+          </p>
+        </div>
+        <div class="col-lg-3 col-xs-12 enlaces">
+          <h4 class="mt-lg-0 mt-sm-3">Enlaces</h4>
+            <ul class="m-0 p-0">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Código de Conducta</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#">Comunidad</a></li>
+              <li><a href="#">Eventos</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 contacto">
+          <h4 class="mt-lg-0 mt-sm-4">Contacto</h4>
+          <p class="pr-5 text-white-50">Escríbenos un correo electrónico:</p>
+          <p><i class="fa fa-envelope-o mr-3"></i>contacto [at] pythonchile.cl</p>
+          <p class="pr-5 text-white-50">o ingresa en nuestras redes:</p>
+          <p>
+            <a href="#"><i class="fab fa-discord fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-telegram fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-slack fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-github fa-lg mr-1 text-white"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-lg mr-1 text-white"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">Copyright © 2021 Python Chile. Todos los derechos reservados</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address>
+        </footer>
+-->
+</body>
+</html>
