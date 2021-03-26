@@ -1,7 +1,7 @@
 Title: De sueño a realidad: la historia del PyDay Chile 2020
 Date: 2020-12-15 10:20
 Category: Conferencia
-image: evento_ppal2.width-800.png
+image: resumen_pyday2020_logo.png
 authors: Cristián Maureira-Fredes
 
 Cuando el grupo **Python Chile** retomó su funcionamiento con nuevos miembros,
