@@ -21,7 +21,8 @@
 ## Despliegue
 
 * Se utiliazarán Github Actions, para hacer un despliegue al servidor.
-* *Instrucciones pendientes*
+* De momento es una acción sencilla que obtiene la última versión, genera el
+  sitio y lo copia al directory a donde apunta la URL.
 
 
 ## Información adicional
