@@ -17,6 +17,13 @@
   pelican content
   ```
   Lo que generará un directorio `output/` con el sitio web.
+  
+* Para generar el sitio estático y ejecutar un servidor de prueba.
+  ```
+  pelican content && pelican -l
+  ```
+  Podras revisar el contenido generado en la url  http://127.0.0.1:8000 
+  y con la combinación de teclas Ctrl + c cierras el proceso. 
 
 ## Despliegue
 
