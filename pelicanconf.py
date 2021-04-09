@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 DATE_FORMATS = { "es": "%Y-%m-%d"}
 
 MENUELEMENTS = {
-    "home": {"title": "Home", "url": "#", "children": None},
+    "home": {"title": "Home", "url": "index.html", "children": None},
     "blog": {"title": "Blog", "url": "#", "children": None},
     "coc": {
         "title": "Código de Conducta",
@@ -43,14 +43,6 @@ MENUELEMENTS = {
         },
     },
 }
-
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
 
 # Social widget
 REDES = {

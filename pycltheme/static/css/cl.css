@@ -17,7 +17,7 @@
 .cabecera-index {
   color: white;
   height: 50vh;
-  min-height: 300px;
+  min-height: 250px;
   background-image: url("../images/back.png");
   background-size: cover;
   background-position: center;
@@ -32,15 +32,15 @@
 .cabecera {
   color: white;
   height: 10vh;
-  min-height: 100px;
+  min-height: 90px;
   background-image: url("../images/back.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.cabecera p, h1 {
-  text-shadow: 2px 2px 4px #000000;
+.cabecera p, h1, h2, h3 {
+  text-shadow: 1px 2px 4px #000000;
 }
 
 /* Adaptation for small screens */
@@ -83,9 +83,13 @@
   margin-right: 5px;
 }
 
-.cabecera-index .img-responsive {
-  height: 25vh;
-  min-height: 100px;
+.cabecera-index  {
+  height: 30vh;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 200px;
 }
 
 .entradas-blog {
@@ -181,3 +185,7 @@ blockquote {
   background-color: #f5f8f8;
 }
 
+.vauto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
