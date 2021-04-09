@@ -7,11 +7,13 @@
 <div class="pt-5 pb-5 blog-entries">
   <div class="container">
     {% block content_title %}
-    <h2 class="text-center" style="color: black;margin-bottom: 30px;">Últimas entradas</h2>
+    <h2 class="text-center" style="color: black;margin-bottom: 10px;">Últimas entradas</h2>
     {% endblock %}
-    <div class="card-deck">
+    <!--    <div class="card-deck">-->
+      <div class="row">
     {% for article in articles_page.object_list %}
-      <div class="card" style="width: 18rem;">
+    <div class="col-md-6 col-lg-4">
+      <div class="card">
         <img class="card-img-top img-fluid" src="{{ SITEURL }}/images/{{ article.image }}" alt="{{ article.title }} Image">
         <div class="card-body">
           <h5 class="card-title">{{ article.title }}</h5>
@@ -24,8 +26,10 @@
           <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary stretched-link">Ver publicación</a>
         </div>
       </div>
-    {% endfor %}
     </div>
+    {% endfor %}
+      </div>
+      <!--    </div>-->
   </div>
 </div>
 

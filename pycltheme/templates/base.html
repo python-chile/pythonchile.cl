@@ -7,6 +7,7 @@
         <meta name="generator" content="Pelican" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/cl.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygment.css" />
         <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
 
         <!-- Optional JavaScript -->
@@ -60,16 +61,16 @@
           {% for name, d in MENUELEMENTS.items() %}
             {% if not d["children"] %}
               <li class="nav-item">
-                <a class="nav-link" href="{{ d["url"] }}">{{ d["title"] }}</a>
+                <a class="nav-link" href="{{ SITEURL}}/{{ d["url"] }}">{{ d["title"] }}</a>
               </li>
             {% else %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="{{ SITEURL }}/{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ d["title"] }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 {% for _, c in d["children"].items() %}
-                  <a class="dropdown-item" href="{{ c["url"] }}">{{ c["title"] }}</a>
+                <a class="dropdown-item" href="{{ SITEURL }}/{{ c["url"] }}">{{ c["title"] }}</a>
                 {% endfor %}
                 </div>
               </li>

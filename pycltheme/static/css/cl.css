@@ -17,7 +17,7 @@
 .cabecera-index {
   color: white;
   height: 50vh;
-  min-height: 300px;
+  min-height: 250px;
   background-image: url("../images/back.png");
   background-size: cover;
   background-position: center;
@@ -32,15 +32,15 @@
 .cabecera {
   color: white;
   height: 10vh;
-  min-height: 100px;
+  min-height: 90px;
   background-image: url("../images/back.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.cabecera p, h1 {
-  text-shadow: 2px 2px 4px #000000;
+.cabecera p, h1, h2, h3 {
+  text-shadow: 1px 2px 4px #000000;
 }
 
 /* Adaptation for small screens */
@@ -83,9 +83,13 @@
   margin-right: 5px;
 }
 
-.cabecera-index .img-responsive {
-  height: 25vh;
-  min-height: 100px;
+.cabecera-index  {
+  height: 30vh;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 200px;
 }
 
 .entradas-blog {
@@ -108,8 +112,16 @@
 /* Images from cards with the same height */
 .card-img-top {
   width: 100%;
-  height: 15vw;
+  height: 12vw;
   object-fit: cover;
+  max-height: 30vh;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 20rem;
 }
 
 .list-inline-item {
@@ -148,4 +160,32 @@
 
 .copyright p {
   border-top:1px solid rgba(255,255,255,.1);
+}
+
+.published {
+  color: #0157a8;
+  font-size: 0.9em;
+}
+
+.author {
+  font-style: italic;
+}
+
+.entry-subtitle {
+  color: #58636d;
+  border-left:  5px solid rgba(225, 45, 27, 0.8);
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+blockquote {
+  color: #58636d;
+  border-left:  5px solid rgba(1, 87, 168, 0.8);
+  padding-left: 5px;
+  background-color: #f5f8f8;
+}
+
+.vauto {
+  margin-top: auto;
+  margin-bottom: auto;
 }

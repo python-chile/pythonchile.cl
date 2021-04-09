@@ -7,6 +7,7 @@
         <meta name="generator" content="Pelican" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/cl.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygment.css" />
         <script src="https://kit.fontawesome.com/6cf87c29c5.js" crossorigin="anonymous"></script>
 
         <!-- Optional JavaScript -->
@@ -89,36 +90,33 @@
       -->
     </nav>
 
-
-      <div class="row h-100 align-items-center">
-        <div class="col-6 col-md-4 text-center">
-          <img class="d-none d-sm-block img-responsive" src="{{SITEURL}}/theme/images/logo.png" />
+    <div class="container">
+      <div class="row justify-content-md-center vauto">
+        <div class="d-none d-sm-block col-md-3 col-sm-4 text-center">
+          <img class="img-responsive" src="{{SITEURL}}/theme/images/logo.png" />
         </div>
-        <div class="col-12 col-md-8 text-left">
+        <div class="col-md-9 col-sm-8 col-xs-12 text-left vauto">
           <h1 class="font-weight-light">{{ SITENAME }}</h1>
           <p class="lead">{{ SITESUBTITLE }}</p>
         </div>
       </div>
+        </div>
     </div>
   </header>
 
   <!-- Redes Sociales -->
     <!--<div class="mt-5 pt-5 pb-5 redes-sociales">-->
-  <div class="pt-3 pb-2 redes-sociales">
+  <div class="pt-3 pb-4 redes-sociales">
     <div class="container">
-      <h3 class="text-center" style="color: white;margin-bottom: 30px;">¡Únete a la comunidad!</h3>
-       <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
+      <h3 class="text-center" style="color: white;">¡Únete a la comunidad!</h3>
+       <div class="row justify-content-md-center">
             {% for name, d in REDES.items() %}
-              <li class="list-inline-item">
+            <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
                 <a href="{{ d["url"] }}">
                   <i class="fab {{ d["icon"] }} fa-3x fa-inverse"></i>
                 </a>
-              </li>
-            {% endfor %}
-            </ul>
             </div>
+            {% endfor %}
        </div>
     </div>
   </div>
