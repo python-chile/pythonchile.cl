@@ -23,6 +23,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DATE_FORMATS = { "es": "%Y-%m-%d"}
+
 MENUELEMENTS = {
     "home": {"title": "Home", "url": "#", "children": None},
     "blog": {"title": "Blog", "url": "#", "children": None},

@@ -18,6 +18,13 @@
   ```
   Lo que generará un directorio `output/` con el sitio web.
 
+* Para ejecutar un servidor de prueba:
+  ```
+  pelican -l
+  ```
+  Podras revisar el contenido generado en la url  http://127.0.0.1:8000
+  y con la combinación de teclas `Ctrl + c` cierras el proceso.
+
 ## Despliegue
 
 * Se utiliazarán Github Actions, para hacer un despliegue al servidor.
