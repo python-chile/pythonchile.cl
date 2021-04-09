@@ -108,8 +108,16 @@
 /* Images from cards with the same height */
 .card-img-top {
   width: 100%;
-  height: 15vw;
+  height: 12vw;
   object-fit: cover;
+  max-height: 30vh;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 20rem;
 }
 
 .list-inline-item {
@@ -149,3 +157,27 @@
 .copyright p {
   border-top:1px solid rgba(255,255,255,.1);
 }
+
+.published {
+  color: #0157a8;
+  font-size: 0.9em;
+}
+
+.author {
+  font-style: italic;
+}
+
+.entry-subtitle {
+  color: #58636d;
+  border-left:  5px solid rgba(225, 45, 27, 0.8);
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+blockquote {
+  color: #58636d;
+  border-left:  5px solid rgba(1, 87, 168, 0.8);
+  padding-left: 5px;
+  background-color: #f5f8f8;
+}
+
