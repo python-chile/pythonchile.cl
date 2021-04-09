@@ -16,7 +16,7 @@
 
 .cabecera-index {
   color: white;
-  height: 50vh;
+  height: 30vh;
   min-height: 250px;
   background-image: url("../images/back.png");
   background-size: cover;
@@ -81,10 +81,6 @@
   height: 5vh;
   min-height: 20px;
   margin-right: 5px;
-}
-
-.cabecera-index  {
-  height: 30vh;
 }
 
 .img-responsive {
