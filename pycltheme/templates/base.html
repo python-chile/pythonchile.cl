@@ -86,18 +86,14 @@
     <!--<div class="mt-5 pt-5 pb-5 redes-sociales">-->
   <div class="redes-sociales">
     <div class="container">
-       <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
+       <div class="row justify-content-md-center">
             {% for name, d in REDES.items() %}
-              <li class="list-inline-item">
+            <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
                 <a href="{{ d["url"] }}">
                   <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
                 </a>
-              </li>
-            {% endfor %}
-            </ul>
             </div>
+            {% endfor %}
        </div>
     </div>
   </div>
