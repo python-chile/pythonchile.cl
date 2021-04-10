@@ -31,14 +31,9 @@
           <p><i class="fa fa-envelope-o mr-3"></i>contacto [at] pythonchile.cl</p>
           <p class="pr-5 text-white-50">o ingresa en nuestras redes:</p>
           <p>
-            <a href="#"><i class="fab fa-discord fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-telegram fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-facebook fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-slack fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-github fa-lg mr-1 text-white"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-lg mr-1 text-white"></i></a>
+            {% for name, d in REDES.items() %}
+            <a href="{{ d["url"] }}"><i class="fab {{ d["icon"] }} fa-lg mr-1 text-white"></i></a>
+            {% endfor %}
           </p>
         </div>
       </div>
