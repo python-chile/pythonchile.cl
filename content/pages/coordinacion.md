@@ -156,6 +156,23 @@ nuestros medios de comunicación.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
+    <!-- entrada -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="../images/coordinacion_alejandro_weinstein.jpg" alt="Pablo Lira">
+        <div class="card-body">
+          <h5 class="card-title">Alejandro Weinstein</h5>
+          <div class="text-right">
+            <a href="https://github.com/aweinstein"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://twitter.com/ajweinstein"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+          </div>
+          <p class="card-text-coord">
+          Profesor de la Escuela de Ingeniería Biomédica y director del FabLab de la Universidad de Valparaíso.
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
 
   </div> <!-- row -->
 </div> <!-- container -->
