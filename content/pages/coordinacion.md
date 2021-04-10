@@ -70,7 +70,8 @@ nuestros medios de comunicación.
           </div>
           <b><i class="red">Secretaría</i></b>
           <p class="card-text-coord">
-          Entusiasta Open Source. Mantenedor de Qt for Python y R&D Manager en
+          Entusiasta Open Source. Mantenedor de Qt for Python y Líder de
+          Proyecto en
           The Qt Company. Doctor en Astrofísica del Max-Planck-Institut für
           Gravitationsphysik (Alemania) y Máster en Ingenieria en Informática
           en la UTFSM (Chile)
