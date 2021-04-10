@@ -37,7 +37,7 @@ MENUELEMENTS = {
         "title": "Comunidad",
         "url": "#",
         "children": {
-            "coordinación": {"title": "Coordinadores", "url": "pages/coordinacion.html"},
+            "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
             "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
             #"eventos": {"title": "Eventos", "url": "#"},
         },
