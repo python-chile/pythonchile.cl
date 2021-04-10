@@ -100,20 +100,6 @@ nuestros medios de comunicación.
       </div> <!-- card -->
     </div> <!-- col -->
 
-  </div> <!-- row -->
-</div> <!-- container -->
-
-### Coordinación
-
-La coordinación de Python Chile está compuesta por personas interesadas en
-contribuir a la comunidad chilena de Python en su tiempo libre.
-
-Dentro del equipo, tenemos personas de distintos backgrounds, profesiones,
-niveles, y nacionalidades, con lo que si estás interesada en formar parte de
-este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
-
-<div class="container">
-  <div class="row">
     <!-- entrada -->
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
@@ -170,6 +156,21 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
+
+  </div> <!-- row -->
+</div> <!-- container -->
+
+### Coordinación
+
+La coordinación de Python Chile está compuesta por personas interesadas en
+contribuir a la comunidad chilena de Python en su tiempo libre.
+
+Dentro del equipo, tenemos personas de distintos backgrounds, profesiones,
+niveles, y nacionalidades, con lo que si estás interesada en formar parte de
+este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
+
+<div class="container">
+  <div class="row">
 
   </div> <!-- row -->
 </div> <!-- container -->
