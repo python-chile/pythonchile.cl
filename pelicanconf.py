@@ -27,7 +27,7 @@ DATE_FORMATS = { "es": "%Y-%m-%d"}
 
 MENUELEMENTS = {
     "home": {"title": "Home", "url": "index.html", "children": None},
-    "blog": {"title": "Blog", "url": "#", "children": None},
+    "blog": {"title": "Blog", "url": "archives.html", "children": None},
     "coc": {
         "title": "Código de Conducta",
         "url": "pages/codigo-de-conducta.html",

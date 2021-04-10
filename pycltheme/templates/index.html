@@ -11,7 +11,7 @@
     {% endblock %}
     <!--    <div class="card-deck">-->
       <div class="row">
-    {% for article in articles_page.object_list %}
+    {% for article in articles_page.object_list[:3] %}
     <div class="col-md-6 col-lg-4">
       <div class="card">
         <img class="card-img-top img-fluid" src="{{ SITEURL }}/images/{{ article.image }}" alt="{{ article.title }} Image">

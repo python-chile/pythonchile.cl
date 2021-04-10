@@ -51,7 +51,7 @@
     <!-- Barra de navegación -->
     <nav class="navbar navbar-transparent navbar-expand-lg navbar-dark" id="custom-nav">
           <img class="d-none d-sm-block img-header" src="{{SITEURL}}/theme/images/logo.png" />
-      <a class="navbar-brand" href="#">Python Chile</a>
+          <a class="navbar-brand" href="{{ SITEURL }}/index.html">Python Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -61,7 +61,7 @@
           {% for name, d in MENUELEMENTS.items() %}
             {% if not d["children"] %}
               <li class="nav-item">
-                <a class="nav-link" href="{{ SITEURL}}/{{ d["url"] }}">{{ d["title"] }}</a>
+                <a class="nav-link" href="{{ SITEURL }}/{{ d["url"] }}">{{ d["title"] }}</a>
               </li>
             {% else %}
               <li class="nav-item dropdown">
