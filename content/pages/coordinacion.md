@@ -200,7 +200,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
             <a href="https://www.linkedin.com/in/fearredondo/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
           </div>
           <p class="card-text-coord">
-            Ingeniero en Mantenimiento Mecánico, Magíster en Administración de Empresas. 
+            Ingeniero en Mantenimiento Mecánico, Magíster en Administración de Empresas.
             Entusiasta, apasionado y dedicado a la ciencia de datos.
           </p>
         </div> <!-- card-body -->
@@ -210,7 +210,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="../images/Mario_Andres.jpg" alt="Pablo Lira">
+        src="../images/coordinacion_mario_andres.jpg" alt="Pablo Lira">
         <div class="card-body">
           <h5 class="card-title">Mario Hevia</h5>
           <div class="text-right">
@@ -227,7 +227,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="..images/coordinacion_miluska_pajuelo.png" alt="Jhoselyn Pajuelo Villanueva">
+        src="../images/coordinacion_miluska_pajuelo.png" alt="Jhoselyn Pajuelo Villanueva">
         <div class="card-body">
           <h5 class="card-title">Jhoselyn Pajuelo Villanueva</h5>
           <div class="text-right">
