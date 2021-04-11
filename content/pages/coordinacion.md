@@ -210,7 +210,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="../images/coordinacion_Mario_Andres.jpg" alt="Pablo Lira">
+        src="../images/Mario_Andres.jpg" alt="Pablo Lira">
         <div class="card-body">
           <h5 class="card-title">Mario Hevia</h5>
           <div class="text-right">
