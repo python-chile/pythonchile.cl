@@ -188,8 +188,26 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
-
-  </div> <!-- row -->
+    <!-- entrada -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="../images/coordinacion_franklin_arredondo.jpg" alt="Pablo Lira">
+        <div class="card-body">
+          <h5 class="card-title">Franklin Arredondo</h5>
+          <div class="text-right">
+            <a href="https://github.com/farreusa"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/fearredondo/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </div>
+          <p class="card-text-coord">
+            Ingeniero en Mantenimiento Mecánico, Magíster en Administración de Empresas. 
+            Entusiasta, apasionado y dedicado a la ciencia de datos.
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
+  
+</div> <!-- row -->
 </div> <!-- container -->
 
 <!--
