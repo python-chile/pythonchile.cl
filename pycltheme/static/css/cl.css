@@ -139,7 +139,6 @@
 
 /* Footer */
 .footer{
-  /*background: #376d9c;*/
   background: #0057a8;
   color:white;
 }
@@ -160,6 +159,10 @@
 .footer a {
     color:white;
     transition: color .2s;
+}
+
+.footer a:hover {
+    color: rgba(255, 67, 46, 1);
 }
 
 .contacto i {
