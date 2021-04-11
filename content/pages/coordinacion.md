@@ -223,6 +223,24 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
+    <!-- entrada -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="..images/coordinacion_miluska_pajuelo.jpg" alt="Jhoselyn Pajuelo Villanueva">
+        <div class="card-body">
+          <h5 class="card-title">Jhoselyn Pajuelo Villanueva</h5>
+          <div class="text-right">
+            <a href="https://github.com/miluskapajuelo"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="www.linkedin.com/in/jhoselynpajuelovillanueva"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </div>
+          <p class="card-text-coord">
+          Ingeniera industrial y estudiante de desarrollo de software, amante del código y la gestión de proyectos, con experiencia liderando equipos.
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
+    <!-- entrada -->
 </div> <!-- row -->
 </div> <!-- container -->
 
