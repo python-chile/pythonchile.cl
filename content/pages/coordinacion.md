@@ -227,7 +227,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="..images/coordinacion_miluska_pajuelo.jpg" alt="Jhoselyn Pajuelo Villanueva">
+        src="..images/coordinacion_miluska_pajuelo.png" alt="Jhoselyn Pajuelo Villanueva">
         <div class="card-body">
           <h5 class="card-title">Jhoselyn Pajuelo Villanueva</h5>
           <div class="text-right">
