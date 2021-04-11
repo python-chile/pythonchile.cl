@@ -206,7 +206,23 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
-  
+    <!-- entrada -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="../images/coordinacion_Mario_Andres.jpg" alt="Pablo Lira">
+        <div class="card-body">
+          <h5 class="card-title">Mario Hevia</h5>
+          <div class="text-right">
+            <a href="https://github.com/marioymario"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/marioheviadata/"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+          </div>
+          <p class="card-text-coord">
+          Cientifico de Datos, Capturador sonidos de pajaros, estudiante de Vajrayana.
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
 </div> <!-- row -->
 </div> <!-- container -->
 
