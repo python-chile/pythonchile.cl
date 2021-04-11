@@ -14,16 +14,29 @@
     {% for article in articles_page.object_list[:3] %}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100">
-        <img class="card-img-top img-fluid" src="{{ SITEURL }}/images/{{ article.image }}" alt="{{ article.title }} Image">
-        <div class="card-body">
+        <a href="{{ SITEURL }}/{{ article.url }}">
+        <img class="card-img-top img-fluid"
+             src="{{ SITEURL }}/images/{{ article.image }}"
+             alt="{{ article.title }} Image">
+        </a>
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{ article.title }}</h5>
-          <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-          <h6 class="card-subtitle mb-2 text-muted">por
-                  {% for author in article.authors %}
-                      <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                  {% endfor %}
+          <div class="mt-auto">
+          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary float-right">Ver publicación</a>
+          </div>
+        </div>
+        <div class="card-footer">
+          <h6 class="card-subtitle text-muted text-right">por
+            {% for author in article.authors %}
+              <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+            {% endfor %}
           </h6>
-          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary stretched-link">Ver publicación</a>
+          <h6 style="font-size: 90%;" class="text-muted text-right">publicado el
+          <time class="published" datetime="{{ article.date.isoformat() }}">
+            {{ article.locale_date  }}
+          </time></h6>
+          <h6 style="font-size: 90%;" class="text-muted text-right">
+            <a class="url fn" href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
         </div>
       </div>
     </div>
