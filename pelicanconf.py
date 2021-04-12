@@ -45,14 +45,25 @@ MENUELEMENTS = {
 }
 
 # Social widget
-REDES = {
-    "discord": {"alt": "Discord", "icon": "fa-discord", "url": "https://discord.gg/dTHMfJvauS"},
-    "telegram": {"alt": "Telegram", "icon": "fa-telegram", "url": "https://t.me/pythonchile"},
+PLATAFORMAS = {
+    "discord": {
+        "alt": "Discord",
+        "icon": "fa-discord",
+        "url": "https://discord.gg/dTHMfJvauS"
+    },
+    "telegram": {
+        "alt": "Telegram",
+        "icon": "fa-telegram",
+        "url": "https://t.me/pythonchile"
+    },
     "slack": {
         "alt": "Slack",
         "icon": "fa-slack",
         "url": "https://join.slack.com/t/python-chile/shared_invite/zt-3hitnkfk-I_CM~2ANuwofgARLZjI42A",
     },
+}
+
+REDES = {
     "facebook": {
         "alt": "Facebook",
         "icon": "fa-facebook-f",
@@ -63,16 +74,25 @@ REDES = {
         "icon": "fa-twitter",
         "url": "https://twitter.com/pythonchiledev",
     },
-    "github": {"alt": "Github", "icon": "fa-github", "url": "https://github.com/python-chile"},
-    "youtube": {
-        "alt": "YouTube",
-        "icon": "fa-youtube",
-        "url": "https://www.youtube.com/c/PythonChile",
+    "instagram": {
+        "alt": "Instagram",
+        "icon": "fa-instagram",
+        "url": "https://instagram.com/pythonchiledev",
+    },
+    "github": {
+        "alt": "Github",
+        "icon": "fa-github",
+        "url": "https://github.com/python-chile"
     },
     "linkedin": {
         "alt": "LinkedIn",
         "icon": "fa-linkedin",
         "url": "https://www.linkedin.com/groups/4929519/",
+    },
+    "youtube": {
+        "alt": "YouTube",
+        "icon": "fa-youtube",
+        "url": "https://www.youtube.com/c/PythonChile",
     },
 }
 

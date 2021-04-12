@@ -61,11 +61,25 @@
     </div>
   </header>
 
-  <!-- Redes Sociales -->
-    <!--<div class="mt-5 pt-5 pb-5 redes-sociales">-->
+  <!-- Plataformas -->
+  <div class="pt-3 pb-4 plataformas">
+    <div class="container">
+      <h4 class="text-center text-white">¡Únete a la comunidad!</h4>
+       <div class="row justify-content-md-center">
+            {% for name, d in PLATAFORMAS.items() %}
+            <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
+                <a href="{{ d["url"] }}">
+                  <i class="fab {{ d["icon"] }} fa-3x fa-inverse"></i>
+                </a>
+            </div>
+            {% endfor %}
+       </div>
+    </div>
+  </div>
+
+  <!-- Redes -->
   <div class="pt-3 pb-4 redes-sociales">
     <div class="container">
-      <h3 class="text-center" style="color: white;">¡Únete a la comunidad!</h3>
        <div class="row justify-content-md-center">
             {% for name, d in REDES.items() %}
             <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
@@ -74,13 +88,31 @@
                 </a>
             </div>
             {% endfor %}
-            <div class="col-auto">
+       </div>
+    </div>
+  </div>
+
+  <!-- Python en Español -->
+  <div class="pt-3 pb-4 python-en-espanol">
+    <div class="container">
+       <div class="row justify-content-md-center">
+            <div class="col-3">
+              <img style="width: 60px;" src="images/python_en_espanol.png" />
+            </div>
+            <div class="col-6 text-center vauto" style="color: #fdc130;">
+              <h5 class="vauto">
+              No olvides unirte a la comunidad hispanohablante más grande del mundo.
+              </h5>
+            </div>
+            <div class="col-3 vauto">
               <div class="discord">
                 <a href="https://discord.gg/35E3Ph7Fez">
-                  <button class="btn btn-primary valign size-h4"><i class="fab fa-discord fa-2x" aria-hidden="true"></i> <span>Python en Español</span>
+                  <button class="btn btn-primary valign size-h4">
+                    <i class="fab fa-discord fa-2x" aria-hidden="true"></i>
+                    <span>Python en Español</span>
                   </button>
                 </a>
-      </div>
+              </div>
             </div>
        </div>
     </div>
