@@ -204,6 +204,15 @@ blockquote {
   margin-bottom: auto;
 }
 
+.valign {
+  display: flex;
+  align-items: center;
+}
+
+.valign span {
+  margin-left: 10px;
+}
+
 .red {
   color: #e12d1b;
   font-style: normal;
@@ -215,3 +224,27 @@ blockquote {
 }
 
 
+/* Botón Discord Python en Español */
+.discord {
+}
+
+.discord button {
+  width: 100%;
+  justify-content: center;
+}
+
+.discord .btn-primary,
+.discord .btn-primary:active,
+.discord .btn-primary:visited,
+.discord .btn-primary:focus {
+  background-color: #7289da;
+  border-color: #7289da;
+}
+.discord .btn-primary:hover {
+  background-color: #859bee;
+  border-color: #859bee;
+}
+
+.discord a {
+  text-decoration: none;
+}
