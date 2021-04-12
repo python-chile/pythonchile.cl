@@ -249,8 +249,8 @@ blockquote {
 .discord .btn-primary:active,
 .discord .btn-primary:visited,
 .discord .btn-primary:focus {
-  background-color: #7289da;
-  border-color: #7289da;
+  background-color: #132e45;
+  border-color: white;
 }
 .discord .btn-primary:hover {
   background-color: #859bee;

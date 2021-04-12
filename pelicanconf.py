@@ -56,11 +56,6 @@ PLATAFORMAS = {
         "icon": "fa-telegram",
         "url": "https://t.me/pythonchile"
     },
-    "slack": {
-        "alt": "Slack",
-        "icon": "fa-slack",
-        "url": "https://join.slack.com/t/python-chile/shared_invite/zt-3hitnkfk-I_CM~2ANuwofgARLZjI42A",
-    },
 }
 
 REDES = {
