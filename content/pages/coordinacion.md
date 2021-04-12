@@ -232,7 +232,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
           <h5 class="card-title">Jhoselyn Pajuelo Villanueva</h5>
           <div class="text-right">
             <a href="https://github.com/miluskapajuelo"><i class="fab fa-github fa-lg mr-1"></i></a>
-            <a href="www.linkedin.com/in/jhoselynpajuelovillanueva"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/jhoselynpajuelovillanueva"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
           </div>
           <p class="card-text-coord">
           Ingeniera industrial y estudiante de desarrollo de software, amante del código y la gestión de proyectos, con experiencia liderando equipos.
