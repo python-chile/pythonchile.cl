@@ -41,9 +41,17 @@
 
   <!-- Redes Sociales -->
     <!--<div class="mt-5 pt-5 pb-5 redes-sociales">-->
-  <div class="redes-sociales">
+  <div class="plataformas">
     <div class="container">
        <div class="row justify-content-md-center">
+            {% for name, d in PLATAFORMAS.items() %}
+            <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
+                <a href="{{ d["url"] }}">
+                  <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
+                </a>
+            </div>
+            {% endfor %}
+
             {% for name, d in REDES.items() %}
             <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
                 <a href="{{ d["url"] }}">

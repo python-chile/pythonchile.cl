@@ -31,6 +31,9 @@
           <p><a href="mailto:contacto@pythonchile.cl"><i class="fa fa-envelope-o mr-3"></i>contacto@pythonchile.cl</a></p>
           <p class="pr-5 text-white-50">o ingresa en nuestras redes:</p>
           <p>
+            {% for name, d in PLATAFORMAS.items() %}
+            <a href="{{ d["url"] }}"><i class="fab {{ d["icon"] }} fa-lg mr-1"></i></a>
+            {% endfor %}
             {% for name, d in REDES.items() %}
             <a href="{{ d["url"] }}"><i class="fab {{ d["icon"] }} fa-lg mr-1"></i></a>
             {% endfor %}
