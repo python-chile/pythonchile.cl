@@ -1,7 +1,12 @@
-{% extends "index.html" %}
+{% extends "base.html" %}
 
 {% block title %}{{ SITENAME }} - {{ tag }} tag{% endblock %}
 
-{% block content_title %}
-<h2>Articles tagged with {{ tag }}</h2>
+{% block content %}
+<h2 class="pb-5">Artículos con el tag {{ tag }}</h2>
+    <div class="row">
+      {% for article in dates %}
+        {% include 'card.html' %}
+      {% endfor %}
+    </div>
 {% endblock %}

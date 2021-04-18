@@ -4,30 +4,11 @@
 
 {% block content %}
 <h1>Entradas del Blog</h1>
-
-<div class="pt-5 pb-5 blog-entries">
-  <div class="container">
     <!--    <div class="card-deck">-->
-      <div class="row">
-    {% for article in dates %}
-    <div class="col-md-6 col-lg-4">
-      <div class="card">
-        <img class="card-img-top img-fluid" src="{{ SITEURL }}/images/{{ article.image }}" alt="{{ article.title }} Image">
-        <div class="card-body">
-          <h5 class="card-title">{{ article.title }}</h5>
-          <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-          <h6 class="card-subtitle mb-2 text-muted">por
-                  {% for author in article.authors %}
-                      <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                  {% endfor %}
-          </h6>
-          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary stretched-link">Ver publicación</a>
-        </div>
-      </div>
+    <div class="row">
+      {% for article in dates %}
+        {% include 'card.html' %}
+      {% endfor %}
     </div>
-    {% endfor %}
-      </div>
       <!--    </div>-->
-  </div>
-</div>
 {% endblock %}
