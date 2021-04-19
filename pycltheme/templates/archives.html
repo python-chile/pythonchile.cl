@@ -3,12 +3,14 @@
 {% block title %}{{ SITENAME }} - Archives{% endblock %}
 
 {% block content %}
-<h1>Entradas del Blog</h1>
-    <!--    <div class="card-deck">-->
+
+<h1 class="pb-5">Entradas del Blog</h1>
+
     <div class="row">
-      {% for article in dates %}
+      {% for article in dates%}
         {% include 'card.html' %}
       {% endfor %}
     </div>
-      <!--    </div>-->
+
+
 {% endblock %}

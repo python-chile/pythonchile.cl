@@ -5,9 +5,13 @@
 {% block content %}
 <h2 class="pb-5">Artículos en la categoría {{ category }}</h2>
     <div class="row">
-      {% for article in dates %}
+      {% for article in articles_page.object_list %}
         {% include 'card.html' %}
       {% endfor %}
     </div>  
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}    
+
 {% endblock %}
 
