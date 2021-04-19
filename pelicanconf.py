@@ -91,7 +91,7 @@ REDES = {
     },
 }
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 6
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
