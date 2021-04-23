@@ -60,7 +60,9 @@
     #custom-nav {
         background-color: rgba(0,0,0,0);
     }
+
 }
+
 
 @media screen and (max-width: 400px) {
     h1 {
@@ -75,6 +77,7 @@
     p {
         font-size: 0.8em;
     }
+
 }
 
 .img-header {
@@ -84,7 +87,7 @@
 }
 
 .img-responsive {
-  width: 100%;
+  width: 70%;
   max-width: 200px;
 }
 
@@ -237,26 +240,156 @@ blockquote {
 
 
 /* Botón Discord Python en Español */
-.discord {
-}
 
 .discord button {
   width: 100%;
   justify-content: center;
 }
 
-.discord .btn-primary,
-.discord .btn-primary:active,
-.discord .btn-primary:visited,
-.discord .btn-primary:focus {
+ .btn-default,
+ .btn-default:active,
+ .btn-default:visited,
+ .btn-default:focus {
   background-color: #132e45;
   border-color: white;
+  color:white;
+  display: flex;
+  align-items: center;
 }
-.discord .btn-primary:hover {
+ .btn-default:hover {
   background-color: #859bee;
   border-color: #859bee;
+  text-decoration: none;
 }
 
 .discord a {
   text-decoration: none;
+}
+
+altura{
+  height: 100%;
+}
+
+.texto-python_en_espanol{
+  color: #fdc130;
+  font-size: 1em;
+  font-weight: 500;
+  text-shadow: 1px 2px 4px #000000;
+  text-align: left;
+}
+
+.texto-plataformas{
+  color:white;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-shadow: 1px 2px 4px #000000;
+  line-height: 1.4;
+  text-align: start;
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-left:4.2rem;
+  }
+
+img.ene{ 
+  width:35px;
+  float:right;
+  height: 3rem;
+}
+
+.iconos_redes{
+  padding-left: 20px;
+}
+
+.iconos_plataformas{
+  font-size:0.8rem;
+  display:inline;
+  text-align: start;
+  padding-right: 20px; 
+} 
+
+.container-redes{
+  width: 100%;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+@media screen and (max-width: 768px) {
+.texto-plataformas{
+  text-align: start;
+  padding-left: 0;
+}
+.iconos_plataformas{
+  font-size:0.9rem;
+  display:inline;
+  text-align: start;
+  padding-right: 20px; 
+} 
+
+ul.navbar-nav{ 
+  width: auto;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-nav{
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction:column;
+    padding-left: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    align-items:flex-end;
+    width: fit-content;
+    }
+  
+    ul.navbar-nav{ 
+    align-items: flex-end
+    }
+
+    .texto-python_en_espanol{
+      text-align: start;
+
+    }
+
+    img.ene{ 
+      width:30px;
+      height: 5rem;
+      }
+     
+    .iconos_redes{
+        font-size: 1.3rem;
+      } 
+
+    .iconos_plataformas{
+        font-size:1rem;
+        padding-top: 10px
+      } 
+  } 
+
+  @media screen and (max-width: 600px) {
+  
+   .altura{
+     height: 120%;
+   }
+   img.ene{ 
+    width:0;
+    height:0;
+    }
+
+  .texto-python_en_espanol{ 
+    margin-left: -10px;
+    }
+  }
+  @media screen and (max-width: 400px) { 
+  .iconos_redes{
+    font-size: 0.9rem;
+    padding-left: 15px;
+  } 
+
+  .btn-default{ 
+  display: inline-block;
+  }
 }
