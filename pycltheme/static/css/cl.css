@@ -373,10 +373,6 @@ ul.navbar-nav {
 
   @media screen and (max-width: 600px) {
 
-  .texto-python_en_espanol { 
-    margin-left: 0px;
-    }
-  
   .iconos_plataformas {
       font-size:1rem;
       display: inline;
