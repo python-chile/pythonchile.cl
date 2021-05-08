@@ -46,7 +46,7 @@
 /* Adaptation for small screens */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 1.7em;
@@ -87,8 +87,8 @@
 }
 
 .img-responsive {
-  width: 70%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 170px;
 }
 
 .entradas-blog {
@@ -153,7 +153,7 @@
 }
 
 /* Footer */
-.footer{
+.footer {
   background: #0057a8;
   color:white;
 }
@@ -162,11 +162,11 @@
     list-style-type: none;
 }
 
-.enlaces  li a{
+.enlaces  li a {
     color: white;
     transition: color .2s;
 }
-.enlaces li a:hover{
+.enlaces li a:hover {
       text-decoration:none;
       color: rgba(255, 67, 46, 1);
 }
@@ -242,7 +242,7 @@ blockquote {
 /* Botón Discord Python en Español */
 
 .discord button {
-  width: 100%;
+  width: 90%;
   justify-content: center;
 }
 
@@ -250,27 +250,23 @@ blockquote {
  .btn-default:active,
  .btn-default:visited,
  .btn-default:focus {
-  background-color: #132e45;
-  border-color: white;
-  color:white;
-  display: flex;
-  align-items: center;
+    background-color: #132e45;
+    border-color: white;
+    color:white;
+    display: flex;
+    align-items: center;
 }
  .btn-default:hover {
-  background-color: #859bee;
-  border-color: #859bee;
-  text-decoration: none;
+   background-color: #859bee;
+   border-color: #859bee;
+   text-decoration: none;
 }
 
 .discord a {
   text-decoration: none;
 }
 
-altura{
-  height: 100%;
-}
-
-.texto-python_en_espanol{
+.texto-python_en_espanol {
   color: #fdc130;
   font-size: 1em;
   font-weight: 500;
@@ -278,7 +274,7 @@ altura{
   text-align: left;
 }
 
-.texto-plataformas{
+.texto-plataformas {
   color:white;
   font-size: 1.3em;
   font-weight: 500;
@@ -287,54 +283,65 @@ altura{
   text-align: start;
   vertical-align: middle;
   padding-top: 5px;
-  padding-left:4.2rem;
-  }
+ } 
 
-img.ene{ 
+img.ene { 
   width:35px;
   float:right;
   height: 3rem;
-}
+ }
 
-.iconos_redes{
+.iconos_redes {
   padding-left: 20px;
-}
+ }
 
-.iconos_plataformas{
+.iconos_plataformas {
   font-size:0.8rem;
   display:inline;
   text-align: start;
   padding-right: 20px; 
-} 
+ } 
 
-.container-redes{
+.container-redes {
   width: 100%;
   padding-right: 7px;
   padding-left: 7px;
   margin-right: auto;
   margin-left: auto;
+ }
 
-}
+ h1 {
+  font-size: 1.8rem;
+ }
 
 @media screen and (max-width: 768px) {
+
+ h1 { 
+   font-size: 1.5rem;
+ } 
+
 .texto-plataformas{
   text-align: start;
-  padding-left: 0;
-}
-.iconos_plataformas{
+ }
+ 
+.lead {
+    font-size: 1rem;
+  }
+
+.iconos_plataformas {
   font-size:0.9rem;
   display:inline;
   text-align: start;
   padding-right: 20px; 
-} 
+ } 
 
-ul.navbar-nav{ 
+ul.navbar-nav { 
   width: auto;
-}
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .navbar-nav{
+  .navbar-nav {
     display: -ms-flexbox;
     display: flex;
     flex-direction:column;
@@ -342,54 +349,53 @@ ul.navbar-nav{
     margin-bottom: 0;
     list-style: none;
     align-items:flex-end;
-    width: fit-content;
+    background-color: #343a40;
+    padding-right: 15px;
     }
   
-    ul.navbar-nav{ 
+    ul.navbar-nav { 
     align-items: flex-end
     }
 
-    .texto-python_en_espanol{
-      text-align: start;
-
+    .texto-python_en_espanol { 
+      text-align: left;
     }
 
-    img.ene{ 
+    img.ene { 
       width:30px;
-      height: 5rem;
-      }
+      height: 3rem;
+     }
      
-    .iconos_redes{
-        font-size: 1.3rem;
-      } 
-
-    .iconos_plataformas{
-        font-size:1rem;
-        padding-top: 10px
-      } 
+    .iconos_redes {
+        font-size: 1.1rem;
+     } 
   } 
 
   @media screen and (max-width: 600px) {
-  
-   .altura{
-     height: 120%;
-   }
-   img.ene{ 
-    width:0;
-    height:0;
-    }
 
-  .texto-python_en_espanol{ 
-    margin-left: -10px;
+  .texto-python_en_espanol { 
+    margin-left: 0px;
     }
+  
+  .iconos_plataformas {
+      font-size:1rem;
+      display: inline;
+      padding-top: 10px
+    } 
+
+    img.ene { 
+      width:0px;
+      height: 0px;
+     }  
   }
+
   @media screen and (max-width: 400px) { 
-  .iconos_redes{
-    font-size: 0.9rem;
+  .iconos_redes {
+    font-size: 0.8rem;
     padding-left: 15px;
   } 
 
-  .btn-default{ 
-  display: inline-block;
+  .btn-default { 
+    display: inline-block;
   }
 }
