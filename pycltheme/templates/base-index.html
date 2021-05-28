@@ -1,10 +1,8 @@
 {% include 'headermeta.html' %}
 
 <body id="index" class="home">
-
   <header class="cabecera-index">
     <div class="container h-100">
-
     <!-- Barra de navegación -->
     <nav class="navbar navbar-transparent navbar-expand-lg navbar-dark" id="custom-nav">
       <a class="navbar-brand" href="{{ SITEURL }}/index.html">Python Chile</a>
@@ -13,7 +11,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-
           {% for name, d in MENUELEMENTS.items() %}
             {% if not d["children"] %}
               <li class="nav-item">
@@ -32,19 +29,8 @@
               </li>
             {% endif %}
           {% endfor %}
-          <!--
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          -->
         </ul>
       </div>
-      <!--
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
-      </form>
-      -->
     </nav>
 
     <div class="container">
@@ -57,10 +43,10 @@
           <p class="lead">{{ SITESUBTITLE }}</p>
           <!-- Redes -->
           <div class="pt-3 pb-4">
-            <div class="container">
+            <div class="container-redes">
                <div class="row justify-content-md-start">
                     {% for name, d in REDES.items() %}
-                    <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
+                    <div class="iconos_redes">
                         <a href="{{ d["url"] }}">
                           <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
                         </a>
@@ -69,51 +55,49 @@
                </div>
             </div>
           </div>
-
         </div>
       </div>
-        </div>
+     </div>
     </div>
-  </header>
+ </header>
 
   <!-- Plataformas -->
   <div class="pt-3 pb-4 plataformas">
     <div class="container">
-       <div class="row justify-content-md-center">
-            <div class="col-auto">
-            <h4 class="text-center text-white pt-2">¡Ponte en contacto con la comunidad en Discord y Telegram!</h4>
+       <div class="row">
+            <div class="col-md-2 col-sm-1"> </div>
+            <div class="col-md-7 col-sm-8">
+            <span class="texto-plataformas">¡Ponte en contacto con la comunidad en Discord y Telegram!</span>
             </div>
-            {% for name, d in PLATAFORMAS.items() %}
-            <div class="col-auto"> <!---lg-8 col-md-10 mx-auto">-->
+            <div class="col-md-3 col-sm-3"> 
+              {% for name, d in PLATAFORMAS.items() %}
                 <a href="{{ d["url"] }}">
-                  <i class="fab {{ d["icon"] }} fa-3x fa-inverse"></i>
+                  <i class="fab {{ d["icon"] }} fa-3x fa-inverse iconos_plataformas"></i>
                 </a>
-            </div>
-            {% endfor %}
-       </div>
+              {% endfor %}
+            </div> 
+        </div>
     </div>
   </div>
-
+ 
   <!-- Python en Español -->
   <div class="pt-2 pb-2 python-en-espanol">
     <div class="container">
        <div class="row justify-content-md-center">
-            <div class="col-1 text-center">
-              <img style="width: 40px;" src="images/python_en_espanol.png" />
+            <div class="col-md-1 col-sm-3">
+             <img class="ene" src="images/python_en_espanol.png" /> 
             </div>
-            <div class="col-7 text-start vauto" style="color: #fdc130;">
-              <h5 class="vauto" style="font-size: 95%;">
-              No olvides unirte también a la comunidad hispanohablante más grande del mundo.
-              </h5>
+            <div class="col-md-7 col-sm-9 text-start vauto texto-python_en_espanol" >
+                No olvides unirte también a la comunidad hispanohablante más grande del mundo. 
             </div>
-            <div class="col-3 text-begin vauto pr-5">
-              <div class="discord">
+            <div class="col-md-3 col-sm-12 text-center pb-2 pt-2 discord vauto">
+              <div>
                 <a href="https://discord.gg/35E3Ph7Fez">
-                  <button class="btn btn-primary valign size-h4">
+                  <button class="btn btn-default valign size-h4">
                     <i class="fab fa-discord fa-2x" aria-hidden="true"></i>
                     <span>Python en Español</span>
                   </button>
-                </a>
+                  </a>
               </div>
             </div>
        </div>
@@ -123,8 +107,6 @@
   <!-- Entradas Blog -->
   {% block content %}
   {% endblock %}
-
-
   {% include 'footer.html' %}
 </body>
 </html>

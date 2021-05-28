@@ -46,7 +46,7 @@
 /* Adaptation for small screens */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 1.7em;
@@ -60,7 +60,9 @@
     #custom-nav {
         background-color: rgba(0,0,0,0);
     }
+
 }
+
 
 @media screen and (max-width: 400px) {
     h1 {
@@ -75,6 +77,7 @@
     p {
         font-size: 0.8em;
     }
+
 }
 
 .img-header {
@@ -85,7 +88,7 @@
 
 .img-responsive {
   width: 100%;
-  max-width: 200px;
+  max-width: 170px;
 }
 
 .entradas-blog {
@@ -150,7 +153,7 @@
 }
 
 /* Footer */
-.footer{
+.footer {
   background: #0057a8;
   color:white;
 }
@@ -159,11 +162,11 @@
     list-style-type: none;
 }
 
-.enlaces  li a{
+.enlaces  li a {
     color: white;
     transition: color .2s;
 }
-.enlaces li a:hover{
+.enlaces li a:hover {
       text-decoration:none;
       color: rgba(255, 67, 46, 1);
 }
@@ -237,26 +240,158 @@ blockquote {
 
 
 /* Botón Discord Python en Español */
-.discord {
-}
 
 .discord button {
-  width: 100%;
+  width: 90%;
   justify-content: center;
 }
 
-.discord .btn-primary,
-.discord .btn-primary:active,
-.discord .btn-primary:visited,
-.discord .btn-primary:focus {
-  background-color: #132e45;
-  border-color: white;
+ .btn-default,
+ .btn-default:active,
+ .btn-default:visited,
+ .btn-default:focus {
+    background-color: #132e45;
+    border-color: white;
+    color:white;
+    display: flex;
+    align-items: center;
 }
-.discord .btn-primary:hover {
-  background-color: #859bee;
-  border-color: #859bee;
+ .btn-default:hover {
+   background-color: #859bee;
+   border-color: #859bee;
+   text-decoration: none;
 }
 
 .discord a {
   text-decoration: none;
+}
+
+.texto-python_en_espanol {
+  color: #fdc130;
+  font-size: 1em;
+  font-weight: 500;
+  text-shadow: 1px 2px 4px #000000;
+  text-align: left;
+}
+
+.texto-plataformas {
+  color:white;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-shadow: 1px 2px 4px #000000;
+  line-height: 1.4;
+  text-align: start;
+  vertical-align: middle;
+  padding-top: 5px;
+ } 
+
+img.ene { 
+  width:35px;
+  float:right;
+  height: 3rem;
+ }
+
+.iconos_redes {
+  padding-left: 20px;
+ }
+
+.iconos_plataformas {
+  font-size:0.8rem;
+  display:inline;
+  text-align: start;
+  padding-right: 20px; 
+ } 
+
+.container-redes {
+  width: 100%;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+ h1 {
+  font-size: 1.8rem;
+ }
+
+@media screen and (max-width: 768px) {
+
+ h1 { 
+   font-size: 1.5rem;
+ } 
+
+.texto-plataformas{
+  text-align: start;
+ }
+ 
+.lead {
+    font-size: 1rem;
+  }
+
+.iconos_plataformas {
+  font-size:0.9rem;
+  display:inline;
+  text-align: start;
+  padding-right: 20px; 
+ } 
+
+ul.navbar-nav { 
+  width: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction:column;
+    padding-left: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    align-items:flex-end;
+    background-color: #343a40;
+    padding-right: 15px;
+    }
+  
+    ul.navbar-nav { 
+    align-items: flex-end
+    }
+
+    .texto-python_en_espanol { 
+      text-align: left;
+    }
+
+    img.ene { 
+      width:30px;
+      height: 3rem;
+     }
+     
+    .iconos_redes {
+        font-size: 1.1rem;
+     } 
+  } 
+
+  @media screen and (max-width: 600px) {
+
+  .iconos_plataformas {
+      font-size:1rem;
+      display: inline;
+      padding-top: 10px
+    } 
+
+    img.ene { 
+      width:0px;
+      height: 0px;
+     }  
+  }
+
+  @media screen and (max-width: 400px) { 
+  .iconos_redes {
+    font-size: 0.8rem;
+    padding-left: 15px;
+  } 
+
+  .btn-default { 
+    display: inline-block;
+  }
 }
