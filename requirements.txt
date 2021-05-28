@@ -1,2 +1,3 @@
 pelican[markdown]
 typogrify
+pelican-image-process==2.1.1
