@@ -35,9 +35,9 @@ nuestros medios de comunicación.
 > progreso.
 
 <div class="container">
-  <div class="row">
+  <div class="row ">
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5 ">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_carlos_maldonado.jpg" alt="Carlos Maldonado">
@@ -56,7 +56,7 @@ nuestros medios de comunicación.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_cristian_mf.jpg" alt="Cristián
@@ -80,7 +80,7 @@ nuestros medios de comunicación.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_pamela_bustamante.png" alt="Pamela Bustamante">
@@ -100,9 +100,10 @@ nuestros medios de comunicación.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
-
+  </div> <!-- row -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+  <div class="row ">  
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_cris_hernandez.jpg" alt="Cris Hernández">
@@ -122,7 +123,7 @@ nuestros medios de comunicación.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_pablo_lira.jpg" alt="Pablo Lira">
@@ -139,7 +140,7 @@ nuestros medios de comunicación.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_cristian_vb.jpg" alt="Cristián Vargas
@@ -157,7 +158,6 @@ nuestros medios de comunicación.
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
-
   </div> <!-- row -->
 </div> <!-- container -->
 
@@ -173,10 +173,10 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
 <div class="container">
   <div class="row">
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="../images/coordinacion_alejandro_weinstein.jpg" alt="Pablo Lira">
+        src="../images/coordinacion_alejandro_weinstein.jpg" alt="Alejandro Weinstein">
         <div class="card-body">
           <h5 class="card-title">Alejandro Weinstein</h5>
           <div class="text-right">
@@ -190,10 +190,10 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="../images/coordinacion_franklin_arredondo.jpg" alt="Pablo Lira">
+        src="../images/coordinacion_franklin_arredondo.jpg" alt="Franklin Arredondo">
         <div class="card-body">
           <h5 class="card-title">Franklin Arredondo</h5>
           <div class="text-right">
@@ -208,10 +208,10 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
-        src="../images/coordinacion_mario_andres.jpg" alt="Pablo Lira">
+        src="../images/coordinacion_mario_andres.jpg" alt="Mario Hevia">
         <div class="card-body">
           <h5 class="card-title">Mario Hevia</h5>
           <div class="text-right">
@@ -225,7 +225,9 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-    <div class="col-md-6 col-lg-4">
+  </div>  
+  <div class="row">
+    <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
         src="../images/coordinacion_miluska_pajuelo.png" alt="Jhoselyn Pajuelo Villanueva">
@@ -242,7 +244,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-</div> <!-- row -->
+  </div> <!-- row -->
 </div> <!-- container -->
 
 <!--
