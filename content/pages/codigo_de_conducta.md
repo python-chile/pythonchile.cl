@@ -1,9 +1,14 @@
 Title: Código de Conducta
 Date: 2020-05-01 10:00
 
-(Este código de conducta es una adaptación del código de conducta de la Python Software Foundation.)
+(Este código de conducta es una adaptación del código de conducta de la Python
+Software Foundation.)
 
-La comunidad Python Chile está formada por miembros que poseen diversas habilidades, personalidades y experiencias. A través de estas diferencias nuestra comunidad experimenta grandes éxitos y un crecimiento continuo. Este Código de Conducta tiene como objetivo mantener un buen ambiente en la comunidad, además de propiciar el crecimiento y éxitos en ella.
+La comunidad Python Chile está formada por miembros que poseen diversas
+habilidades, personalidades y experiencias. A través de estas diferencias
+nuestra comunidad experimenta grandes éxitos y un crecimiento continuo. Este
+Código de Conducta tiene como objetivo mantener un buen ambiente en la
+comunidad, además de propiciar el crecimiento y éxitos en ella.
 
 # Nuestra comunidad
 
@@ -83,18 +88,27 @@ cualquier comportamiento inapropiado lo hagan inmediatamente.
 # Consecuencias
 
 Si un participante tiene un comportamiento que viola este código de conducta,
-el equipo del Código de conducta de la comunidad de Python Chile puede tomar
-cualquier acción que considere apropiada, incluida la advertencia al
+el equipo del Código de conducta de la comunidad de Python Chile tomará
+una acción que considere apropiada, incluida la advertencia al
 delincuente o la expulsión de la comunidad y los eventos comunitarios sin
-reembolso de las entradas del evento. La lista completa de consecuencias por
-comportamiento inapropiado se encuentra en los [Procedimientos de
-ejecución](https://translate.googleusercontent.com/translate_c?depth=1&hl=es&prev=search&rurl=translate.google.cl&sl=en&sp=nmt4&tl=es&u=https://www.python.org/psf/conduct/enforcement&usg=ALkJrhiG9U8fZmI4UZkwRcTY6FsAfhMdLQ).
+reembolso de las entradas del evento.
+
+Los pasos que el equipo seguirá en caso de un reporte serán:
+
+* Al recibir una denuncia, el equipo de coordinación lo evaluará.
+* Se evaluará si no existen conflictos de interés dentro del comité.
+* Se acercará a ambas partes, para discutir el problema en cuestión.
+* Se realizará una reunión para analizar la situación.
+* Se propondrá las consecuencias de la situación.
+* Se comunicará el resultado a ambas partes por separado.
+* Un seguimiento de la situación se mantendrá por un tiempo determinado
+  después de la resolución.
 
 Gracias por ayudar a que esta sea una comunidad acogedora y amigable para todos.
 
-Contacto
+## Contacto
+
 Para contactar al comité encargado del Código de Conducta en caso de un
 incumplimiento, preguntas, o comentarios en general, puedes escribirnos un
 email a coc@pythonchile.cl. La interacción por correo electrónico nunca será
-publicada, y se mantendrá sólo entre la persona que escribe y el
-comité.
+publicada, y se mantendrá sólo entre la persona que escribe y el comité.
