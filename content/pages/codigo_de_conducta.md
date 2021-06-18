@@ -97,8 +97,8 @@ Los pasos que el equipo seguirá en caso de un reporte serán:
 
 * Al recibir una denuncia, el equipo de coordinación lo evaluará.
 * Se evaluará si no existen conflictos de interés dentro del comité.
-* Se realizará una reunión para analizar la situación.
 * Se acercará a ambas partes, para discutir el problema en cuestión.
+* Se realizará una reunión para analizar la situación.
 * Se propondrá las consecuencias de la situación.
 * Se comunicará el resultado a ambas partes por separado.
 * Un seguimiento de la situación se mantendrá por un tiempo determinado
