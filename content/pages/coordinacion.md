@@ -244,6 +244,23 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
+    <div class="col-md-6 col-lg-4 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="../images/coordinacion_elkab.jpg" alt="Elka Buitrago">
+        <div class="card-body">
+          <h5 class="card-title">Elka Buitrago</h5>
+          <div class="text-right">
+            <a href="https://twitter.com/elkabuitrago"><i class="fab fa-twitter fa-lg mr-1"></i></a>          
+            <a href="https://www.linkedin.com/in/elka-buitrago"><i class="fab fa-linkedin fa-lg mr-1"></i></a>            
+          </div>
+          <p class="card-text-coord">
+             Aprendiz de Python. Fan del análisis de datos 
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
+    <!-- entrada -->
   </div> <!-- row -->
 </div> <!-- container -->
 
