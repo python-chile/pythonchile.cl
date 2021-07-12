@@ -102,7 +102,7 @@ nuestros medios de comunicación.
     </div> <!-- col -->
   </div> <!-- row -->
     <!-- entrada -->
-  <div class="row ">  
+  <div class="row ">
     <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
         <img class="card-img-top-coord img-fluid"
@@ -225,7 +225,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
-  </div>  
+  </div>
   <div class="row">
     <div class="col-md-6 col-lg-4 mb-5">
       <div class="card h-100">
@@ -251,16 +251,33 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
         <div class="card-body">
           <h5 class="card-title">Elka Buitrago</h5>
           <div class="text-right">
-            <a href="https://twitter.com/elkabuitrago"><i class="fab fa-twitter fa-lg mr-1"></i></a>          
-            <a href="https://www.linkedin.com/in/elka-buitrago"><i class="fab fa-linkedin fa-lg mr-1"></i></a>            
+            <a href="https://twitter.com/elkabuitrago"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/elka-buitrago"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
           </div>
           <p class="card-text-coord">
-             Aprendiz de Python. Fan del análisis de datos 
+             Aprendiz de Python. Fan del análisis de datos
           </p>
         </div> <!-- card-body -->
       </div> <!-- card -->
     </div> <!-- col -->
     <!-- entrada -->
+    <div class="col-md-6 col-lg-4 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top-coord img-fluid"
+        src="../images/coordinacion_denny.jpg" alt="Denny Perez">
+        <div class="card-body">
+          <h5 class="card-title">Denny Perez</h5>
+          <div class="text-right">
+            <a href="https://twitter.com/dennyperez18"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/dennyperez18"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </div>
+          <p class="card-text-coord">
+          Analista QA. Entusiasta de la comunidad Python. Coorganizadora de las
+          comunidades PyLadies Chile y PyConLatam.
+          </p>
+        </div> <!-- card-body -->
+      </div> <!-- card -->
+    </div> <!-- col -->
   </div> <!-- row -->
 </div> <!-- container -->
 
