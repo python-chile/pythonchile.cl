@@ -15,8 +15,10 @@ Con la creciente demanda de profesionales altamente calificados a nivel mundial 
 Si no pudiste asistir a la charla, la hemos grabado para el beneficio de la comunidad.
 
 ### Las habilidades mas demandadas por las startups de silicon valley por Oscar Terrazas
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Xbq1vDgPVdA" title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<div style="text-align: center;">
+    <iframe width="80%" height="315"
+    src="https://www.youtube.com/embed/Xbq1vDgPVdA" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>    
 
