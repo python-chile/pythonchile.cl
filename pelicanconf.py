@@ -89,6 +89,11 @@ REDES = {
         "icon": "fa-youtube",
         "url": "https://www.youtube.com/c/PythonChile",
     },
+    "meetup": {
+        "alt": "Meetup",
+        "icon": "fa-meetup",
+        "url": "https://meetup.com/es/pythonchiledev",
+    },
 }
 
 IMAGE_PROCESS = {
