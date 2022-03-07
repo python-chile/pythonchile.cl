@@ -62,7 +62,7 @@ REDES = {
     "facebook": {
         "alt": "Facebook",
         "icon": "fa-facebook-f",
-        "url": "https://www.facebook.com/groups/pythonchileprogramadores/",
+        "url": "https://www.facebook.com/groups/pythonchiledev/",
     },
     "twitter": {
         "alt": "Twitter",
