@@ -134,7 +134,7 @@ La difusión incluye tanto la publicación de anuncios programados  en redes soc
 
    - Difusión del evento
    - Diseño de anuncios
-        Programación de publicaciones 
+        - Programación de publicaciones 
    - Difusión de la convocatoria de charlas y talleres
         Diseño de anuncios
         Programación de publicaciones 
