@@ -12,7 +12,7 @@ En esta sección encontrarás las recomendaciones para organizar una PyDay basad
 
 ### Python en Español
 
-En Hablemos Python, el site de Python en Español, encontrarás recursos educativos de conocimiento desde principiante a avanzado: 
+En el sitio de Python en Español encontrarás recursos educativos de conocimiento desde principiante a avanzado: 
 
 * [Hablemos Python](https://hablemospython.dev) 
 
