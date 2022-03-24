@@ -130,7 +130,7 @@ En la medida de lo posible, se recomienda hacer simultáneamente a la preparaci�
 
 #### Difusión 
 
-La difusión incluye tanto la publicación de anuncios programados  en redes sociales oficiales de la organización: Twitter, Facebook, Linkedin como la publicidad pagada y el apoyo de difusión por parte de organizaciones auspiciantes o colaboradoras 
+La difusión incluye tanto la publicación de anuncios programados en redes sociales oficiales de la organización: Twitter, Facebook, Linkedin como la publicidad pagada y el apoyo de difusión por parte de organizaciones auspiciantes o colaboradoras.
 
    - Difusión del evento
    - Diseño de anuncios
