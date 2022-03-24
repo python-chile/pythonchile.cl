@@ -28,7 +28,7 @@ En éste enlace encuentras el site con información detallada de las charlas que
 
 **PyCon 2021**
 El primer evento PyCon Chile se llevó a cabo del 5 al 7 de Noviembre de 2021
-En éste enlace encuentras el site con información detallada de las charlas y talleres que se presentaron 
+En éste enlace encontrarás el sitio con información detallada de las charlas y talleres que se presentaron.
 
 * [PyCon2021](https://pycon.cl) 
 
