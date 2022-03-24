@@ -3,7 +3,7 @@ Date: 2022-03-23 10:00
 
 
 
-### ¿Como organizar una PyDay?
+### ¿Cómo organizar un PyDay?
 
 En esta sección encontrarás las recomendaciones para organizar una PyDay basadas en nuestra experiencia
 
