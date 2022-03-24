@@ -10,7 +10,7 @@ En esta sección encontrarás las recomendaciones para organizar una PyDay basad
 * [Organiza una PyDay](/pages/como-organizar-una-pyday.html) 
 
 
-### Hablemos Python
+### Python en Español
 
 En Hablemos Python, el site de Python en Español, encontrarás recursos educativos de conocimiento desde principiante a avanzado: 
 
