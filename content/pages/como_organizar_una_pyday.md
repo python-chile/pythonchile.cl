@@ -1,8 +1,6 @@
 Title: Como organizar una PyDay
 Date: 2022-03-23 10:00
 
-
-
 Queremos compartir nuestra experiencia en la organización de las conferencias de Python: PyDay 2020 y PyCon 2021 con las personas u organizaciones interesadas en organizar conferencias similares localmente en su ciudad o país.
 Estas recomendaciones son para organizar una PyDay con un solo track y de participación gratuita, que incluya charlas y talleres.
 
