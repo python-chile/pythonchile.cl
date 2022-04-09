@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python + InfluxDB en contenedores Dockers && Calidad en contextos ágiles
+title: Python + InfluxDB en contenedores Dockers y Calidad en contextos ágiles
 subtitle: Meetup 27 de Enero 2022
 author: Python Chile
 image: meetup/enero-2022.webp

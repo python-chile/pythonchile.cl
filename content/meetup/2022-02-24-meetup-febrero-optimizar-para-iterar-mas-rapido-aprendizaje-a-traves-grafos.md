@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analytics Factory como Optimizar para iterar rápido && Aprendizaje a través de grafos
+title: Analytics Factory como Optimizar para iterar rápido y Aprendizaje a través de grafos
 subtitle: Meetup 24 de Febrero 2022
 author: Python Chile
 image: meetup/febrero-2022.webp
@@ -22,7 +22,7 @@ También te invitamos a interactuar en la comunidad en el servidor [Discord](htt
 ### Meetup Febrero 2022: Analytics Factory: Optimizar para iterar rápido && Aprendizaje a través de grafos
 <div style="text-align: center;">
     <iframe width="100%" height="600"
-    src="https://www.youtube.com/embed/YTsq2owOzy" title="YouTube video player" frameborder="0"
+    src="https://www.youtube.com/embed/YTsq2owOzyo" title="YouTube video player" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
 </div>    

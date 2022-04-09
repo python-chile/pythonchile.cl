@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Código más elegante con Functools && El Auto ARIMA más rápido de Python
+title: Código más elegante con Functools y El Auto ARIMA más rápido de Python
 subtitle: Meetup 27 de Enero 2022
 author: Python Chile
 image: meetup/marzo-2022.webp
