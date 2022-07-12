@@ -84,7 +84,7 @@
 
 .img-responsive {
   width: 100%;
-  max-width: 170px;
+  max-width: 400px;
 }
 
 .entradas-blog {
@@ -281,9 +281,9 @@ blockquote {
   text-align: start;
   vertical-align: middle;
   padding-top: 5px;
- } 
+ }
 
-img.ene { 
+img.ene {
   width:35px;
   float:right;
   height: 3rem;
@@ -297,8 +297,8 @@ img.ene {
   font-size:0.8rem;
   display:inline;
   text-align: start;
-  padding-right: 20px; 
- } 
+  padding-right: 20px;
+ }
 
 .container-redes {
   width: 100%;
@@ -314,14 +314,14 @@ img.ene {
 
 @media screen and (max-width: 768px) {
 
- h1 { 
+ h1 {
    font-size: 1.5rem;
- } 
+ }
 
 .texto-plataformas{
   text-align: start;
  }
- 
+
 .lead {
     font-size: 1rem;
   }
@@ -330,10 +330,10 @@ img.ene {
   font-size:0.9rem;
   display:inline;
   text-align: start;
-  padding-right: 20px; 
- } 
+  padding-right: 20px;
+ }
 
-ul.navbar-nav { 
+ul.navbar-nav {
   width: auto;
   }
 }
@@ -350,24 +350,24 @@ ul.navbar-nav {
     background-color: #343a40;
     padding-right: 15px;
     }
-  
-    ul.navbar-nav { 
+
+    ul.navbar-nav {
     align-items: flex-end
     }
 
-    .texto-python_en_espanol { 
+    .texto-python_en_espanol {
       text-align: left;
     }
 
-    img.ene { 
+    img.ene {
       width:30px;
       height: 3rem;
      }
-     
+
     .iconos_redes {
         font-size: 1.1rem;
-     } 
-  } 
+     }
+  }
 
   @media screen and (max-width: 600px) {
 
@@ -375,21 +375,21 @@ ul.navbar-nav {
       font-size:1rem;
       display: inline;
       padding-top: 10px
-    } 
+    }
 
-    img.ene { 
+    img.ene {
       width:0px;
       height: 0px;
-     }  
+     }
   }
 
-  @media screen and (max-width: 400px) { 
+  @media screen and (max-width: 400px) {
   .iconos_redes {
     font-size: 0.8rem;
     padding-left: 15px;
-  } 
+  }
 
-  .btn-default { 
+  .btn-default {
     display: inline-block;
   }
 }
