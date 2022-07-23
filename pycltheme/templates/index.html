@@ -6,42 +6,49 @@
 <div class="pt-5 pb-5 blog-entries">
   <div class="container">
     {% block content_title %}
-    <h2 class="text-center pb-5" style="color: black;margin-bottom: 10px;">Últimas entradas</h2>
     {% endblock %}
-    <!--    <div class="card-deck">-->
     <div class="row">
-      {% for article in articles_page.object_list[:6] %}
-       {% include 'card.html' %} 
-      {% endfor %}
+      <div class="col-9">
+        <h3 class="text-center pb-5 mb-3 titulo-bold">ÚLTIMAS ENTRADAS</h3>
+        <div class="row">
+          {% for article in dates[:6] %}
+           {% include 'card.html' %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-3">
+        <a class="twitter-timeline" data-lang="es" data-width="300" data-height="600" href="https://twitter.com/pythonchiledev?ref_src=twsrc%5Etfw">Tweets by pythonchiledev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% include 'hablemospython.html' %}
+      </div>
     </div>
-      <!--    </div>-->
   </div>
 </div>
 
 </section><!-- /#content -->
 
-<section class="fondo-noche pt-5 pb-5">
+<!-- Patrocinios -->
+<section class="fondo-gris pt-5 pb-3">
   <div class="container ">
-    <div class="text-white pb-5"> 
+    <div class="text-white pb-3 text-center">
       <h2>Nuestros Patrocinantes</h2>
-    </div>  
+    </div>
     <div class="mb-3">
-      <div class="row">
-        <div class="col-md-4 text-white align-middle">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-4 text-white">
           <p> Éstas son las empresas que colaboran para hacer posible nuestras actividades</p>
-        </div> 
-        <div class="col-md-2 text-center">
-            <a href="https://it-talenthh.com/" target="_blank"> 
-              <img class="img-fluid" src="../images/patrocinantes/logo_ittalent.png" alt="IT-Talent">
-            </a>  
         </div>
         <div class="col-md-2 text-center">
-          <a href="https://www.austinsoftware.com//" target="_blank"> 
-            <img class="img-fluid" src="../images/patrocinantes/logo_austin.png" alt="Austin Software">
-          </a>  
+            <a href="https://it-talenthh.com/" target="_blank">
+              <img class="img-fluid" src="images/patrocinantes/logo_ittalent.png" alt="IT-Talent">
+            </a>
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="https://www.austinsoftware.com//" target="_blank">
+            <img class="img-fluid" src="images/patrocinantes/logo_austin.png" alt="Austin Software">
+          </a>
       </div>
-      </div>   
-    </div>  
-  </div>  
-</section> 
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock content %}
