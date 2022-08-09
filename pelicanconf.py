@@ -2,7 +2,7 @@
 
 AUTHOR = "Python Chile"
 SITENAME = "Comunidad Chilena de Python"
-SITESUBTITLE = "Lugar de encuentro de todas las personas entusiastas de Python a lo largo del país"
+SITESUBTITLE = "Lugar de encuentro de todas las personas entusiastas de Python a lo largo de Chile"
 DESCRIPTION = (
     "Nuestro objetivo es ser el lugar de encuentro de todos los entusiastas de Python "
     "a lo largo del país, fortaleciendo a los miembros de la comunidad para generar un impacto "
@@ -33,15 +33,8 @@ MENUELEMENTS = {
         "url": "pages/codigo-de-conducta.html",
         "children": None,
     },
-    "comunidad": {
-        "title": "Comunidad",
-        "url": "#",
-        "children": {
-            "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
-            "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
-            #"eventos": {"title": "Eventos", "url": "#"},
-        },
-    },
+    "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
+    "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
     "eventos": {
         "title": "Eventos",
         "url": "pages/eventos.html",

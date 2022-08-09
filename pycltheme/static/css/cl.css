@@ -1,6 +1,9 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  text-shadow: 1px 1px 2px #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -10,30 +13,24 @@
 .navbar-dark .navbar-brand {
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #000000;
 }
 
 
 .cabecera-index {
   color: white;
-  height: 30vh;
-  min-height: 250px;
-  background-image: url("../images/back.png");
+  height: 20vh;
+  min-height: 230px;
+  background-color: #343a40;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /*
-  background: linear-gradient(-45deg, #376d9c, #52a4e7, #0072d6, #0057a8);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  */
 }
 
 .cabecera {
   color: white;
-  height: 10vh;
-  min-height: 90px;
-  background-image: url("../images/back.png");
+  height: 5vh;
+  min-height: 80px;
+  background-color: #343a40;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +95,8 @@
 }
 
 .plataformas {
-  background: #343a40;
+  /*background: #343a40;*/
+  background: #0057a8;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -109,7 +107,23 @@
   padding-bottom: 10px;
 }
 
+.fondo-azul {
+  background: #0057a8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.fondo-celeste {
+  background: #4182bf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fondo-gris {
+  background: #343a40;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .fab:hover {
   color: rgba(255, 67, 46, 1);
@@ -139,11 +153,14 @@
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
-  width: 20rem;
 }
 
 .card-text-coord {
   font-size: 10pt;
+}
+
+.card-footer {
+  padding: 5px;
 }
 
 .list-inline-item {
@@ -268,7 +285,6 @@ blockquote {
   color: #fdc130;
   font-size: 1em;
   font-weight: 500;
-  text-shadow: 1px 2px 4px #000000;
   text-align: left;
 }
 
@@ -276,7 +292,6 @@ blockquote {
   color:white;
   font-size: 1.3em;
   font-weight: 500;
-  text-shadow: 1px 2px 4px #000000;
   line-height: 1.4;
   text-align: start;
   vertical-align: middle;
@@ -392,4 +407,13 @@ ul.navbar-nav {
   .btn-default {
     display: inline-block;
   }
+}
+
+.bg-hablemospython {
+  background-color: #132e45 !important;
+}
+
+.titulo-bold {
+  color: #343a40;
+  font-weight: 800;
 }

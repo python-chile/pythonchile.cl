@@ -5,20 +5,19 @@
     <div class="container h-100">
     <!-- Barra de navegación -->
     <nav class="navbar navbar-transparent navbar-expand-lg navbar-dark" id="custom-nav">
-      <a class="navbar-brand" href="{{ SITEURL }}/index.html">Python Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
         <ul class="navbar-nav">
           {% for name, d in MENUELEMENTS.items() %}
             {% if not d["children"] %}
               <li class="nav-item">
-                <a class="nav-link" href="{{ SITEURL }}/{{ d["url"] }}">{{ d["title"] }}</a>
+                <a class="nav-link titulo-bold" href="{{ SITEURL }}/{{ d["url"] }}">{{ d["title"] }}</a>
               </li>
             {% else %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="{{ SITEURL }}/{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle titulo-bold" href="{{ SITEURL }}/{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ d["title"] }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -34,24 +33,21 @@
     </nav>
 
     <div class="container">
-      <div class="row justify-content-md-center vauto mt-3">
+      <div class="row justify-content-md-center vauto">
         <div class="d-none d-sm-block col-md-4 col-sm-4 text-center mt-3">
           <img class="img-responsive p3" src="{{SITEURL}}/theme/images/pythonchile_logo.png" />
         </div>
-        <div class="col-md-6 col-sm-8 col-xs-12 text-left vauto">
-          <h1 class="font-weight-light">{{ SITENAME }}</h1>
-          <p class="lead">{{ SITESUBTITLE }}</p>
+        <div class="col-md-6 col-sm-8 col-xs-12 text-left mt-3 vauto">
+          <h3 class="lead">{{ SITESUBTITLE }}</h3>
           <!-- Redes -->
-          <div class="pt-3 pb-4">
+          <div class="pt-1 pb-1">
             <div class="container-redes">
                <div class="row justify-content-md-start">
-                    {% for name, d in REDES.items() %}
-                    <div class="iconos_redes">
-                        <a href="{{ d["url"] }}" target="_blank">
-                          <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
-                        </a>
-                    </div>
-                    {% endfor %}
+                {% for name, d in PLATAFORMAS.items() %}
+                  <a href="{{ d["url"] }}">
+                    <i class="fab {{ d["icon"] }} fa-2x fa-inverse iconos_plataformas"></i>
+                  </a>
+                {% endfor %}
                </div>
             </div>
           </div>
@@ -62,45 +58,17 @@
  </header>
 
   <!-- Plataformas -->
-  <div class="pt-3 pb-4 plataformas">
+  <div class="pt-3 pb-3 plataformas">
     <div class="container">
-       <div class="row">
-            <div class="col-md-2 col-sm-1"> </div>
-            <div class="col-md-7 col-sm-8">
-            <span class="texto-plataformas">¡Ponte en contacto con la comunidad en Discord y Telegram!</span>
-            </div>
-            <div class="col-md-3 col-sm-3">
-              {% for name, d in PLATAFORMAS.items() %}
-                <a href="{{ d["url"] }}">
-                  <i class="fab {{ d["icon"] }} fa-3x fa-inverse iconos_plataformas"></i>
-                </a>
-              {% endfor %}
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <!-- Python en Español -->
-  <div class="pt-2 pb-2 fondo-noche">
-    <div class="container">
-       <div class="row justify-content-md-center">
-            <div class="col-md-1 col-sm-3">
-             <img class="ene" src="images/python_en_espanol.png" />
-            </div>
-            <div class="col-md-7 col-sm-9 text-start vauto texto-python_en_espanol" >
-                No olvides unirte también a la comunidad hispanohablante más grande del mundo.
-            </div>
-            <div class="col-md-3 col-sm-12 text-center pb-2 pt-2 discord vauto">
-              <div>
-                <a href="https://discord.gg/35E3Ph7Fez">
-                  <button class="btn btn-default valign size-h4">
-                    <i class="fab fa-discord fa-2x" aria-hidden="true"></i>
-                    <span>Python en Español</span>
-                  </button>
-                  </a>
-              </div>
-            </div>
-       </div>
+      <div class="row justify-content-center">
+          {% for name, d in REDES.items() %}
+          <div class="iconos_redes">
+              <a href="{{ d["url"] }}" target="_blank">
+                <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
+              </a>
+          </div>
+          {% endfor %}
+      </div>
     </div>
   </div>
 
