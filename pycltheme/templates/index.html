@@ -7,8 +7,8 @@
   <div class="container">
     {% block content_title %}
     {% endblock %}
-    <div class="row">
-      <div class="col-9">
+    <div class="row flex-column-reverse flex-md-row">
+      <div class="col-md-9 col-12">
         <h3 class="text-center pb-5 mb-3 titulo-bold">ÚLTIMAS ENTRADAS</h3>
         <div class="row">
           {% for article in dates[:6] %}
@@ -16,7 +16,7 @@
           {% endfor %}
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 col-12">
         <a class="twitter-timeline" data-lang="es" data-width="300" data-height="600" href="https://twitter.com/pythonchiledev?ref_src=twsrc%5Etfw">Tweets by pythonchiledev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         {% include 'hablemospython.html' %}
       </div>
@@ -28,7 +28,7 @@
 
 <!-- Patrocinios -->
 <section class="fondo-gris pt-5 pb-3">
-  <div class="container ">
+  <div class="container">
     <div class="text-white pb-3 text-center">
       <h2>Nuestros Patrocinantes</h2>
     </div>

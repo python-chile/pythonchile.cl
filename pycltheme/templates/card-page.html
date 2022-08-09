@@ -1,0 +1,30 @@
+
+    <div class="col-md-4 col-lg-4 mb-5">
+      <div class="card h-100">
+        <a href="{{ SITEURL }}/{{ article.url }}">
+        <img class="card-img-top img-fluid"
+             src="{{ SITEURL }}/images/{{ article.image }}"
+             alt="{{ article.title }} Image">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ article.title }}</h5>
+          <h6 class="card-subtitle text-muted text-right">por
+            {% for author in article.authors %}
+              <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+            {% endfor %}
+          </h6>
+          <h6 class="card-subtitle text-muted text-right mt-1">
+            <time class="published" datetime="{{ article.date.isoformat() }}">
+              {{ article.locale_date  }}
+            </time>
+          </h6>
+          <div class="mt-auto">
+          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary float-right">Ver publicación</a>
+          </div>
+        </div>
+        <div class="card-footer">
+          <h6 style="font-size: 90%;" class="text-muted text-right">
+            <a class="url fn" href="{{ SITEURL }}/{{ article.category.url }}">#{{ article.category }}</a>
+        </div>
+      </div>
+    </div>
