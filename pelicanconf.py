@@ -35,6 +35,16 @@ MENUELEMENTS = {
     },
     "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
     "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
+    "eventos": {
+        "title": "Eventos",
+        "url": "pages/eventos.html",
+        "children": None,
+    },
+    "recursos": {
+        "title": "Recursos",
+        "url": "pages/recursos.html",
+        "children": None,
+    },    
 }
 
 # Social widget
