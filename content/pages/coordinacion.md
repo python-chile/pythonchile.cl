@@ -335,4 +335,29 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
   </div> <!-- end col -->
   <!-- end entrada persona  -->
 
+  <!-- entrada persona  -->
+  <div class="col-lg-3 mb-4">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid rounded-circle" src="../images/coordinacion_carlos_carrasco.jpg" alt="Carlos Carrasco Varas">
+      </div>
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-0">Carlos Carrasco Varas</h5>
+          <h6 class="subtitle mb-2 mt-2">
+            <a href="https://twitter.com/Krlitos_Forever"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+            <a href="https://github.com/KrlitosForever"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/mg-carlos-carrasco/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </h6>
+          <p class="card-text-coord">
+          Ingeniero Civil en Computación e Informática, Magíster en Informática y Ciencias de la Computación. Aficionado a la electrónica.
+          Raspberry Pi lover.
+          </p>
+          <hr/>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div> <!-- end col -->
+  <!-- end entrada persona  -->
+
 </div> <!-- end row -->
