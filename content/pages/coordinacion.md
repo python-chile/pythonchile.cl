@@ -360,4 +360,30 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
   </div> <!-- end col -->
   <!-- end entrada persona  -->
 
+  <!-- entrada persona  -->
+  <div class="col-lg-3 mb-4">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid rounded-circle" src="../images/coordinacion_leo.png" alt="Leonardo Guedez">
+      </div>
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-0">Leonardo Guedez</h5>
+          <h6 class="subtitle mb-2 mt-2">
+            <a href="https://github.com/leolas95"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-guedez/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </h6>
+          <p class="card-text-coord">
+            Backend software engineer, apasionado por Python, la comunidad y contenido alrededor de él. Entusiasta
+            de ingeniería de datos.
+          </p>
+          <hr/>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div> <!-- end col -->
+  <!-- end entrada persona  -->
+
+
+
 </div> <!-- end row -->
