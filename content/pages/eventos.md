@@ -2,33 +2,15 @@ Title: Eventos
 Date: 2022-03-23 10:00
 
 
-Estos son los eventos de Python Chile que estan activos o hemos realizado
+### Eventos Activos
 
-### Meetup Python Chile
+* [PyCon2022](https://pycon.cl) : Del 2 al 4 de Diciembre 2022. Todavía estamos recibiendo propuestas de charlas y talleres. ¡Postula tu charla! ¡Reserva tu entrada!
+* [Meetup Python Chile](https://meetup.com/es/pythonchiledev): Meetup mensual de Python Chile. Siempre estamos buscando nuevos temas de charlas o talleres. ¡Escríbenos! Reinicia después de la PyCon 2022.
 
-Hacemos reuniones mensuales en modalidad virtual mientras se mantenga las restricciones por COVID19
-Únete a nuestra Meetup para que recibas las notificaciones de la programación de eventos: 
+### Eventos Finalizados
 
-* [Meetup Python Chile](https://meetup.com/es/pythonchiledev) 
-
-Mira en Youtube los videos de las reuniones anteriores
-
-* [Meetups Python Chile en Youtube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze_cSMGsLcGloh) 
-
-
-### PyDay Chile
-
-**PyDay 2020**
-El primer evento PyDay Chile se llevó a cabo el 5 de Diciembre de 2020
-En éste enlace encuentras el site con información detallada de las charlas que se presentaron
-
-* [PyDay2020](https://pyday.cl) 
-
-### PyCon Chile
-
-**PyCon 2021**
-El primer evento PyCon Chile se llevó a cabo del 5 al 7 de Noviembre de 2021
-En éste enlace encontrarás el sitio con información detallada de las charlas y talleres que se presentaron.
-
-* [PyCon2021](https://pycon.cl) 
+* **Meetups anteriores**: Revisa en [Youtube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze_cSMGsLcGloh) los videos de las reuniones anteriores.
+* **PyDay2022**: ¡PyDay Chile se fue a regiones! Jornadas presenciales en Valparaíso y La Serena, el 15 de Julio y 5 de Agosto del 2022, respectivamente. Jornada virtual el 16 de Julio del 2022. Revisa la información en el [sitio oficial](https://pyday.cl) o la grabación de las charlas en  o las charlas en el canal de [Youtube](https://www.youtube.com/watch?v=Dy0SSE8uk-Y).
+* **PyCon2021**: El primer evento PyCon Chile, realizado del 5 al 7 de Noviembre de 2021. Revisa el [sitio oficial](https://pycon.cl/2021) o las charlas en el canal de [Youtube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_wrHCpMPDdYcqSNF6EVISUW).
+* **PyDay2020**: El primer evento de la comunidad, PyDay Chile llevado a cabo el 5 de Diciembre de 2020. Revisa la información en el [sitio oficial](https://pyday.cl/2020/) o las charlas en el canal de [Youtube](https://www.youtube.com/watch?v=x6U4ocP1k2Q&list=PLUJnp-JI9H_xUe5Jur1MqwdODwtOQs09p).
 
