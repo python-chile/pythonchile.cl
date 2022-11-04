@@ -300,7 +300,7 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
           <h5 class="mt-4 font-weight-medium mb-0">Mario Hevia</h5>
           <h6 class="subtitle mb-2 mt-2">
             <a href="https://github.com/marioymario"><i class="fab fa-github fa-lg mr-1"></i></a>
-            <a href="https://www.linkedin.com/in/marioheviadata/"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/marioheviadata/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
           </h6>
           <p class="card-text-coord">
           Cientifico de Datos, Capturador sonidos de pajaros, estudiante de Vajrayana.
@@ -384,6 +384,30 @@ este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
   </div> <!-- end col -->
   <!-- end entrada persona  -->
 
+  <!-- entrada persona  -->
+  <div class="col-lg-3 mb-4">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid rounded-circle" src="../images/coordinacion_sebastian_flores.jpg" alt="Sebastian Flores">
+      </div>
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-0">Sebastián Flores</h5>
+          <h6 class="subtitle mb-2 mt-2">
+            <a href="https://twitter.com/sebastiandres"><i class="fab fa-twitter fa-lg mr-1"></i></a>
+            <a href="https://github.com/sebastiandres"><i class="fab fa-github fa-lg mr-1"></i></a>
+            <a href="https://www.linkedin.com/in/sebastiandres/"><i class="fab fa-linkedin fa-lg mr-1"></i></a>
+          </h6>
+          <p class="card-text-coord">
+            Chief Data Officer en uPlanner de día, Streamlit Creator de noche, Pythonista el día completo. 
+            Ingeniero Matemático de la UTFSM, Ingénieur Diplômé de l'École Polytechnique, Master ICME de Stanford University.
+          </p>
+          <hr/>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div> <!-- end col -->
+  <!-- end entrada persona  -->
 
 
 </div> <!-- end row -->
