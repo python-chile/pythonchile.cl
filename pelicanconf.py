@@ -44,7 +44,7 @@ MENUELEMENTS = {
         "title": "Recursos",
         "url": "pages/recursos.html",
         "children": None,
-    },    
+    },
 }
 
 # Social widget
@@ -95,7 +95,7 @@ REDES = {
     "meetup": {
         "alt": "Meetup",
         "icon": "fa-meetup",
-        "url": "https://meetup.com/es/pythonchiledev",
+        "url": "https://meetup.com/es/pythonchile",
     },
 }
 

@@ -5,7 +5,7 @@ Date: 2022-03-23 10:00
 ### Eventos Activos
 
 * [PyCon2022](https://pycon.cl) : Del 2 al 4 de Diciembre 2022. Todavía estamos recibiendo propuestas de charlas y talleres. ¡Postula tu charla! ¡Reserva tu entrada!
-* [Meetup Python Chile](https://meetup.com/es/pythonchiledev): Meetup mensual de Python Chile. Siempre estamos buscando nuevos temas de charlas o talleres. ¡Escríbenos! Reinicia después de la PyCon 2022.
+* [Meetup Python Chile](https://meetup.com/es/pythonchile): Meetup mensual de Python Chile. Siempre estamos buscando nuevos temas de charlas o talleres. ¡Escríbenos! Reinicia después de la PyCon 2022.
 
 ### Eventos Finalizados
 
