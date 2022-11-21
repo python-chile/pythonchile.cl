@@ -22,7 +22,7 @@ actualizar la lista!
 **Región Metropolitana**
 
 * [Meetup Analytics & Python](https://www.meetup.com/es-ES/Analytics-y-Python)
-* [Meetup Python Chile (oficial)](https://www.meetup.com/es/pythonchiledev/)
+* [Meetup Python Chile (oficial)](https://www.meetup.com/es/pythonchile/)
 * [Meetup Python Chile](https://www.meetup.com/python-chile/)
 * [Meetup PyLadies Santiago](https://www.meetup.com/es/pyladies-santiago-de-chile/)
 * [Django Girls Santiago](https://www.facebook.com/djangogirlssantiago/)
