@@ -45,6 +45,11 @@ MENUELEMENTS = {
         "url": "pages/recursos.html",
         "children": None,
     },
+    "videos": {
+        "title": "Videos",
+        "url": "pages/videos.html",
+        "children": None,
+    },
 }
 
 # Social widget
