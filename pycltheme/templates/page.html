@@ -19,6 +19,38 @@
 
     {{ page.content }}
 
+    <!-- Agrega imagenes de integrantes automáticamente -->
+    {% if page.title == 'Coordinación' %}
+    <h2>Integrantes</h2>
+<div class="row">
+
+    {% for nombre, datos in INTEGRANTES.items() %}
+  <div class="col-lg-3 mb-4">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid rounded-circle" src="../images/{{ datos['img'] }}" alt="{{ nombre }}" />
+      </div>
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-0">{{ nombre }}</h5>
+          <h6 class="subtitle mb-2 mt-2">
+            {%if datos['linkedin'] %}<a target="_blank" href="https://linkedin.com/in/{{ datos['linkedin'] }}"><i class="fab fa-linkedin fa-lg mr-1"></i></a>{% endif %}
+            {%if datos['github'] %}<a target="_blank" href="https://github.com/{{ datos['github'] }}"><i class="fab fa-github fa-lg mr-1"></i></a>{% endif %}
+            {%if datos['twitter'] %}<a target="_blank" href="https://twitter.com/{{ datos['twitter'] }}"><i class="fab fa-twitter fa-lg mr-1"></i></a>{% endif %}
+          </h6>
+          <p class="card-text-coord">
+            {{ datos['descripcion'] }}
+          </p>
+          <hr/>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div> <!-- end col -->
+    {% endfor %}
+
+</div>
+    {% endif %}
+
     {% if page.modified %}
         <p>
         Last updated: {{ page.locale_modified }}

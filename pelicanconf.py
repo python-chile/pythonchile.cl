@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+import sys
+sys.path.append(".")
+from integrantes import INTEGRANTES
+
 AUTHOR = "Python Chile"
 SITENAME = "Comunidad Chilena de Python"
 SITESUBTITLE = "Lugar de encuentro de todas las personas entusiastas de Python a lo largo de Chile"
