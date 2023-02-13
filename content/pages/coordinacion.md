@@ -18,8 +18,8 @@ mostraron interés en poder organizar los pasos de la comunidad para poder
 crecer y ser reconocida a nivel país.
 
 Dentro del equipo, tenemos personas de distintos backgrounds, profesiones,
-niveles, y nacionalidades, con lo que si estás interesada en formar parte de
+niveles y nacionalidades, con lo que si estás interesada en formar parte de
 este gran equipo, no dudes en contactarnos en alguna de nuestras plataformas.
 
-Actualmente existen más personas que actualmente son parte del equipo
+Actualmente existen más personas que son parte del equipo
 de coordinación de la comunidad que puedes ver al final de esta página.
