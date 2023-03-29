@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  Interfaces Low-code Qt-integración Python  y  ML Workflows con Kubeflow Pipelines v2 
-subtitle: Meetup PythonChile: La primera reunión presencial del año junto a Perficient
-
+subtitle: Meetup PythonChile, La primera reunión presencial del año junto a Perficient
 author: Python Chile
 image: meetup/febrero-2023.webp
 tags: charla meetup2023
