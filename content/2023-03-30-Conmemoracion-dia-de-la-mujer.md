@@ -10,17 +10,17 @@ category: conferencia
 
 La comunidad de **Pyladies Valparaíso** y **Pyladies Santiago**, en colaboración con **PythonChile**, organizaron un evento emocionante para celebrar el **día internacional de la mujer**.
 
-Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y **Scarlet Gonzalez**, guiaron con entusiasmo el evento. Las charlas fueron impartidas por mujeres destacadas en diferentes áreas de la tecnología y la ciencia que pertenecen a nuestras comunidades.
+Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y **Scarlet Gonzalez**, guiaron con entusiasmo el evento. Las charlas fueron impartidas por mujeres destacadas en diferentes áreas de la tecnología y la ciencia que pertenecen a nuestras comunidades. Y como siempre contamos con la gran colaboración de **Elka Buitrago** brindado su apoyo y experiencia en la realización de streming en la comunidad.
 
-**Stephanie Orellana**, ingeniera agrónoma con magíster en recursos naturales, presentó una charla sobre **"10 buenas prácticas para comenzar en Ciencia de Datos"**. En su charla, Stephanie compartió consejos valiosos para aquellos que quieren empezar en el mundo de la ciencia de datos.
+**Stephanie Orellana**, ingeniera agrónoma con magíster en recursos naturales, presentó una charla sobre ***"10 buenas prácticas para comenzar en Ciencia de Datos"***. En su charla, Stephanie compartió consejos valiosos para aquellos que quieren empezar en el mundo de la ciencia de datos.
 
-**Pamela Bustamante**, postdoctorada en ciencias de la ingeniería y con un magíster en ingeniería industrial e ingeniería civil industrial, habló sobre **"Teoría de Juegos aplicada a seguridad en ciudades"**. En su charla, Pamela explicó la teoría de juegos de Stackelberg, y cómo se puede aplicar en el ámbito de la seguridad de las ciudades.
+**Pamela Bustamante**, postdoctorada en ciencias de la ingeniería y con un magíster en ingeniería industrial e ingeniería civil industrial, habló sobre ***"Teoría de Juegos aplicada a seguridad en ciudades"***. En su charla, Pamela explicó la teoría de juegos de Stackelberg, y cómo se puede aplicar en el ámbito de la seguridad de las ciudades.
 
-**Ana Elisa Kuhn**, economista con un máster en políticas públicas y analista de datos, presentó una charla muy motivadora titulada **"Datos con sentido, hacia el propósito y el servicio"**. En ella, Ana habló sobre la importancia de dar un propósito a los datos y cómo podemos utilizarlos para servir a la sociedad.
+**Ana Elisa Kuhn**, economista con un máster en políticas públicas y analista de datos, presentó una charla muy motivadora titulada ***"*Datos con sentido, hacia el propósito y el servicio"***. En ella, Ana habló sobre la importancia de dar un propósito a los datos y cómo podemos utilizarlos para servir a la sociedad.
 
-**Denny Pérez**, analista de calidad de software, presentó una charla sobre **"Comunidades de mujeres en tecnología alrededor de Python"**. Denny compartió la importancia de la diversidad en la tecnología y cómo podemos empezar o unirnos a un capítulo de Pyladies en nuestras ciudades.
+**Denny Pérez**, analista de calidad de software, presentó una charla sobre ***"Comunidades de mujeres en tecnología alrededor de Python"***. Denny compartió la importancia de la diversidad en la tecnología y cómo podemos empezar o unirnos a un capítulo de Pyladies en nuestras ciudades.
 
-Finalmente, **Stephanie Frías** presentó una charla relámpago sobre su **"Experiencia contribuyendo a la documentación de Pydocs"**.
+Finalmente, **Stephanie Frías** presentó una charla relámpago sobre su ***"Experiencia contribuyendo a la documentación de Pydocs"***.
 
 Después de las charlas, se continuó la actividad del conversatorio por el canal de Discord de PythonChile, donde los asistentes tuvieron la oportunidad de conversar con las organizadoras y las charlistas del evento.
 
