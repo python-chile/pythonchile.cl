@@ -20,7 +20,7 @@ Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y
 
 **Denny Pérez**, analista de calidad de software, presentó una charla sobre ***"Comunidades de mujeres en tecnología alrededor de Python"***. Denny compartió la importancia de la diversidad en la tecnología y cómo podemos empezar o unirnos a un capítulo de Pyladies en nuestras ciudades.
 
-Finalmente, **Stephanie Frías** presentó una charla relámpago sobre su ***"Experiencia contribuyendo a la documentación de Pydocs"***.
+Finalmente, **Stephanie Frías** presentó una charla relámpago sobre su ***"Experiencia contribuyendo a la documentación de Python en Español"***.
 
 Después de las charlas, se continuó la actividad del conversatorio por el canal de Discord de PythonChile, donde los asistentes tuvieron la oportunidad de conversar con las organizadoras y las charlistas del evento.
 
