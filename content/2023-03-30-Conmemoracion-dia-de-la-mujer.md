@@ -8,7 +8,7 @@ tags: pyladies, conferencia
 category: conferencia
 ---
 
-La comunidad de **Pyladies Valparaíso** y **Pyladies Santiago**, en colaboración con **PythonChile**, organizaron un evento emocionante para celebrar el **día internacional de la mujer**.
+Las comunidades **PyLadies Valparaíso** y **PyLadies Santiago**, en colaboración con **PythonChile**, organizaron un emocionante evento para celebrar el **día internacional de la mujer**.
 
 Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y **Scarlet Gonzalez**, guiaron con entusiasmo el evento. Las charlas fueron impartidas por mujeres destacadas en diferentes áreas de la tecnología y la ciencia que pertenecen a nuestras comunidades. Y como siempre contamos con la gran colaboración de **Elka Buitrago** brindado su apoyo y experiencia en la realización de streming en la comunidad.
 
