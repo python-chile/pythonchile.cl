@@ -14,7 +14,7 @@ Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y
 
 **Stephanie Orellana**, ingeniera agrónoma con magíster en recursos naturales, presentó una charla sobre ***"10 buenas prácticas para comenzar en Ciencia de Datos"***. En su charla, Stephanie compartió consejos valiosos para aquellas personas que quieren empezar en el mundo de la ciencia de datos.
 
-**Pamela Bustamante**, postdoctorada en ciencias de la ingeniería y con un magíster en ingeniería industrial e ingeniería civil industrial, habló sobre ***"Teoría de Juegos aplicada a seguridad en ciudades"***. En su charla, Pamela explicó la teoría de juegos de Stackelberg, y cómo se puede aplicar en el ámbito de la seguridad de las ciudades.
+**Pamela Bustamante**, candidata a PhD en ciencias de la ingeniería y con un magíster en ingeniería industrial e ingeniería civil industrial, habló sobre ***"Teoría de Juegos aplicada a seguridad en ciudades"***. En su charla, Pamela explicó la teoría de juegos de Stackelberg, y cómo se puede aplicar en el ámbito de la seguridad de las ciudades.
 
 **Ana Elisa Kuhn**, economista con un máster en políticas públicas y analista de datos, presentó una charla muy motivadora titulada ***"*Datos con sentido, hacia el propósito y el servicio"***. En ella, Ana habló sobre la importancia de dar un propósito a los datos y cómo podemos utilizarlos para servir a la sociedad.
 
