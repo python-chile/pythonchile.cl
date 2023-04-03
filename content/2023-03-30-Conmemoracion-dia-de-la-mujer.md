@@ -22,7 +22,7 @@ Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y
 
 Finalmente, **Stephanie Frías** presentó una charla relámpago sobre su ***"Experiencia contribuyendo a la documentación de Python en Español"***.
 
-Después de las charlas, se continuó la actividad del conversatorio por el canal de Discord de PythonChile, donde los asistentes tuvieron la oportunidad de conversar con las organizadoras y las charlistas del evento.
+Después de las charlas, se continuó la actividad del conversatorio por el canal de Discord de PythonChile, donde quienes asistieron tuvieron la oportunidad de conversar con las organizadoras y las charlistas del evento.
 
 Esperamos que este evento inspire a más mujeres a unirse a la comunidad y a seguir luchando por la igualdad en la industria de la tecnología.
 
