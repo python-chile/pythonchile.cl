@@ -12,7 +12,7 @@ Las comunidades **PyLadies Valparaíso** y **PyLadies Santiago**, en colaboraci�
 
 Las coordinadoras de PythonChile, **Cristina Verdugo**, **Daniela de Quebedo** y **Scarlet Gonzalez**, guiaron con entusiasmo el evento. Las charlas fueron impartidas por mujeres destacadas en diferentes áreas de la tecnología y la ciencia que pertenecen a nuestras comunidades. Y como siempre contamos con la gran colaboración de **Elka Buitrago** brindado su apoyo y experiencia en la realización de _streaming_ en la comunidad.
 
-**Stephanie Orellana**, ingeniera agrónoma con magíster en recursos naturales, presentó una charla sobre ***"10 buenas prácticas para comenzar en Ciencia de Datos"***. En su charla, Stephanie compartió consejos valiosos para aquellos que quieren empezar en el mundo de la ciencia de datos.
+**Stephanie Orellana**, ingeniera agrónoma con magíster en recursos naturales, presentó una charla sobre ***"10 buenas prácticas para comenzar en Ciencia de Datos"***. En su charla, Stephanie compartió consejos valiosos para aquellas personas que quieren empezar en el mundo de la ciencia de datos.
 
 **Pamela Bustamante**, postdoctorada en ciencias de la ingeniería y con un magíster en ingeniería industrial e ingeniería civil industrial, habló sobre ***"Teoría de Juegos aplicada a seguridad en ciudades"***. En su charla, Pamela explicó la teoría de juegos de Stackelberg, y cómo se puede aplicar en el ámbito de la seguridad de las ciudades.
 
