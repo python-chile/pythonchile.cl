@@ -158,4 +158,15 @@ INTEGRANTES = {
             "ICME de Stanford University."
         ),
     },
+    "Nicolás Lavanderos": {
+        "img": "coordinacion_nicolas_lavanderos.jpg",
+        "linkedin": "nicolás-lavanderos-flores-31779118b",
+        "github": "nlavanderos",
+        "twitter": "nlavanderos96",
+        "descripcion": (
+            "Ingeniero Civil Informático, Universidad Andres Bello. "
+            "Dedicado al desarrollo web, "
+            "principalmente backend y un entusiasta de la tecnologia."
+        ),
+    }
 }
