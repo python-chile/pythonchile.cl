@@ -12,7 +12,7 @@ Visita el [sitio oficial](https://pyday.cl) para aplicar a charlas y talleres, p
 ### Eventos Finalizados
 
 * **Meetups anteriores**: Revisa en [Youtube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze_cSMGsLcGloh) los videos de las reuniones anteriores.
-* [PyCon2022](https://pycon.cl) : La segunda PyCon Chilena se llevó a cabo del 2 al 4 de Diciembre 2022, con 3 eventos presenciales en Copiapó, Valparaíso y Santiago y un evento Online donde participaron como charlistas personas de varios países.
+* [PyCon2022](https://pycon.cl/2022) : La segunda PyCon Chilena se llevó a cabo del 2 al 4 de Diciembre 2022, con 3 eventos presenciales en Copiapó, Valparaíso y Santiago y un evento Online donde participaron como charlistas personas de varios países.
 Puedes ver las charlas de cada evento en nuestro canal de [Youtube] (https://www.youtube.com/e/pythonchiledev) 
 * [PyDay2022](https://pyday.cl/2022): ¡PyDay Chile se fue a regiones! Jornadas presenciales en 
 Valparaíso y La Serena, el 15 de Julio y 5 de Agosto del 2022, respectivamente. Jornada virtual el 16 de Julio del 2022. Revisa la grabación de las charlas en  o las charlas en el canal de [Youtube](https://www.youtube.com/watch?v=Dy0SSE8uk-Y).
