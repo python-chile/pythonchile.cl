@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La PyConChile 2023 está a la vuelta de la esquina, ¡sé parte de la experiencia!
-subtitle: Sede oficial Duoc Valparaiso.
+subtitle: Centro de Extensión Duoc UC (Edificio Cousiño).
 author: Python Chile
 image: pycon/2023/duoc-pyconcl2023.webp
 tags: pycon, pyconchile2023, conferencia
@@ -11,10 +11,10 @@ category: conferencia
 ¡Prepárate, comunidad de Python en Chile! La **PyConChile 2023** se acerca y estamos emocionados de invitarte a formar parte de la experiencia más enriquecedora para desarrolladores, entusiastas y profesionales del lenguaje de programación Python.
 
 - 📅 **¿Cuándo?**  24, 25 y 26 de Noviembre del 2023.
-- 📍 **¿Dónde?**   Sábado 25 de Noviembre, Presencial Valparaiso Duoc Uc
+- 📍 **¿Dónde?**   Sábado 25 de Noviembre, Presencial Valparaiso Centro de Extensión Duoc Uc.
 - 📍 **¿Online?**  24 Noviembre talleres online y 25 Noviembre Charlas Online.
 
-Agradecemos a [Duoc UC](https://www.duoc.cl/) por ser la sede oficial del PyConChile 2023 y coorganizar este evento con nosotros. ¡Gracias por aportar ese distintivo toque Duoc UC que marca la diferencia!.
+Agradecemos a [Duoc UC](https://www.duoc.cl/) por ser la centro anfitrión oficial de la PyConChile 2023 y coorganizar este evento con nosotros. ¡Gracias por aportar ese distintivo toque Duoc UC que marca la diferencia!.
 
 ## ¿Por qué asistir?
 PythonChile ha buscado crear un espacio de encuentro, aprendizaje y crecimiento. Y esta edición no será la excepción. Ya sea que seas un veterano en Python o estés dando tus primeros pasos, **PyConChile 2023** tiene algo especial para ti.
@@ -41,7 +41,7 @@ Podrán asistir a distintas charlas sobre variados temas, que abarcan áreas com
 
     1. **Viernes 24 de noviembre:** Se llevarán a cabo talleres virtuales con acceso limitado. Es necesario inscribirse con antelación.
   
-    2. **Sábado 25 de noviembre:** El evento tendrá lugar en la quinta región, en la 📍 ciudad de Valparaíso, específicamente en la casa de estudios Duoc UC. Las entradas para el espacio físico son limitadas.
+    2. **Sábado 25 de noviembre:** El evento tendrá lugar en la quinta región, en la 📍 ciudad de Valparaíso, específicamente en Centro de Extensión Duoc UC (Edificio Cousiño). Las entradas para el espacio físico son limitadas.
   
     3. **Domingo 26 de noviembre:** Hemos preparado una jornada de charlas totalmente online que serán transmitidas por YouTube. La entrada es libre, pero te recomendamos inscribirte para recibir notificaciones de recordatorio y tener acceso a los canales de la conferencia en el Discord de PythonChile.
 
