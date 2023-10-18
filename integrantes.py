@@ -184,5 +184,29 @@ INTEGRANTES = {
             "Dedicado al desarrollo web, "
             "principalmente backend y un entusiasta de la tecnologia."
         ),
+    },
+    "Cristina Verdugo": {
+        "img": "coordinacion_cristina_verdugo.jpg",
+        "linkedin": "cristina-verdugo-palma-9a9995255/",
+        "github": "CristinaVerdugoP",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Estudiante de Física con mención en Computación Científica. "
+            "Aprendiz activa de la programación en Python y entusiasta de la ciencia."
+            "Coorganizadora de la comunidad PyLadies Valparaiso."
+        ),
+    },
+    "Kalfukoyam Treuquil": {
+        "img": "",
+        "linkedin": "kalfukoyam-Treuquil-calfumil",
+        "github": "kelokillo",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Joven apasionado por la Ciencia y la Programación, "
+            "Desarrollador web, Frontend y Backend, "
+            "amante del aprendizaje continuo en Python."
+        ),
     }
 }
