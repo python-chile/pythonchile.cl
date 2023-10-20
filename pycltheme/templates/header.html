@@ -1,0 +1,74 @@
+{% block header %}
+
+<header class="cabecera-index">
+    <div class="container h-100">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-transparent navbar-expand-lg navbar-dark" id="custom-nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          {% for name, d in MENUELEMENTS.items() %}
+            {% if not d["children"] %}
+              <li class="nav-item">
+                <a class="nav-link titulo-bold" href="{{ SITEURL }}/{{ d["url"] }}">{{ d["title"] }}</a>
+              </li>
+            {% else %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle titulo-bold" href="{{ SITEURL }}/{{ d["url"] }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ d["title"] }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                {% for _, c in d["children"].items() %}
+                <a class="dropdown-item" href="{{ SITEURL }}/{{ c["url"] }}">{{ c["title"] }}</a>
+                {% endfor %}
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-md-center vauto">
+        <div class="d-none d-sm-block col-md-4 col-sm-4 text-center mt-3">
+          <a href="{{ SITEURL }}/index.html"><img class="img-responsive p3" src="{{SITEURL}}/theme/images/pythonchile_logo.png" /></a>
+        </div>
+        <div class="col-md-6 col-sm-8 col-xs-12 text-left mt-3 vauto">
+          <h3 class="lead">{{ SITESUBTITLE }}</h3>
+          <!-- Redes -->
+          <div class="pt-1 pb-1">
+            <div class="container-redes">
+               <div class="row justify-content-md-start">
+                {% for name, d in PLATAFORMAS.items() %}
+                  <a href="{{ d["url"] }}" target="_blank">
+                    <i class="fab {{ d["icon"] }} fa-2x fa-inverse iconos_plataformas"></i>
+                  </a>
+                {% endfor %}
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+ </header>
+
+  <!-- Plataformas -->
+  <div class="pt-3 pb-3 plataformas">
+    <div class="container">
+      <div class="row justify-content-center">
+          {% for name, d in REDES.items() %}
+          <div class="iconos_redes">
+              <a href="{{ d["url"] }}" target="_blank">
+                <i class="fab {{ d["icon"] }} fa-2x fa-inverse"></i>
+              </a>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+
+{% endblock header%}
