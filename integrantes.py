@@ -198,7 +198,7 @@ INTEGRANTES = {
         ),
     },
     "Kalfukoyam Treuquil": {
-        "img": "",
+        "img": "coordinacion_kalfukoyam.jpg",
         "linkedin": "kalfukoyam-Treuquil-calfumil",
         "github": "kelokillo",
         "twitter": "",
