@@ -149,7 +149,7 @@ INTEGRANTES = {
             "Raspberry Pi lover."
         ),
     },
-    "Leonargo Guedez": {
+    "Leonardo Guedez": {
         "img": "coordinacion_leo.png",
         "linkedin": "leonardo-guedez",
         "github": "leolas95",
