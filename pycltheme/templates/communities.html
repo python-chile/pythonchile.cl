@@ -1,0 +1,26 @@
+
+<section id="content" >
+  <div class="pt-5 pb-5 blog-entries">
+    <div class="container">
+      {% block content_title %}
+      {% endblock %}
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-4 col-12">
+          <h3 class="text-center pb-5 mb-3 titulo-bold">Comunidades Amigas</h3>
+          <div class="row">
+            <div class="col-md-4 col-12">
+              {% include 'hablemospython.html' %}
+            </div>
+            <div class="col-md-4 col-12">
+              {% include 'pyladies.html' %}
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /#content -->
+
+
+

@@ -421,6 +421,22 @@ ul.navbar-nav {
   background-color: #132e45 !important;
 }
 
+.bg-pyladies {
+  background-color: pink !important;
+  
+}
+
+.bg-pyladies a {
+  background-color: palevioletred;
+  border-color: palevioletred;
+  
+}
+.bg-pyladies a:hover {
+  background-color: rgb(226, 73, 124);
+  border-color: rgb(226, 73, 124);
+  
+}
+
 .titulo-bold {
   color: #343a40;
   font-weight: 800;

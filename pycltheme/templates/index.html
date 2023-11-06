@@ -1,4 +1,5 @@
 {% extends "base-index.html" %}
+
 {% block content %}
 <section id="content">
 
@@ -8,7 +9,7 @@
     {% block content_title %}
     {% endblock %}
     <div class="row flex-column-reverse flex-md-row">
-      <div class="col-md-9 col-12">
+      <div class="col-4 col-12">
         <h3 class="text-center pb-5 mb-3 titulo-bold">ÚLTIMAS ENTRADAS</h3>
         <div class="row">
           {% for article in dates[:6] %}
@@ -16,15 +17,13 @@
           {% endfor %}
         </div>
       </div>
-      <div class="col-md-3 col-12">
-        {% include 'hablemospython.html' %}
-      </div>
     </div>
   </div>
 </div>
 
 </section><!-- /#content -->
 
+{% include 'communities.html'%}
 <!-- Patrocinios -->
 <section class="fondo-gris pt-5 pb-3">
   <div class="container">
