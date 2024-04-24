@@ -208,17 +208,5 @@ INTEGRANTES = {
             "Desarrollador web, Frontend y Backend, "
             "amante del aprendizaje continuo en Python."
         ),
-    },
-    "Juanjo Cuellar": {
-        "img": "coordinacion_juanjo_cuellar.jpg",
-        "linkedin": "juan-cuellar-60a3192",
-        "github": "juanjosaurio",
-        "twitter": "juanjosaurio",
-        "activo": "1",
-        "descripcion": (
-            "Ingeniero Civil Informático, Universidad Técnica Federico Santa María. "
-            "Entusiasta de la Seguridad Informática, juegos de rol, tablero y cartas. "
-            "Sysadmin forever, bash scripts, Python y bots que simulan tiradas de dados."
-        ),
     }
 }
