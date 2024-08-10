@@ -3,7 +3,22 @@
 {% block content %}
 <section id="content">
 
-<!-- Entradas Blog -->
+<!-- Banner -->
+<div class="banner mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="text-center pb-5 mb-3 titulo-bold">PRÓXIMO EVENTO</h3>
+        <a href="https://pycon.cl" target="_blank">
+          <img src="images/banner-pycon-2024.svg" alt="Banner" class="img-fluid">
+        </a>
+        <!-- Puedes reemplazar el <img> por un <div> o cualquier otro elemento si deseas un banner de otro tipo -->
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Entradas Blog -->
 <div class="pt-5 pb-5 blog-entries">
   <div class="container">
     {% block content_title %}
