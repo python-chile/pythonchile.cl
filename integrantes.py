@@ -220,5 +220,14 @@ INTEGRANTES = {
             "Entusiasta de la Seguridad Informática, juegos de rol, tablero y cartas. "
             "Sysadmin forever, bash scripts, Python y bots que simulan tiradas de dados."
         ),
+    },
+    "Aldo Caneo": {
+        "img": "coordinacion_aldo_caneo.png",
+        "linkedin": "ancaneo",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil de Industrias con mención en Electricidad, Pontificia Universidad Católica de Chile. "
+            "Desarrollador web Fullstack y Backend"
+        ),
     }
 }
