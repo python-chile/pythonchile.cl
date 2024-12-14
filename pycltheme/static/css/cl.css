@@ -1,3 +1,8 @@
+:root {
+    --cl-blue: #0057a8;
+    --cl-red: #e22914;
+}
+
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -13,6 +18,15 @@
 .navbar-dark .navbar-brand {
   color: white;
   font-weight: bold;
+}
+
+a {
+    color: var(--cl-blue);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--cl-red);
 }
 
 
@@ -96,7 +110,7 @@
 
 .plataformas {
   /*background: #343a40;*/
-  background: #0057a8;
+  background: var(--cl-blue);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -108,7 +122,7 @@
 }
 
 .fondo-azul {
-  background: #0057a8;
+  background: var(--cl-blue);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -177,7 +191,7 @@
 
 /* Footer */
 .footer {
-  background: #0057a8;
+  background: var(--cl-blue);
   color:white;
 }
 
@@ -257,7 +271,7 @@ blockquote {
 }
 
 .blue {
-  color: #0057a7;
+  color: var(--cl-blue);
   font-style: normal;
 }
 
@@ -438,4 +452,21 @@ ul.navbar-nav {
 .titulo-bold {
   color: #343a40;
   font-weight: 800;
+}
+
+.w-30 {
+    width: 30% ! important;
+}
+
+.w-40 {
+    width: 40% ! important;
+}
+
+.w-60 {
+    width: 60% ! important;
+}
+
+.btn-primary {
+    background-color: var(--cl-blue);
+    text-decoration: none;
 }
