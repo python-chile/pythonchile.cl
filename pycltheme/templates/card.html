@@ -13,18 +13,25 @@
               <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
             {% endfor %}
           </h6>
-          <h6 class="card-subtitle text-muted text-right mt-1">
-            <time class="published" datetime="{{ article.date.isoformat() }}">
-              {{ article.locale_date  }}
-            </time>
-          </h6>
           <div class="mt-auto">
-          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary float-right">Ver publicación</a>
+          <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-primary w-100">Ver publicación</a>
           </div>
         </div>
         <div class="card-footer">
-          <h6 style="font-size: 90%;" class="text-muted text-right">
-            <a class="url fn" href="{{ SITEURL }}/{{ article.category.url }}">#{{ article.category }}</a>
+          <div class="row">
+            <div class="w-30 ml-3">
+              <h6 style="font-size: 90%;" class="text-muted text-left">
+                <time class="published" datetime="{{ article.date.isoformat() }}">
+                  {{ article.locale_date  }}
+                </time>
+              </h6>
+            </div>
+            <div class="w-60 mr-3">
+              <h6 style="font-size: 90%;" class="text-muted text-right">
+              <a class="url fn" href="{{ SITEURL }}/{{ article.category.url }}">#{{ article.category }}</a>
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
