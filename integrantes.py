@@ -7,6 +7,7 @@ INTEGRANTES = {
         "linkedin": "carlos-maldonado-rivera",
         "github": "",
         "twitter": "",
+        "activo": "1",
         "descripcion": (
             "Apasionado por la matemáticas aplicadas y la transferencia de conocimiento, "
             "fundador de Lighthouse Lab consultores en ciencia de datos, y organizador "
@@ -18,6 +19,7 @@ INTEGRANTES = {
         "linkedin": "cristianvargasbusquets",
         "github": "cavb",
         "twitter": "",
+        "activo": "0",
         "descripcion": (
             "Ingeniero de software. Trabajando con robots en InOrbit.ai. "
             "Anteriormente co-fundador y CTO en Kausana."
@@ -28,6 +30,7 @@ INTEGRANTES = {
         "linkedin": "pamela-bustamante-faundez",
         "github": "pambus",
         "twitter": "pambusf",
+        "activo": "1",
         "descripcion": (
             "Alumna de Doctorado en Ciencias de la Ingeniería de la Pontificia "
             "Universidad Católica de Chile. Magíster en Ingeniería Industrial "
@@ -39,6 +42,7 @@ INTEGRANTES = {
         "linkedin": "",
         "github": "pablolirag",
         "twitter": "",
+        "activo": "1",
         "descripcion": (
             "Analista Programador, apasionado por la programación, maker de "
             "corazón e iniciador de la comunidad pythonchile."
@@ -49,6 +53,7 @@ INTEGRANTES = {
         "linkedin": "cmaureir",
         "github": "cmaureir",
         "twitter": "cmaureir",
+        "activo": "1",
         "descripcion": (
             "Entusiasta Open Source. Mantenedor de Qt for Python y Líder de "
             "Proyecto en "
@@ -62,6 +67,7 @@ INTEGRANTES = {
         "linkedin": "crishernandezco",
         "github": "",
         "twitter": "crishernandezco",
+        "activo": "0",
         "descripcion": (
             "Fundador y CEO de Mapoteca, Startup dedicada a la generación de "
             "soluciones de inteligencia territorial para clientes a nivel global. "
@@ -74,6 +80,7 @@ INTEGRANTES = {
         "linkedin": "",
         "github": "aweinstein",
         "twitter": "ajweinstein",
+        "activo": "1",
         "descripcion": (
             "Profesor de la Escuela de Ingeniería Biomédica y director del "
             "FabLab de la Universidad de Valparaíso."
@@ -84,6 +91,7 @@ INTEGRANTES = {
         "linkedin": "elka-buitrago",
         "github": "",
         "twitter": "elkabuitrago",
+        "activo": "1",
         "descripcion": ("Aprendiz de Python. Fan del análisis de datos."),
     },
     "Denny Perez": {
@@ -91,6 +99,7 @@ INTEGRANTES = {
         "linkedin": "dennyperez18",
         "github": "",
         "twitter": "",
+        "activo": "1",
         "descripcion": (
             "Analista QA. Entusiasta de la comunidad Python. Coorganizadora de las "
             "comunidades PyLadies Chile y PyConLatam."
@@ -101,6 +110,7 @@ INTEGRANTES = {
         "linkedin": "fearredondo",
         "github": "farreusa",
         "twitter": "",
+        "activo": "0",
         "descripcion": (
             "Ingeniero en Mantenimiento Mecánico, Magíster en Administración de Empresas. "
             "Entusiasta, apasionado y dedicado a la ciencia de datos."
@@ -111,6 +121,7 @@ INTEGRANTES = {
         "linkedin": "marioheviadata",
         "github": "marioymario",
         "twitter": "",
+        "activo": "0",
         "descripcion": (
             "Cientifico de Datos, Capturador sonidos de pajaros, estudiante de Vajrayana."
         ),
@@ -120,6 +131,7 @@ INTEGRANTES = {
         "linkedin": "jhoselynpajuelovillanueva",
         "github": "miluskapajuelo",
         "twitter": "",
+        "activo": "0",
         "descripcion": (
             "Ingeniera industrial y estudiante de desarrollo de software, "
             "amante del código y la gestión de proyectos, con experiencia liderando equipos."
@@ -130,17 +142,19 @@ INTEGRANTES = {
         "linkedin": "mg-carlos-carrasco",
         "github": "KrlitosForever",
         "twitter": "Krlitos_Forever",
+        "activo": "1",
         "descripcion": (
             "Ingeniero Civil en Computación e Informática, Magíster en Informática "
             "y Ciencias de la Computación. Aficionado a la electrónica. "
             "Raspberry Pi lover."
         ),
     },
-    "Leonargo Guedez": {
+    "Leonardo Guedez": {
         "img": "coordinacion_leo.png",
         "linkedin": "leonardo-guedez",
         "github": "leolas95",
         "twitter": "",
+        "activo": "1",
         "descripcion": (
             "Backend software engineer, apasionado por Python, la comunidad "
             "y contenido alrededor de él. Entusiasta de ingeniería de datos."
@@ -151,6 +165,7 @@ INTEGRANTES = {
         "linkedin": "sebastiandres",
         "github": "sebastiandres",
         "twitter": "sebastiandres",
+        "activo": "1",
         "descripcion": (
             "Chief Data Officer en uPlanner de día, Streamlit Creator de "
             "noche, Pythonista el día completo. Ingeniero Matemático de "
@@ -158,4 +173,61 @@ INTEGRANTES = {
             "ICME de Stanford University."
         ),
     },
+    "Nicolás Lavanderos": {
+        "img": "coordinacion_nicolas_lavanderos.jpg",
+        "linkedin": "nicolás-lavanderos-flores-31779118b",
+        "github": "nlavanderos",
+        "twitter": "nlavanderos96",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil Informático, Universidad Andres Bello. "
+            "Dedicado al desarrollo web, "
+            "principalmente backend y un entusiasta de la tecnologia."
+        ),
+    },
+    "Cristina Verdugo": {
+        "img": "coordinacion_cristina_verdugo.jpg",
+        "linkedin": "cristina-verdugo-palma-9a9995255/",
+        "github": "CristinaVerdugoP",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Estudiante de Física con mención en Computación Científica. "
+            "Aprendiz activa de la programación en Python y entusiasta de la ciencia."
+            "Coorganizadora de la comunidad PyLadies Valparaiso."
+        ),
+    },
+    "Kalfukoyam Treuquil": {
+        "img": "coordinacion_kalfukoyam.jpeg",
+        "linkedin": "kalfukoyam-Treuquil-calfumil",
+        "github": "kelokillo",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Joven apasionado por la Ciencia y la Programación, "
+            "Desarrollador web, Frontend y Backend, "
+            "amante del aprendizaje continuo en Python."
+        ),
+    },
+    "Juanjo Cuellar": {
+        "img": "coordinacion_juanjo_cuellar.jpg",
+        "linkedin": "juan-cuellar-60a3192",
+        "github": "juanjosaurio",
+        "twitter": "juanjosaurio",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil Informático, Universidad Técnica Federico Santa María. "
+            "Entusiasta de la Seguridad Informática, juegos de rol, tablero y cartas. "
+            "Sysadmin forever, bash scripts, Python y bots que simulan tiradas de dados."
+        ),
+    },
+    "Aldo Caneo": {
+        "img": "coordinacion_aldo_caneo.png",
+        "linkedin": "ancaneo",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil de Industrias con mención en Electricidad, Pontificia Universidad Católica de Chile. "
+            "Desarrollador web Fullstack y Backend"
+        ),
+    }
 }
