@@ -22,12 +22,12 @@
   ```
   pelican -l
   ```
-  Podras revisar el contenido generado en la url  http://127.0.0.1:8000
+  Podrás revisar el contenido generado en la url  http://127.0.0.1:8000
   y con la combinación de teclas `Ctrl + c` cierras el proceso.
 
 ## Despliegue
 
-* Se utiliazarán Github Actions, para hacer un despliegue al servidor.
+* Se utilizarán Github Actions, para hacer un despliegue al servidor.
 * De momento es una acción sencilla que obtiene la última versión, genera el
   sitio y lo copia al directory a donde apunta la URL.
 
