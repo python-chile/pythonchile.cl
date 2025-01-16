@@ -229,5 +229,16 @@ INTEGRANTES = {
             "Ingeniero Civil de Industrias con mención en Electricidad, Pontificia Universidad Católica de Chile. "
             "Desarrollador web Fullstack y Backend"
         ),
+    },
+        "Yeriel Paz": {
+        "img": "coordinacion_yeriel_paz.jpg",
+        "linkedin": "yeriel-paz",
+        "github": "yeriel",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil Telematico, UTFSM.<br>"
+            "ML engineer & Data Scientist.<br>"
+            "Entusiasta de ciclismo y el modelado 3D."
+        ),
     }
 }
