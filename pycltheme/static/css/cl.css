@@ -470,3 +470,27 @@ ul.navbar-nav {
     background-color: var(--cl-blue);
     text-decoration: none;
 }
+
+
+/* Estilos para la sección de Galería */
+#galeria {
+  background-color: white;
+  padding: 3rem 0;
+}
+
+#galeria h2 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+#galeria p {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+/* Estilo para el carrusel */
+#galeria .carousel-item img {
+  height: auto;
+  max-height: 75vh;
+  object-fit: cover;
+}
