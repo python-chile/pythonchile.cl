@@ -236,7 +236,7 @@ INTEGRANTES = {
         "github": "yeriel",
         "activo": "1",
         "descripcion": (
-            "Ingeniero Civil Telematico, UTFSM.<br>"
+            "Ingeniero Civil Telemático, UTFSM.<br>"
             "ML engineer & Data Scientist.<br>"
             "Entusiasta de ciclismo y el modelado 3D."
         ),
