@@ -230,15 +230,26 @@ INTEGRANTES = {
             "Desarrollador web Fullstack y Backend"
         ),
     },
+        "Yeriel Paz": {
+        "img": "coordinacion_yeriel_paz.jpg",
+        "linkedin": "yeriel-paz",
+        "github": "yeriel",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil Telemático, UTFSM.<br>"
+            "ML engineer & Data Scientist.<br>"
+            "Entusiasta de ciclismo y el modelado 3D."
+        ),
+    },
      "Fernando Cabrera Barranzuela": {
         "img": "coordinacion_fernando_cabrera.jpg",
         "linkedin": "fernando-cabrera-barranzuela",
         "github": "Ferx096",
         "activo": "1",
         "descripcion": (
-            "Ingeniero agrónomo, Científico de datos."
-            "Apasionado por la inteligencia artificial aplicada a la medicina y las startups." 
-            "Especializado en visión por computadora."
+            "Ingeniero agrónomo, Científico de datos.<br>"
+            "Apasionado por la inteligencia artificial aplicada a la medicina y las startups.<br>" 
+            "Especializado en visión por computadora."
         ),
     }
 }
