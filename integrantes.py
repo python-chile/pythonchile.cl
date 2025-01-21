@@ -229,5 +229,16 @@ INTEGRANTES = {
             "Ingeniero Civil de Industrias con mención en Electricidad, Pontificia Universidad Católica de Chile. "
             "Desarrollador web Fullstack y Backend"
         ),
+    },
+     "Fernando Cabrera Barranzuela": {
+        "img": "coordinacion_fernando_cabrera.jpg",
+        "linkedin": "fernando-cabrera-barranzuela",
+        "github": "Ferx096",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero agrónomo, Científico de datos."
+            "Apasionado por la inteligencia artificial aplicada a la medicina y las startups." 
+            "Especializado en visión por computadora."
+        ),
     }
 }
