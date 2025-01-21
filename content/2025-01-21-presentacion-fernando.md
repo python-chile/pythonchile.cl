@@ -3,7 +3,7 @@ layout: post
 title: Presentación de Fernando Cabrera Barranzuela 🎉
 subtitle: Presentación nuevo integrante de coordinación
 author: Python Chile
-image: /coordinacion_fernando_cabrera.jpg #extensión jpg,jpeg, png, medida 330x330 px
+image: coordinacion_fernando_cabrera.jpg
 tags: coordinación, presentación, pythonchile2025
 category: presentación
 ---
@@ -53,7 +53,7 @@ Por el momento todo esta completo
 
 ### Encuéntrame en:
 
-- GitHub: [Mi GitHub](https://github.com/Ferx096)
-- LinkedIn: [Mi LinkedIn](https://www.linkedin.com/in/fernando-cabrera-barranzuela/)
+- [GitHub](https://github.com/Ferx096)
+- [LinkedIn](https://www.linkedin.com/in/fernando-cabrera-barranzuela/)
 
 ¡Gracias por leer mi presentación!
