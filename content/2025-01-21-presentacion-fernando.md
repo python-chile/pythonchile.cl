@@ -24,7 +24,7 @@ Me gustaría algún día vivir en una comunidad donde la atención médica y la 
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
 
-Fui ingeniero agrónoma antes de entrar al mundo de la tecnología, lo irónico es que me incline por el agro ya que me encanta estar en contacto con la naturaleza y no me gustaba los trabajos de oficina con computador. Por cosas de la vida me termine enamorando del rubro tecnológico y acá me tienes, trabajando con computadoras día y no noche.
+Fui ingeniero agrónomo antes de entrar al mundo de la tecnología; lo irónico es que me incliné por el agro ya que me encanta estar en contacto con la naturaleza y no me gustaba los trabajos de oficina con computador. Por cosas de la vida, me terminé enamorando del rubro tecnológico, y acá me tienes, trabajando con computadoras día y noche.
 
 
 ## ¿Qué te inspiró a unirte a la comunidad Python Chile?
