@@ -12,7 +12,7 @@ category: presentación
 
 Hola, mi nombre es Fernando, soy data scientist, actualmente resido en Piura - Perú, tengo 28 años, estoy iniciando en el mundo de los datos e IA y siento una gran inclinación a realizar investigaciones, proyectos y productos relacionados con la salud.
 
-Dato curioso: creo que soy la única persona en el mundo que le aburre ver peliculas y series 
+Dato curioso: creo que soy la única persona en el mundo que le aburre ver películas y series.
 
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
