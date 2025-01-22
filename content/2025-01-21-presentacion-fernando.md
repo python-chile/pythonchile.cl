@@ -49,7 +49,7 @@ Practico cualquier cosa relacionado a realizar algún deporte o actividad al air
 
 ## ¿Hay algo más que quieras compartir con la comunidad?
 
-Por el momento todo esta completo
+Por el momento todo esta completo.
 
 ### Encuéntrame en:
 
