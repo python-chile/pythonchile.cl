@@ -45,7 +45,7 @@ Le aconsejaría que cualquier duda que tenga no dude en preguntar, en la comunid
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
-Practico cualquier cosa relacionado a realizar algún deporte o actividad al aire libre, desde una simple caminata hasta deportes extremos, resalto que solo me divierto si lo practico mas no verlo. Mi mayor pasión fuera de la ciencia de datos son las artes marciales
+Practico cualquier cosa relacionada a realizar algún deporte o actividad al aire libre, desde una simple caminata hasta deportes extremos, resalto que sólo me divierto si lo practico mas no verlo. Mi mayor pasión fuera de la ciencia de datos son las artes marciales.
 
 ## ¿Hay algo más que quieras compartir con la comunidad?
 
