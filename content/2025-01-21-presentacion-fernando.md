@@ -20,7 +20,7 @@ Al ser científico de datos, Python es mi principal herramienta de trabajo.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
-Me gustaría algún día vivir en una comunidad donde la atención medica  y vida saludable sea democratizada y desde ese punto de vista se basa el proyecto en el que trabajo, desarrollando herramientas que apliquen aprendizaje profundo para darnos una guía sobre nuestra salud y como tener un mejor estilo de vida.
+Me gustaría algún día vivir en una comunidad donde la atención médica y la vida saludable estén democratizadas, y desde ese punto de vista se basa el proyecto en el que trabajo, desarrollando herramientas que apliquen aprendizaje profundo para darnos una guía sobre nuestra salud y cómo tener un mejor estilo de vida.
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
 
