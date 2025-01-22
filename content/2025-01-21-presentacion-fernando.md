@@ -41,7 +41,7 @@ Soy un apasionado por la ciencia de datos, sobre todo el Deep learning
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
-Le aconsejaría que cualquier duda que tenga no dude en preguntar, en la comunidad la gente es super amable y chévere, que consulte sin vergüenza.
+Le aconsejaría que cualquier duda que tenga no dude en preguntar, en la comunidad la gente es súper amable y chévere, que consulte sin vergüenza.
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
