@@ -16,7 +16,7 @@ Dato curioso: creo que soy la única persona en el mundo que le aburre ver pelic
 
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
-Al ser científico de datos Python es mi principal herramienta de trabajo.
+Al ser científico de datos, Python es mi principal herramienta de trabajo.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
