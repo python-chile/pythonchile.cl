@@ -29,7 +29,7 @@ Fui ingeniero agrónomo antes de entrar al mundo de la tecnología; lo irónico 
 
 ## ¿Qué te inspiró a unirte a la comunidad Python Chile?
 
-La calidez y pasión de sus integrantes, me considero una persona que le gusta servir a mi comunidad con mis habilidades y pasiones y en este espacio e encontrado personas con los mismos intereses.
+La calidez y pasión de sus integrantes, me considero una persona que le gusta servir a mi comunidad con mis habilidades y pasiones y en este espacio he encontrado personas con los mismos intereses.
 
 ## ¿Qué esperas lograr o aprender siendo parte de esta comunidad?
 
