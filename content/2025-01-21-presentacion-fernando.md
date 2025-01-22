@@ -37,7 +37,7 @@ Me encantaría generar una mayor red de contactos y aportar con mis investigacio
 
 ## ¿Hay alguna área específica de Python o la tecnología que te apasione?
 
-Soy un apasionado por la ciencia de datos, sobre todo el Deep learning
+Soy un apasionado por la ciencia de datos, sobre todo el Deep Learning.
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
