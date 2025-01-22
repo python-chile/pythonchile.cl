@@ -33,7 +33,7 @@ La calidez y pasión de sus integrantes, me considero una persona que le gusta s
 
 ## ¿Qué esperas lograr o aprender siendo parte de esta comunidad?
 
-Me encantaría generar una mayor red de contactos y aportar con mis investigaciones en el sector tecnologico y quien sabe, quizás encontrar un socio con el que pueda desarrollar ideas en el área de la salud.
+Me encantaría generar una mayor red de contactos y aportar con mis investigaciones en el sector tecnológico, y quién sabe, quizás encontrar un socio con el que pueda desarrollar ideas en el área de la salud.
 
 ## ¿Hay alguna área específica de Python o la tecnología que te apasione?
 
