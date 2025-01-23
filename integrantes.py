@@ -251,5 +251,20 @@ INTEGRANTES = {
             "Apasionado por la inteligencia artificial aplicada a la medicina y las startups.<br>" 
             "Especializado en visión por computadora."
         ),
+        
+    },
+    
+     "Herbert Joaquín Díaz Moraga": {
+        "img": "coordinacion_herbert_diaz.jpeg",
+        "linkedin": "herbert-diaz-304b142b0",
+        "github": "jervaal",
+        "activo": "1",
+        "descripcion": (
+            "Candidato a Magíster en Física, UC Chile"
+            "Actualmente Investigando en tópicos de Computación Cuántica, Física Matemática y Teoría de la Información Cuántica." 
+            "Mejorando en Python con cada tacita de café."
+        ),
+        
     }
+
 }
