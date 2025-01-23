@@ -253,9 +253,8 @@ INTEGRANTES = {
         ),
         
     },
-    
      "Herbert Joaquín Díaz Moraga": {
-        "img": "coordinacion_herbert_diaz.jpeg",
+        "img": "coordinacion_herbert_diaz.jpg",
         "linkedin": "herbert-diaz-304b142b0",
         "github": "jervaal",
         "activo": "1",
