@@ -251,5 +251,15 @@ INTEGRANTES = {
             "Apasionado por la inteligencia artificial aplicada a la medicina y las startups.<br>" 
             "Especializado en visión por computadora."
         ),
-    }
+    },
+     "Cristóbal Sepúlveda Plaza": {
+        "img": "coordinacion_cristobal_sepulveda_plaza.jpeg",
+        "linkedin": "cristobalsepulvedaplaza",
+        "github": "crizconzeta",
+        "activo": "1",
+        "descripcion": (
+            "Arquitecto de Automatización de Procesos y Servicios.<br>"
+            "Co-fundador de Kairós Digital. Apasionado por el Open Source." 
+        ),
+     }
 }
