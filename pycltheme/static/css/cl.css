@@ -166,7 +166,7 @@ a:hover {
 }
 
 .fondo-celeste {
-  background: #4182bf;
+  background: var(--color-primary);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -226,7 +226,6 @@ a:hover {
 .card-footer {
   padding: 1em;
   font-size: 0.9em;
-  color: white !important;
   background-color: var(--color-border);
   border-top: 1px solid var(--color-border);
   border-radius: 0 0 1em 1em !important;
@@ -234,8 +233,8 @@ a:hover {
 
 
 .card-footer .url.fn {
-  color: var(--color-highlight);
-  background-color: var(--color-background-dark);
+  color: var(--color-primary);
+  /*background-color: var(--color-background-dark);*/
   padding: 0.5em;
   border-radius: 0.5em;
   font-size: 0.75em;
@@ -283,7 +282,7 @@ a:hover {
 }
 
 .published {
-  color: #0157a8;
+  color: var(--cl-blue);
   font-size: 0.9em;
 }
 
@@ -322,7 +321,7 @@ blockquote {
 }
 
 .red {
-  color: #e12d1b;
+  color: var(--cl-red);
   font-style: normal;
 }
 
