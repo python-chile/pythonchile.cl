@@ -259,7 +259,7 @@ INTEGRANTES = {
         "github": "jervaal",
         "activo": "1",
         "descripcion": (
-            "Candidato a Magíster en Física, UC Chile"
+            "Candidato a Magíster en Física, UC Chile.<br>"
             "Actualmente Investigando en tópicos de Computación Cuántica, Física Matemática y Teoría de la Información Cuántica." 
             "Mejorando en Python con cada tacita de café."
         ),
