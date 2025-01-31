@@ -91,7 +91,7 @@ INTEGRANTES = {
         "linkedin": "elka-buitrago",
         "github": "",
         "twitter": "elkabuitrago",
-        "activo": "1",
+        "activo": "0",
         "descripcion": ("Aprendiz de Python. Fan del análisis de datos."),
     },
     "Denny Perez": {
@@ -178,7 +178,7 @@ INTEGRANTES = {
         "linkedin": "nicolás-lavanderos-flores-31779118b",
         "github": "nlavanderos",
         "twitter": "nlavanderos96",
-        "activo": "1",
+        "activo": "0",
         "descripcion": (
             "Ingeniero Civil Informático, Universidad Andres Bello. "
             "Dedicado al desarrollo web, "
