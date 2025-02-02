@@ -22,7 +22,7 @@ He trabajado en la creación y desarrollo de plataformas de datos a gran escala 
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
 
-Tengo una diversa experiencia en tecnología y en lenguajes de programación. Empecé programando en C++, luego me fui al mundo web ocupando HTML5 y CSS3, luego le agregue javascript, despues di un salto Java donde programé en web, backend y aplicaciones móviles para Android, ocupé un tiempo NodeJs, y finalmente me quedé con Python. 
+Tengo experiencia en diversas tecnologías y lenguajes de programación. Empecé programando en C++, luego me fui al mundo web ocupando HTML5 y CSS3, luego le agregué JavaScript, después di un salto a Java donde programé en web, backend y aplicaciones móviles para Android, ocupé un tiempo NodeJs y finalmente me quedé con Python. 
 
 ## ¿Qué te inspiró a unirte a la comunidad Python Chile?
 
