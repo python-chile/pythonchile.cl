@@ -250,7 +250,18 @@ INTEGRANTES = {
             "Ingeniero agrónomo, Científico de datos.<br>"
             "Apasionado por la inteligencia artificial aplicada a la medicina y las startups.<br>" 
             "Especializado en visión por computadora."
-        ),
+        ),        
+    },
+     "Herbert Joaquín Díaz Moraga": {
+        "img": "coordinacion_herbert_diaz.jpg",
+        "linkedin": "herbert-diaz-304b142b0",
+        "github": "jervaal",
+        "activo": "1",
+        "descripcion": (
+            "Candidato a Magíster en Física, UC Chile.<br>"
+            "Actualmente Investigando en tópicos de Computación Cuántica, Física Matemática y Teoría de la Información Cuántica. " 
+            "Mejorando en Python con cada tacita de café."
+        ),  
     },
      "Cristóbal Sepúlveda Plaza": {
         "img": "coordinacion_cristobal_sepulveda_plaza.jpeg",
@@ -261,5 +272,5 @@ INTEGRANTES = {
             "Arquitecto de Automatización de Procesos y Servicios.<br>"
             "Co-fundador de Kairós Digital. Apasionado por el Open Source." 
         ),
-     }
+    }
 }
