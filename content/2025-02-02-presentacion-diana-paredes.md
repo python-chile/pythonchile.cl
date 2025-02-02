@@ -38,7 +38,7 @@ Me apasionan la inteligencia artificial, la gestión de datos a gran escala y la
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
-Recomendaría comenzar con cursos interactivos como los de Python en [Codecademy](https://www.codecademy.com/learn) o [Real Python](https://realpython.com/). Además, practicar con proyectos pequeños y contribuir a repositorios open-source es una excelente forma de aprender y mejorar habilidades.
+Recomendaría comenzar con cursos interactivos, como los de Python en [Codecademy](https://www.codecademy.com/learn) o [Real Python](https://realpython.com/). Además, practicar con proyectos pequeños y contribuir a repositorios open-source es una excelente forma de aprender y mejorar habilidades.
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
