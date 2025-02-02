@@ -18,7 +18,7 @@ Descubrí Python cuando empecé a trabajar con ingenieros de aprendizaje automá
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
-He trabajado en la creación y desarrollo de plataformas de datos a gran escala en la industria minera y tecnología. Actualmente, estoy explorando aplicaciones de inteligencia artificial, mi último proyecto es [ButacaSenior](https://github.com/dianewalls/butaca-senior), trabajo final del Diplomado en Inteligencia Artificial Generativa.
+He trabajado en la creación y desarrollo de plataformas de datos a gran escala en la industria minera y tecnológica. Actualmente, estoy explorando aplicaciones de inteligencia artificial. Mi último proyecto es [ButacaSenior](https://github.com/dianewalls/butaca-senior), trabajo final del Diplomado en Inteligencia Artificial Generativa.
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
 
