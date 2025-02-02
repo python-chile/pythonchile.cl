@@ -272,5 +272,17 @@ INTEGRANTES = {
             "Arquitecto de Automatización de Procesos y Servicios.<br>"
             "Co-fundador de Kairós Digital. Apasionado por el Open Source." 
         ),
-    }
+    },
+     "Diana Paredes": {
+        "img": "coordinacion_diana_paredes.jpg",
+        "linkedin": "dianewalls",
+        "github": "dianewalls",
+        "twitter": "todianewalls",
+        "activo": "1",
+        "descripcion": (
+            "Senior IT Architect, apasionada por la estrategia de datos y la inteligencia artificial aplicada a negocios. "
+            "Especialista en arquitectura de datos y gobierno. "
+            "Ingeniera de Software, Universidad Peruana de Ciencias Aplicadas" 
+        ),
+    },
 }
