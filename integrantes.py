@@ -282,7 +282,7 @@ INTEGRANTES = {
         "descripcion": (
             "Senior IT Architect, apasionada por la estrategia de datos y la inteligencia artificial aplicada a negocios. "
             "Especialista en arquitectura de datos y gobierno. "
-            "Ingeniera de Software, Universidad Peruana de Ciencias Aplicadas" 
+            "Ingeniera de Software, Universidad Peruana de Ciencias Aplicadas." 
         ),
     },
 }
