@@ -78,8 +78,8 @@ REDES = {
     },
     "twitter": {
         "alt": "Twitter",
-        "icon": "fa-twitter",
-        "url": "https://twitter.com/pythonchiledev",
+        "icon": "fa-x-twitter",
+        "url": "https://x.com/pythonchiledev",
     },
     "instagram": {
         "alt": "Instagram",
