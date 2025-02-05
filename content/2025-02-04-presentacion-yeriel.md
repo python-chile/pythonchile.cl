@@ -64,7 +64,7 @@ category: presentación
 
 # <span class="emoji-title"> ~# whoami </span>
 
-Yeriel Paz Ureta. _ML Engineer & Data Scientist_ y actualmente resido en Santiago, Chile. Mi pasión por la ciencia de datos y el machin learning me ha llevado a explorar diversas áreas, desde la bioinformática hasta el modelado 3D. Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer. 
+Yeriel Paz Ureta. _ML Engineer & Data Scientist_ y actualmente resido en Santiago, Chile. Mi pasión por la ciencia de datos y el machine learning me ha llevado a explorar diversas áreas, desde la bioinformática hasta el modelado 3D. Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer. 
 
 </div>
 
