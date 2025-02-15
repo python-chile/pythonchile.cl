@@ -37,7 +37,6 @@ Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze
 
 ##### [PyCon2022](https://pycon.cl/2022)  
   La segunda PyCon Chilena se llevó a cabo del 2 al 4 de diciembre de 2022, con 3 eventos presenciales en Copiapó, Valparaíso y Santiago, además de un evento online con participantes de varios países.  
-  Puedes ver las charlas de cada evento aquí:
 
   - Evento en Copiapó: [PyCon Chile 2022 Copiapó](https://www.youtube.com/watch?v=A0eTkm6v68o).
   - Evento en Santiago: [PyCon Chile 2022 Sábado](https://www.youtube.com/watch?v=fjkQ0xNt2B4).
