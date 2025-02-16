@@ -15,7 +15,7 @@ Siempre estamos buscando nuevos temas de charlas o talleres. Ahora estamos organ
 - [Meetup Mayo 2024](https://www.youtube.com/watch?v=vgkOTFfJvPc): Charla sobre Python y Data Storytelling.
 - [Meetup Abril 2024](https://www.youtube.com/watch?v=4Glkip6TTbs): Introducción a Machine Learning con Hugging Face.
 - [Meetup Marzo 2024](https://www.youtube.com/watch?v=kQenJMoZ06Y): Modelos Predictivos de Machine Learning con Python. 
-- Meetup Diciembre 2023 [Web APIs con Django](https://www.youtube.com/watch?v=CWHV-tyqxs4).
+- Meetup Diciembre 2023: [Web APIs con Django](https://www.youtube.com/watch?v=CWHV-tyqxs4).
 - Meetup Diciembre 2023 [Django de Cero a Producción](https://www.youtube.com/watch?v=lGKRPUtGfE8).
 
 Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze_cSMGsLcGloh) los videos de las reuniones anteriores.
