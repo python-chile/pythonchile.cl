@@ -15,8 +15,8 @@ Siempre estamos buscando nuevos temas de charlas o talleres. Ahora estamos organ
 - [Meetup Mayo 2024](https://www.youtube.com/watch?v=vgkOTFfJvPc): Charla sobre Python y Data Storytelling.
 - [Meetup Abril 2024](https://www.youtube.com/watch?v=4Glkip6TTbs): Introducción a Machine Learning con Hugging Face.
 - [Meetup Marzo 2024](https://www.youtube.com/watch?v=kQenJMoZ06Y): Modelos Predictivos de Machine Learning con Python. 
-- Meetup Diciembre 2023: [Web APIs con Django](https://www.youtube.com/watch?v=CWHV-tyqxs4).
-- Meetup Diciembre 2023: [Django de Cero a Producción](https://www.youtube.com/watch?v=lGKRPUtGfE8).
+- [Meetup Diciembre 2023](https://www.youtube.com/watch?v=CWHV-tyqxs4): Web APIs con Django.
+- [Meetup Diciembre 2023](https://www.youtube.com/watch?v=lGKRPUtGfE8): Django de Cero a Producción.
 
 Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze_cSMGsLcGloh) los videos de las reuniones anteriores.
 
@@ -27,13 +27,20 @@ Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze
 ##### [PyCon2024](https://pycon.cl/2024)
 
   - [PyCon2024 Online Track 2](https://www.youtube.com/watch?v=DI89ALX0dbA): PyCon Chile Online 2024.
-  - [PyCon Chile 2024 Online Track 1](https://www.youtube.com/watch?v=mdpfYPBdn1A): Evento transmitido en vivo.
+  - [PyCon2024 Online Track 1](https://www.youtube.com/watch?v=mdpfYPBdn1A): Evento transmitido en vivo.
 
 ##### [PyCon2023](https://pycon.cl/2023)
 
-  - Transmisión en vivo del [PyCon Chile 2023 Track Web](https://www.youtube.com/watch?v=4mBdhoVD6oQ).
-  - Transmisión en vivo del [PyCon Chile 2023 Track Datos](https://www.youtube.com/watch?v=l3B9eetX3mc).
-  - Evento en Valparaíso: [PyCon Chile 2023 Valparaíso](https://www.youtube.com/watch?v=X1xcyY9Y0Pc).
+  - [PyCon2023 Track Web](https://www.youtube.com/watch?v=4mBdhoVD6oQ): Charlas en línea.
+  - [PyCon2023 Track Datos](https://www.youtube.com/watch?v=l3B9eetX3mc): Charlas en línea.
+  - [PyCon2023 Valparaíso](https://www.youtube.com/watch?v=X1xcyY9Y0Pc): Evento presencial transmitido en vivo.
+  - Talleres: 
+    - [Cómo resumir documentos (y medir la calidad del resultado) usando open AI](https://www.youtube.com/watch?v=NyQA02i7TX0): Nivel básico, charlista Sergio Ferro, tópico Ciencia de datos.
+    - [Taller Telegram Bots en Python](https://www.youtube.com/watch?v=5qV1DPFS0x4): Nivel básico, charlista Juan Cuellar, tópico Automatización.
+    - [Web APIs en Django](https://www.youtube.com/watch?v=CWHV-tyqxs4): Nivel intermedio, charlista Flavio Espeche, tópico Web. 
+    - [Django de Cero a Producción](https://www.youtube.com/watch?v=lGKRPUtGfE8&t=14s): Nivel intermedio, charlista Marcelo Herrera, tópico Web. 
+    - [MyOJ: Una plataforma para resolver problemas de programación en Python](https://www.youtube.com/watch?v=hnwLGr_qHD4): Nivel básico, charlista Hugo Leyton, tópico Web.
+
 
 ##### [PyCon2022](https://pycon.cl/2022)  
   La segunda PyCon Chilena se llevó a cabo del 2 al 4 de diciembre de 2022, con 3 eventos presenciales en Copiapó, Valparaíso y Santiago, además de un evento online con participantes de varios países.  
