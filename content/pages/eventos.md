@@ -61,7 +61,7 @@ Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze
 
 ---
 
-#### [PyDay](https://pyday.cl) anteriores
+#### [PyDay](https://pyday.cl)
 
 ##### [PyDay2024](https://pyday.cl)  
   La cuarta PyDay se llevó a cabo con 2 eventos presenciales en Copiapó y Valparaíso.
