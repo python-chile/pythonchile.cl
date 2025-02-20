@@ -22,7 +22,7 @@ Revisa en [YouTube](https://www.youtube.com/playlist?list=PLUJnp-JI9H_yCrLT2-6Ze
 
 ---
 
-#### [PyCon](https://pycon.cl) anteriores
+#### [PyCon](https://pycon.cl)
 
 ##### [PyCon2024](https://pycon.cl/2024)
 
