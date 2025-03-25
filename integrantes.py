@@ -32,9 +32,10 @@ INTEGRANTES = {
         "twitter": "pambusf",
         "activo": "1",
         "descripcion": (
-            "Alumna de Doctorado en Ciencias de la Ingeniería de la Pontificia "
-            "Universidad Católica de Chile. Magíster en Ingeniería Industrial "
-            "e Ingeniera Civil Industrial de la Universidad del Bío-Bío."
+	    "Académica de la Facultad de Ingeniería de la Universidad de Los Andes. "
+            "Doctora en Ciencias de la Ingeniería de la Pontificia Universidad Católica de Chile. "
+            "Magíster en Ingeniería Industrial e Ingeniera Civil Industrial de la Universidad del Bío-Bío. "
+            "Diplomada en Inteligencia Artificial (PUC)."
         ),
     },
     "Pablo Lira": {
