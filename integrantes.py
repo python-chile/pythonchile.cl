@@ -98,12 +98,14 @@ INTEGRANTES = {
     "Denny Perez": {
         "img": "coordinacion_denny.jpg",
         "linkedin": "dennyperez18",
-        "github": "",
-        "twitter": "",
+        "github": "DennyPerez18",
+        "twitter": "dennyperez18",
         "activo": "1",
         "descripcion": (
-            "Analista QA. Entusiasta de la comunidad Python. Coorganizadora de las "
-            "comunidades PyLadies Chile y PyConLatam."
+            "Analista de Calidad de Software con formación en Contabilidad. "
+	    "Entusiasta del Open Source y líder de comunidades en el ecosistema Python y GitHub. "
+	    "Mentora de capitulos PyLadies. "
+	    "Directora y miembro Fellow de la Python Software Foundation."
         ),
     },
     "Franklin Arredondo": {
