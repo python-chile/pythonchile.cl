@@ -22,7 +22,7 @@ Mis primeros proyectos en Python fueron un juego en 3D y una simulación en 2D c
 
 Actualmente estoy explorando y aprendiendo en el mundo Web3, entre otras cosas, intentando interactuar con la _blockchain_ desde Django REST.
 
-Otros proyectos en los que he trabajado con Python ha sido backend para robots interactivos y páginas web, análisis de datos para generar informes con Pandas, Numpy y Jupyter Notebook (o Google Colab), e incluso machine learning explorando las áreas de procesamiento de lenguaje natural y redes neuronales con TensorFlow.
+Otros proyectos en los que he trabajado con Python ha sido _backend_ para robots interactivos y páginas web, análisis de datos para generar informes con Pandas, Numpy y Jupyter Notebook (o Google Colab), e incluso _machine learning_ explorando las áreas de procesamiento de lenguaje natural y redes neuronales con TensorFlow.
 
 La verdad es que Python es un lenguaje muy flexible, lleno de librerías y módulos que ayudan a trabajar en cualquier área.
 
