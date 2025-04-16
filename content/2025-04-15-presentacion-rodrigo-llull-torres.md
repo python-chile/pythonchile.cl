@@ -14,7 +14,7 @@ Hola 👋 mi nombre es Rodrigo Llull Torres. Soy Ingeniero Civil en Computación
 
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
-Mi primer acercamiento a Python fue al comienzo de mi carrera, durante esos años de Plan Común entre las ingenierías y las licenciaturas, al pasar por el curso «Introducción a la programación». Así que en realidad, en ese momento aprender Python no fue una opción 😆 Sin embargo, su sintaxis amigable me permitió enfocarme de lleno en los algoritmos y estructuras de datos, empapándome de la «computación» y, finalmente, decidiendo seguir mi camino por este mundo.
+Mi primer acercamiento a Python fue al comienzo de mi carrera, durante esos años de Plan Común entre las ingenierías y las licenciaturas, al pasar por el curso «Introducción a la programación». Así que en realidad, en ese momento aprender Python no fue una opción 😆. Sin embargo, su sintaxis amigable me permitió enfocarme de lleno en los algoritmos y estructuras de datos, empapándome de la «computación» y, finalmente, decidiendo seguir mi camino por este mundo.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
