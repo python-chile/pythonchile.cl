@@ -20,7 +20,7 @@ Mi primer acercamiento a Python fue al comienzo de mi carrera, durante esos año
 
 Mis primeros proyectos en Python fueron un juego en 3D y una simulación en 2D con fractales, usando Pygame. Estos proyectos me permitieron explorar la lógica y el comportamiento de aplicaciones interactivas siguiendo el patrón _Model-View-Controller_. Además, este fue el momento en que empecé a combinar diferentes disciplinas en las cosas que hago; en este caso, la física y la computación.
 
-Actualmente estoy explorando y aprendiendo en el mundo Web3, entre otras cosas, intentando interactuar con la blockchain desde Django REST.
+Actualmente estoy explorando y aprendiendo en el mundo Web3, entre otras cosas, intentando interactuar con la _blockchain_ desde Django REST.
 
 Otros proyectos en los que he trabajado con Python ha sido backend para robots interactivos y páginas web, análisis de datos para generar informes con Pandas, Numpy y Jupyter Notebook (o Google Colab), e incluso machine learning explorando las áreas de procesamiento de lenguaje natural y redes neuronales con TensorFlow.
 
