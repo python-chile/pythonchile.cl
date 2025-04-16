@@ -36,7 +36,7 @@ La inspiración me llegó porque me gustaría poner al serivicio de esta gran co
 
 ## ¿Qué esperas lograr o aprender siendo parte de esta comunidad?
 
-Así como yo querría aportar a la comunidad con mi granito de arena, a mí también me gustaría nutrirme de aquellos aportes de la comunidad y sus miembros, compartiendo con profesionales de distintas áreas e intercambiando conocimientos, todo en torno al lenguajde de programción que nos reúne.
+Así como deseo aportar a la comunidad con mi granito de arena, también me motiva la posibilidad de nutrirme de ella y de los aportes sus miembros, compartiendo con profesionales de distintas áreas e intercambiando conocimientos, todo en torno al lenguaje de programación que nos reúne.
 
 ## ¿Hay algún área específica de Python o la tecnología que te apasione?
 
