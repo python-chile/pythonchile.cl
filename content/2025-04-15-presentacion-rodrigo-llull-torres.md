@@ -40,7 +40,7 @@ Así como deseo aportar a la comunidad con mi granito de arena, también me moti
 
 ## ¿Hay algún área específica de Python o la tecnología que te apasione?
 
-De Python, el desarrollo en backend, las capacidades de scripting, y la inteligencia artificial y análisis de datos.
+De Python, el desarrollo en _backend_, las capacidades de _scripting_, y la inteligencia artificial y análisis de datos.
 
 Además, estoy muy interesado en la tecnología blockchain y sus fundamentos, y en las aplicaciones para la Web3, y la descentralización.
 
