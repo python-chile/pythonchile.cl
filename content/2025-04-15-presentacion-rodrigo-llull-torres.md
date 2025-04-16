@@ -42,7 +42,7 @@ Así como deseo aportar a la comunidad con mi granito de arena, también me moti
 
 De Python, el desarrollo en _backend_, las capacidades de _scripting_, y la inteligencia artificial y análisis de datos.
 
-Además, estoy muy interesado en la tecnología blockchain y sus fundamentos, y en las aplicaciones para la Web3, y la descentralización.
+Además, estoy muy interesado en la tecnología _blockchain_ y sus fundamentos, y en las aplicaciones para la Web3, y la descentralización.
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
