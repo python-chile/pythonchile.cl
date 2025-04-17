@@ -288,4 +288,14 @@ INTEGRANTES = {
             "Ingeniera de Software, Universidad Peruana de Ciencias Aplicadas." 
         ),
     },
+    "Rodrigo Llull Torres": {
+        "img": "coordinacion_rodrigo_llull_torres.jpg",
+        "linkedin": "rodrigo-llull-torres",
+        "github": "rllullt",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil en Computación, Magíster en Ciencias, mención Computación, Universidad de Chile."
+            "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
+        ),
+    },
 }
