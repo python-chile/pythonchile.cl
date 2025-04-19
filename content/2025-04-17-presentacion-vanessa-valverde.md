@@ -10,7 +10,7 @@ category: presentación
 
 ## ¡Hola, soy Vanessa C.!
 
-Hola a todos, es un gran gusto presentarme. Soy Vanessa C. Valverde, nací en Costa Rica, vengo de una familia salvadoreño-costarricense y actualmente resido en Santiago de Chile. Me gusta viajar, y en los últimos 8 años mi gato y yo hemos vivido en diferentes países de sudamérica 🇨🇱🇧🇷🇦🇷.
+Hola a todos, es un gran gusto presentarme. Soy Vanessa C. Valverde, nací en Costa Rica, vengo de una familia salvadoreño-costarricense y actualmente resido en Santiago de Chile. Me gusta viajar, y en los últimos 8 años mi gato y yo hemos vivido en diferentes países de sudamérica (Brasil, Argentina y Chile).
 
 Tengo un gato (chileno) que se llama "Chorizo", aunque todos lo conocen simplemente como "el niño". Me gusta Doctor Who y Lovecraft.
 
@@ -24,7 +24,7 @@ Si bien había escuchado de Python en algún momento, solo lo había utilizado t
 
 Empecé a trabajar con DJango primero, y lugo con Flask. Y seguí ampliando mi conocimiento y experiencia en sus entornos. Desde entonces, comencé el camino de desarrollar cada vez más y más soluciones para mi organización y clientes, siempre con Python. Hoy día, el ILAM está en un proceso de transformación migrar todas sus bases de datos y servicios en plataformas hechas para nosotros, basadas en Python. 
 
-Honestamente, me siento muy entusiasmada y satisfecha con todo lo que estamos haciendo con él.
+Honestamente, me siento muy entusiasmada y satisfecha con todo lo que estamos haciendo con este lenguaje y sus frameworks.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
