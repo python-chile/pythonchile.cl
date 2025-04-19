@@ -70,7 +70,7 @@ Para mí han sido muy útiles seguir canales de youtube y algunos cursos libres.
 
 Cuando estudio, debo confesar que soy muy insegura, así que cuando empecé me metí a varios cursos básicos y todos gratuitos, para estar segura que estaba entendiendo bien. En esa búsqueda, encontré cursos de empresas como Cisco que tenían convenio con la Fundación Python, hasta bootcamps introductorios. 
 
-Y luego, algo que me ayudó mucho a tomar seguridad, fue desarrollar proyectos personales de prueba, muchos apoyados en canales de youtube sobre el tema. Pero creo que es seguir estudiando, y ojalá, preguntando. Yo pregunto cuando puedo, y aunque no tenía muchos conocidos que trabajaran Python, preguntaba al internet. Leer documentación a veces es aburrido, pero otras veces es un buen pasatiempo, jajaja. Solo hay que tomarle el gusto. 
+Y luego, algo que me ayudó mucho a tomar seguridad, fue desarrollar proyectos personales de prueba, muchos apoyados en canales de Youtube sobre el tema. Pero creo que es seguir estudiando, y ojalá, preguntando. Yo pregunto cuando puedo, y aunque no tenía muchos conocidos que trabajaran Python, preguntaba al internet. Leer documentación a veces es aburrido, pero otras veces es un buen pasatiempo, jajaja. Solo hay que tomarle el gusto. 
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
