@@ -298,7 +298,7 @@ INTEGRANTES = {
             "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
         ),
     },
-    "Rodrigo Llull Torres": {
+    "Vanessa C. Valverde Santos": {
         "img": "coordinacion_vanessa_valverde.jpg",
         "linkedin": "vanevalverdes",
         "github": "vanevalverdes",
