@@ -50,7 +50,7 @@ Conocí Python Chile por casualidad en el 2024. Como soy Women Techmaker Ambassa
 
 La verdad no esperaba ser aceptada, y lo fui. Participé con una pequeña charla sobre la experiencia del asistente de IA en el periódico, y me sentí muy acogida por la comunidad. Así que empecé a participar en el Discord.
 
-Comencé a ver un poco la historia de la comunidad y los proyectos que han realizado, y me gustó lo que vi. Así que cuando vi una convocatoria a voluntariado no dudé en en aplicar. La ví y me dije: esto es algo en lo que creo que puedo aportar, conocer más gente que le gusta desarrollar en Python como yo, y creo que tengo algo de experiencia que compartir.
+Comencé a ver un poco la historia de la comunidad y los proyectos que han realizado, y me gustó lo que vi. Así que cuando vi una convocatoria a voluntariado no dudé en aplicar. La ví y me dije: esto es algo en lo que creo que puedo aportar, conocer más gente que le gusta desarrollar en Python como yo, y creo que tengo algo de experiencia que compartir.
 
 Así es como llegué hasta aquí, a estar compartiendo mi pequeña historia para ustedes.
 
