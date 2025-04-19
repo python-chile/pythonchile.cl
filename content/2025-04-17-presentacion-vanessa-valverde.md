@@ -66,7 +66,7 @@ Desde entonces he pasado pensando en nuevas formas de aplicar IA en Museos, Bibl
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
-Para mí han sido muy útiles seguir canales de youtube y algunos cursos libres. Realmente he econtrado muchos muchos cursos libres de Python. Para adquirir las bases son muy útiles.
+Para mí han sido muy útiles seguir canales de Youtube y algunos cursos libres. Realmente he encontrado muchos muchos cursos libres de Python. Para adquirir las bases son muy útiles.
 
 Cuando estudio, debo confesar que soy muy insegura, así que cuando empecé me metí a varios cursos básicos y todos gratuitos, para estar segura que estaba entendiendo bien. En esa búsqueda, encontré cursos de empresas como Cisco que tenían convenio con la Fundación Python, hasta bootcamps introductorios. 
 
