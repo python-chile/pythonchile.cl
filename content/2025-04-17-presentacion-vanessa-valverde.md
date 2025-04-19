@@ -74,7 +74,7 @@ Y luego, algo que me ayudó mucho a tomar seguridad, fue desarrollar proyectos p
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
-No todo es programación, eso es cierto. Como ya se imaginarán, me gustan los museos y las cosas ñoñas de los museos. Participo de subcomité  del Comité Internacional de Musoes (ICOM), que tiene una conferencia cada año. Este grupo es el ICOM Documentation (antes CIDOC), en el cual se discuten y establecen los estándares de documentación de colecciones de museos. Ellos tienen una Ontología específica, el CRM CIDOC, y como parte de mi tiempo libre, participo en un grupo de trabajo que traducimos la ontología al español. 
+No todo es programación, eso es cierto. Como ya se imaginarán, me gustan los museos y las cosas ñoñas de los museos. Participo de subcomité  del Comité Internacional de Musoes (ICOM), que tiene una conferencia cada año. Este grupo es el ICOM Documentation (antes CIDOC), en el cual se discuten y establecen los estándares de documentación de colecciones de museos. Ellos tienen una ontología específica, el CRM CIDOC, y como parte de mi tiempo libre, participo en un grupo de trabajo que traducimos la ontología al español. 
 
 Pero más allá de esas cosas, me gusta pintar a acuarela. Me gusta tocar música (aprendí algunas bases musicales y de piano cuando niña, y ahora de guitarra), escribir cuentos y leer. A veces salgo a tomar fotografías y también me gustan los juegos de mesa.
 
