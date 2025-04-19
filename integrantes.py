@@ -298,4 +298,15 @@ INTEGRANTES = {
             "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
         ),
     },
+    "María-Fernanda Villalobos López": {
+        "img": "coordinacion_maria-fernanda_villalobos.png",
+        "linkedin": "marifervl",
+        "github": "marifervl",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+	    "Fullstack Dev & DevOps en formación. Fonoaudióloga reconvertida que encontró su voz en el código.<br>"  
+        "Creo en programar con propósito: claro, accesible y con espacio para ser auténticamente tú.  "
+        ),
+    },
 }
