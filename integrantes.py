@@ -298,4 +298,15 @@ INTEGRANTES = {
             "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
         ),
     },
+    "Erickson Gallardo": {
+        "img": "coordinacion_erickson_gallardo.jpg",
+        "linkedin": "erickson-gallardo-cerda",
+        "github": "Nkrunsh",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil Informático, apasionado por el desarrollo Maker y proyectos DIY."
+            "Más de 5 años de experiencia aplicando programación, electrónica y fabricación digital en el aula."
+            "Uso python para automatizar procesos y tareas en mi vida diaria."
+        ),
+    },
 }
