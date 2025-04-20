@@ -26,10 +26,10 @@ category: presentación
 ## 👩🏻‍💻 Introducción breve
 
 **María-Fernanda “Marifer” Villalobos**  
-*Fullstack Developer & DevOps en formación, aspirante a Arquitecta de Software*  
-Viña del Mar, Chile 🇨🇱
+*Fullstack Developer & DevOps en formación, aspirante a Arquitecta de Software*.  
+Viña del Mar, Chile <img src="https://rawcdn.githack.com/twitter/twemoji/v14.0.2/assets/svg/1f1e8-1f1f1.svg" alt="🇨🇱" style="height:1em;">
 
-Apasionada por la **inclusión educativa** y el **empoderamiento a través del código**, con background en fonoaudiología y una fuerte resiliencia que me llevó a convertir desafíos en oportunidades.
+Apasionada por la **inclusión educativa** y el **empoderamiento a través del código**, con _background_ en fonoaudiología y una fuerte resiliencia que me llevó a convertir desafíos en oportunidades.
 
 ---
 
@@ -69,7 +69,7 @@ En mi primer equipo de ingeniería, fui la única mujer y la única sin título 
 
 - **Cerrar brechas** de género en STEM, empoderando a niñas y adolescentes.
 - **Acercar la programación** a barrios y escuelas sin recursos tecnológicos.
-- **Diseñar experiencias** de aprendizaje inclusivas: charlas, mentorías y eventos.
+- **Diseñar experiencias** de aprendizaje inclusivas.
 - **Compartir experiencias reales**: charlas, talleres y mentorías.
 - **Fomentar comunidad**, encendiendo la curiosidad y creatividad de cada participante.
 
@@ -81,7 +81,7 @@ En mi primer equipo de ingeniería, fui la única mujer y la única sin título 
   Fullstack Developer, DevOps en formación y aspirante a Arquitecta Empresarial y de Software.
 
 - **Aprendizaje continuo**  
-  Contribuciones a proyectos open source, hackathons y auto‑mentorías.
+  Contribuciones a proyectos _open source_, _hackathons_ y auto‑mentorías.
 
 - **Comunicación y Liderazgo**  
   Expositora en PySchool Valparaíso, mentora de principiantes y organizadora de voluntariados y encuentros.
