@@ -3,7 +3,7 @@ layout: post
 title: Presentación de Herbert Díaz 🎉
 subtitle: Presentación nuevo integrante de coordinación
 author: Python Chile
-image: coordinacion_herbert_diaz.jpeg
+image: coordinacion_herbert_diaz.jpg
 tags: coordinación, presentación, pythonchile2025
 category: presentación
 ---
@@ -32,27 +32,27 @@ Mi experiencia previa en tecnología o programación es relativamente reciente. 
 
 El interés, la motivación y el ambiente que existe aquí. Una de las cosas positivas de Python es que, al haber tantos usuarios activos trabajando en una gran diversidad de proyectos, hay un sinfín de temas sobre los cuales uno puede aprender y conversar con la comunidad, como IA, ciencia de datos, criptografía, diseño web, y un largo etcétera. 
 
-Además, la forma en que abordan los temas en esta comunidad es muy aterrizada, no existe tanto ese hype injustificado que muchas veces las comunidades de tech tienen, y uno puede hablar de todo aquí!
+Además, la forma en que abordan los temas en esta comunidad es muy aterrizada, no existe tanto ese _hype_ injustificado que muchas veces las comunidades de _tech_ tienen, y uno puede hablar de todo aquí!
 
 ## ¿Qué esperas lograr o aprender siendo parte de esta comunidad?
 
-Además de aprender sobre tópicos mas profundos de Python, también me interesa aprender a gestionar eventos, construir comunidad, conocer a personas con gustos afines a los míos y, por sobre todo, disfrutar todo este proceso.
+Además de aprender sobre tópicos más profundos de Python, también me interesa aprender a gestionar eventos, construir comunidad, conocer a personas con gustos afines a los míos y, por sobre todo, disfrutar todo este proceso.
 
 ## ¿Hay alguna área específica de Python o la tecnología que te apasione?
 
-Totalmente sesgado por mi área: cómo Python y las tecnologías contribuyen al desarrollo en el ámbito científico, tanto en química, física, ciencias de la computación, geociencias, etc. Mas concretamente, el tema de simulaciones en general lo encuentro algo sacado de una pelicula de ciencia ficción!
+Totalmente sesgado por mi área: cómo Python y las tecnologías contribuyen al desarrollo en el ámbito científico, tanto en química, física, ciencias de la computación, geociencias, etc. Mas concretamente, el tema de simulaciones en general lo encuentro algo sacado de una película de ciencia ficción!
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
-¡Que no se cohiban al escribir código! La mejor manera de aprender a programar (sorprendentemente) es programando. Es completamente normal que el código no corra a la primera o que no esté completamente optimizado, pero con cada iteración se aprende algo más.
+¡Que no se cohíban al escribir código! La mejor manera de aprender a programar (sorprendentemente) es programando. Es completamente normal que el código no corra a la primera o que no esté completamente optimizado, pero con cada iteración se aprende algo más.
 
-También recomiendo aprender cosas que estén relacionadas con sus intereses y no se aislen en una sola area. Por ejemplo, si les interesa *Machine Learning*, las matemáticas son fundamentales, especialmente álgebra lineal y probabilidad. Si les interesa diseño web, saber gestionar bien el flujo de trabajo es importantísimo. Si les interesa la optimización de código, aprender sobre algoritmos, paralelización y ciencias de la computación es indispensable.
+También recomiendo aprender cosas que estén relacionadas con sus intereses y no se aíslen en una sola área. Por ejemplo, si les interesa *Machine Learning*, las matemáticas son fundamentales, especialmente álgebra lineal y probabilidad. Si les interesa diseño web, saber gestionar bien el flujo de trabajo es importantísimo. Si les interesa la optimización de código, aprender sobre algoritmos, paralelización y ciencias de la computación es indispensable.
 
 Y, por último, entender qué hace cada herramienta conceptualmente. Mientras menos *cajas negras* usen, más gatitos se salvarán en el mundo. 🐱
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
-Fuera del mundo de la programación, me encanta salir con mis amigos y disfrutar una cerveza con ellos. También me gusta hacer ejercicio y descubrir música nueva (ahora mismo estoy demasiado pegado escuchando MPB 🇧🇷!). Antes tenía el hábito de leer mangas, pero por temas de tiempo lo he dejado de lado; quizás vuelva a retomarlo proximamente.
+Fuera del mundo de la programación, me encanta salir con mis amigos y disfrutar una cerveza con ellos. También me gusta hacer ejercicio y descubrir música nueva (ahora mismo estoy demasiado pegado escuchando MPB 🇧🇷!). Antes tenía el hábito de leer mangas, pero por temas de tiempo lo he dejado de lado; quizás vuelva a retomarlo próximamente.
 
 ## ¿Hay algo más que quieras compartir con la comunidad?
 
