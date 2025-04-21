@@ -32,9 +32,10 @@ INTEGRANTES = {
         "twitter": "pambusf",
         "activo": "1",
         "descripcion": (
-            "Alumna de Doctorado en Ciencias de la Ingeniería de la Pontificia "
-            "Universidad Católica de Chile. Magíster en Ingeniería Industrial "
-            "e Ingeniera Civil Industrial de la Universidad del Bío-Bío."
+	    "Académica de la Facultad de Ingeniería de la Universidad de Los Andes. "
+            "Doctora en Ciencias de la Ingeniería de la Pontificia Universidad Católica de Chile. "
+            "Magíster en Ingeniería Industrial e Ingeniera Civil Industrial de la Universidad del Bío-Bío. "
+            "Diplomada en Inteligencia Artificial (PUC)."
         ),
     },
     "Pablo Lira": {
@@ -97,12 +98,14 @@ INTEGRANTES = {
     "Denny Perez": {
         "img": "coordinacion_denny.jpg",
         "linkedin": "dennyperez18",
-        "github": "",
-        "twitter": "",
+        "github": "DennyPerez18",
+        "twitter": "dennyperez18",
         "activo": "1",
         "descripcion": (
-            "Analista QA. Entusiasta de la comunidad Python. Coorganizadora de las "
-            "comunidades PyLadies Chile y PyConLatam."
+            "Analista de Calidad de Software con formación en Contabilidad. "
+	    "Entusiasta del Open Source y líder de comunidades en el ecosistema Python y GitHub. "
+	    "Mentora de capitulos PyLadies. "
+	    "Directora y miembro Fellow de la Python Software Foundation."
         ),
     },
     "Franklin Arredondo": {
@@ -283,6 +286,28 @@ INTEGRANTES = {
             "Senior IT Architect, apasionada por la estrategia de datos y la inteligencia artificial aplicada a negocios. "
             "Especialista en arquitectura de datos y gobierno. "
             "Ingeniera de Software, Universidad Peruana de Ciencias Aplicadas." 
+        ),
+    },
+    "Rodrigo Llull Torres": {
+        "img": "coordinacion_rodrigo_llull_torres.jpg",
+        "linkedin": "rodrigo-llull-torres",
+        "github": "rllullt",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Civil en Computación, Magíster en Ciencias, mención Computación, Universidad de Chile."
+            "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
+        ),
+    },
+    "Vanessa C. Valverde Santos": {
+        "img": "coordinacion_vanessa_valverde.jpg",
+        "linkedin": "vanevalverdes",
+        "github": "vanevalverdes",
+        "twitter": "vanevalverdes",
+        "activo": "1",
+        "descripcion": (
+            "Periodista, programadora, whovian y lovecraftiana. Women Techmaker Ambassador de Chile. "
+            "Fundadora de Nible Tecnología y directora del Instituto Latinoamericano de Museos (ILAM). "
+            "Tengo un gato y amo el café. Apasionada del patrimonio cultural y la tecnología."
         ),
     },
 }

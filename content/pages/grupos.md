@@ -33,7 +33,7 @@ actualizar la lista!
 * [Telegram](https://t.me/pythonchile)
 * [Slack](https://join.slack.com/t/python-chile/shared_invite/zt-3hitnkfk-I_CM~2ANuwofgARLZjI42A)
 * [Facebook](https://www.facebook.com/groups/pythonchileprogramadores/)
-* [Twitter](https://twitter.com/pythonchiledev)
+* [Twitter](https://x.com/pythonchiledev)
 * [Github](https://github.com/python-chile)
 * [YouTube](https://www.youtube.com/c/PythonChile)
 * [LinkedIn](https://www.linkedin.com/groups/4929519/)
