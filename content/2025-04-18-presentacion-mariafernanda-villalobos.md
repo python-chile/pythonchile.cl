@@ -34,23 +34,6 @@ Apasionada por la **inclusión educativa** y el **empoderamiento a través del c
 ---
 
 ## 🌟 Mi historia, contada en hitos
-<!-- 
-```mermaid
-gantt
-dateFormat  YYYY-MM
-axisFormat  %b %Y
-section Formación
-  Bootcamp Full-stack Python Trainee en TD    :done,    a1, 2022-01, 6m
-  Autoaprendizaje (Udemy & Coursera)         :done,    a2, after a1, 36m
-  Bootcamp Front-end en Laboratoria          :done,    a3, 2023-01, 6m
-  Open Source, Hackathons y Conferencias     :active,  a4, 2023-06, 36m
-section Experiencia
-  Trabajo Freelance                        :active,    b1, 2022-08, 36m
-  Primer trabajo full-time en ingeniería   :done,    b1, 2023-11, 3m
-  Exposición en PySchool Valparaíso          :done,    b2, 2024-10, 1d
-section DevOps
-  Project Lab DevOps (fase final)            :active,  c1, 2025-02, 3m
-``` -->
 
 ![Mi Timeline Profesional](https://www.mermaidchart.com/raw/5d326ad4-0587-4f0f-9f07-d8102c808ab8?theme=light&version=v0.1&format=svg)
 

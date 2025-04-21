@@ -298,6 +298,18 @@ INTEGRANTES = {
             "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
         ),
     },
+    "Vanessa C. Valverde Santos": {
+        "img": "coordinacion_vanessa_valverde.jpg",
+        "linkedin": "vanevalverdes",
+        "github": "vanevalverdes",
+        "twitter": "vanevalverdes",
+        "activo": "1",
+        "descripcion": (
+            "Periodista, programadora, whovian y lovecraftiana. Women Techmaker Ambassador de Chile. "
+            "Fundadora de Nible Tecnología y directora del Instituto Latinoamericano de Museos (ILAM). "
+            "Tengo un gato y amo el café. Apasionada del patrimonio cultural y la tecnología."
+        ),
+    },
     "María-Fernanda Villalobos López": {
         "img": "coordinacion_maria-fernanda_villalobos.png",
         "linkedin": "marifervl",
