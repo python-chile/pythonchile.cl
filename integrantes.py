@@ -310,4 +310,15 @@ INTEGRANTES = {
             "Tengo un gato y amo el café. Apasionada del patrimonio cultural y la tecnología."
         ),
     },
+    "María-Fernanda Villalobos López": {
+        "img": "coordinacion_maria-fernanda_villalobos.png",
+        "linkedin": "marifervl",
+        "github": "marifervl",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+	    "Fullstack Dev & DevOps en formación. Fonoaudióloga reconvertida que encontró su voz en el código.<br>"  
+        "Creo en programar con propósito: claro, accesible y con espacio para ser auténticamente tú.  "
+        ),
+    },
 }
