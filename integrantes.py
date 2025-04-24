@@ -298,15 +298,27 @@ INTEGRANTES = {
             "&nbsp;Buscando construir el futuro con solidez y propósito, aprendiendo constantemente."
         ),
     },
-    "Erickson Gallardo": {
-        "img": "coordinacion_erickson_gallardo.jpg",
-        "linkedin": "erickson-gallardo-cerda",
-        "github": "Nkrunsh",
+    "Vanessa C. Valverde Santos": {
+        "img": "coordinacion_vanessa_valverde.jpg",
+        "linkedin": "vanevalverdes",
+        "github": "vanevalverdes",
+        "twitter": "vanevalverdes",
         "activo": "1",
         "descripcion": (
-            "Ingeniero Civil Informático, apasionado por el desarrollo Maker y proyectos DIY. "
-            "Más de 5 años de experiencia aplicando programación, electrónica y fabricación digital en el aula. "
-            "Uso python para automatizar procesos y tareas en mi vida diaria."
+            "Periodista, programadora, whovian y lovecraftiana. Women Techmaker Ambassador de Chile. "
+            "Fundadora de Nible Tecnología y directora del Instituto Latinoamericano de Museos (ILAM). "
+            "Tengo un gato y amo el café. Apasionada del patrimonio cultural y la tecnología."
+        ),
+    },
+    "María-Fernanda Villalobos López": {
+        "img": "coordinacion_maria-fernanda_villalobos.png",
+        "linkedin": "marifervl",
+        "github": "marifervl",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+	    "Fullstack Dev & DevOps en formación. Fonoaudióloga reconvertida que encontró su voz en el código.<br>"  
+        "Creo en programar con propósito: claro, accesible y con espacio para ser auténticamente tú.  "
         ),
     },
 }
