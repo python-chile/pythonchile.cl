@@ -11,25 +11,28 @@ category: presentación
 ## Introducción breve
 
 ¡Hola, querida comunidad de Python Chile!  
-Mi nombre es Erickson Gallardo y tengo el gusto de presentarme como uno de los nuevos integrantes del equipo de coordinación. Actualmente vivo en Santiago, Chile, y me formé como Ingeniero Civil Informático.  
+Mi nombre es Erickson Gallardo y tengo el gusto de presentarme como uno de los nuevos integrantes del equipo de coordinación. Actualmente vivo en Santiago de Chile y me formé como Ingeniero Civil Informático.  
 
-Desde que egresé, he trabajado por más de cinco años promoviendo el uso de tecnologías en el aula de manera transversal, abarcando áreas como la programación, la electrónica, el diseño y la fabricación digital. Ha sido una experiencia increíble ver cómo la tecnología puede transformar la forma en que aprendemos y enseñamos.
+Desde que egresé, he trabajado por más de cinco años promoviendo el uso de tecnologías en el aula de manera transversal, abarcando áreas como la programación, la electrónica, el diseño y la fabricación digital. Ha sido una experiencia increíble ver como la tecnología puede transformar la forma en que aprendemos y enseñamos.
 
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
-Mi entrada al mundo de Python fue, curiosamente, bastante informal. No tengo un recuerdo exacto de haberme sentado a "aprenderlo", pero sí recuerdo cómo se fue metiendo poco a poco en mi vida.  
+Mi entrada al mundo de Python fue, curiosamente, bastante informal. No tengo un recuerdo exacto de haberme sentado a "aprenderlo", pero sí recuerdo como se fue metiendo poco a poco en mi vida.  
 
 Durante mis años universitarios, tenía un amigo fanático de Python (¡y todavía lo es!). Siempre nos contaba con entusiasmo sobre sus proyectos y desafíos personales, experimentando con cosas nuevas solo por el gusto de aprender. Gracias a su pasión fui conociendo el lenguaje y todo el potencial que tenía.  
 
-Ya titulado, decidí profundizar en Python a través de cursos en línea, y comencé a aplicarlo en mi trabajo: desde proyectos escolares hasta clases de tecnología. Fue ahí donde realmente comence a desarrollar en este lenguaje.
+Ya titulado, decidí profundizar en Python a través de cursos en línea, y comencé a aplicarlo en mi trabajo: desde proyectos escolares hasta clases de tecnología. Fue ahí donde realmente comencé a desarrollar en este lenguaje.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
 Python se ha convertido en mi herramienta favorita para automatizar tareas y desarrollar soluciones prácticas en el día a día.  
 
 Algunos de mis proyectos favoritos han sido:
+
 - Una aplicación con interfaz en Tkinter para recibir y ejecutar comandos desde dispositivos Micro:Bit, integrándolos con proyectos en Scratch.
+
 - Un pequeño sistema para automatizar el ingreso y limpieza de datos, útil en tareas administrativas.
+
 - Actualmente, estoy desarrollando un programa que estima la proyección de cursos universitarios que deben planificarse en próximos períodos académicos. Uso Pandas para analizar y transformar bases de datos que consideran variables como la cantidad de estudiantes, sus avances curriculares, requisitos cumplidos y proyecciones de admisión.
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
@@ -60,7 +63,7 @@ Creo firmemente que estas disciplinas serán cada vez más fundamentales en nues
 
 Lo más importante es **conocerse a uno mismo** en cómo aprendemos. Por ejemplo, yo tengo un estilo de aprendizaje muy visual, así que me sirven mucho los tutoriales con ejemplos prácticos.  
 
-Una vez que entiendo la estructura baisca y funcionamiento general de un código, empiezo a experimentar: cambio variables, agrego funciones, pruebo qué pasa si hago esto o aquello… Y claro, cuando aparecen errores (¡que siempre aparecen!), busco en internet o recurro a herramientas de IA. Hoy en día, los modelos de lenguaje como ChatGPT son un apoyo increíble para entender conceptos y resolver dudas paso a paso.
+Una vez que entiendo la estructura básica y funcionamiento general de un código, empiezo a experimentar: cambio variables, agrego funciones, pruebo qué pasa si hago esto o aquello… y claro, cuando aparecen errores (¡que siempre aparecen!), busco en internet o recurro a herramientas de IA. Hoy en día, los modelos de lenguaje como ChatGPT son un apoyo increíble para entender conceptos y resolver dudas paso a paso.
 
 Mi mejor consejo: atrévete a probar sin miedo. A veces la mejor forma de aprender es equivocándose. Total, lo único que puede pasar es que descubras otra manera de cómo no hacer las cosas... y eso ya es un paso adelante.
 
