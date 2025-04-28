@@ -31,6 +31,11 @@
 * De momento es una acción sencilla que obtiene la última versión, genera el
   sitio y lo copia al directory a donde apunta la URL.
 
+## Cómo contribuir
+
+* Para agregar un nuevo post, favor seguir el paso a paso descrito en la [documentación oficial](https://github.com/python-chile/docs/blob/master/formato-presentacion-blog.md).
+* Para conocer más sobre normativa en proyectos Python Chile, favor visitar la siguiente [documentación oficial](https://github.com/python-chile/docs/blob/master/normativa-trabajo-github.md).
+* Para más información sobre como escribir un contenido en pelican, favor visitar la siguiente [documentación](https://docs.getpelican.com/en/latest/content.html).
 
 ## Información adicional
 
@@ -41,8 +46,4 @@
   [documentación oficial](https://docs.getpelican.com/en/latest/themes.html).
   El tema está ubicado en el directorio `pycltheme`.
 
-* La contribución de posts se hará mediante Pull-Requests a este repositorio,
-  donde las personas tendrán que crear un archivo nuevo (con extensión `md`)
-  en el directorio `content/`. El nombre corresponderá al título del post.
-  Para más información sobre como escribir el contenido, visitar la
-  [documentación](https://docs.getpelican.com/en/latest/content.html).
+
