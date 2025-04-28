@@ -35,7 +35,7 @@
 
 * Para agregar un nuevo post, favor seguir el paso a paso descrito en la [documentación oficial](https://github.com/python-chile/docs/blob/master/formato-presentacion-blog.md).
 * Para conocer más sobre normativa en proyectos Python Chile, favor visitar la siguiente [documentación oficial](https://github.com/python-chile/docs/blob/master/normativa-trabajo-github.md).
-* Para más información sobre como escribir un contenido en pelican, favor visitar la siguiente [documentación](https://docs.getpelican.com/en/latest/content.html).
+* Para más información sobre como escribir un contenido en Pelican, favor visitar la siguiente [documentación](https://docs.getpelican.com/en/latest/content.html).
 
 ## Información adicional
 
