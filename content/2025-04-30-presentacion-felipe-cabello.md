@@ -65,7 +65,7 @@ category: presentación
 Felipe Cabello Españon. **Ingeniero en Recursos Naturales Renovables**
 especializado en el manejo de datos ambientales y geoespaciales. Tengo
 experiencia trabajando con información multidimensional de variables
-ambientales(data cubes), desarrollando soluciones de visión artificial usando
+ambientales(_data cubes_), desarrollando soluciones de visión artificial usando
 imágenes satelitales y analizando series de tiempo de estaciones de monitoreo.
 Me interesa desarrollar soluciones robustas a los problemas modernos mediante un
 enfoque sistémico.
@@ -76,11 +76,11 @@ enfoque sistémico.
 
 <span class="emoji-title">🐍 ¿Cómo descubriste Python?</span>
 
-La primera vez que trabajé con python fue en mi proyecto de título en la
+La primera vez que trabajé con Python fue en mi proyecto de título en la
 universidad. Necesitaba un lenguaje que pudiera manejar grandes volúmenes de
 datos atmosféricos junto a una modelación económica de proyectos eólicos. Si
 bien hasta ese momento sólo tenía experiencia utilizando el lenguaje R, el
-extenso catálogo de módulos abiertos de python terminó por convencerme para
+extenso catálogo de módulos abiertos de Python terminó por convencerme para
 hacer el salto.
 
 </div>
@@ -94,7 +94,7 @@ hacer el salto.
 ### 🌬️ Energía eólica offshore
 
 Desarrollé la primera estimación técnico económica a nivel nacional de energía
-eólica offshore en considerar escenarios de cambio climático.
+eólica _offshore_ en considerar escenarios de cambio climático.
 
 - Análisis multi-decada de datos de velocidad de viento a lo largo de todo el
   mar chileno.
@@ -111,7 +111,7 @@ eólica offshore en considerar escenarios de cambio climático.
 Usando redes neuronales convolucionales, desarrollé un clasificador y
 segmentador de arbolado urbano.
 
-- Solución de end-to-end para la identificación de arbolado urbano.
+- Solución de _end-to-end_ para la identificación de arbolado urbano.
 - Integración de información multiespectral de cámaras de alta resolución.
 - Extensible a experimentos con "Human in the loop".
 
@@ -125,7 +125,7 @@ Trabajo con actores públicos analizando datos para la toma de decisiones y el
 diseño de políticas públicas.
 
 - Ciencia de datos con información geoespacial.
-- Soluciones open source reproducibles con docker y python.
+- Soluciones _open source_ reproducibles con Docker y Python.
 
 </div>
 
@@ -141,7 +141,7 @@ diseño de políticas públicas.
 <div class="highlight-box" markdown="1">
 
 **Inspiración para ser parte de Python Chile**: Siempre me ha gustado un montón
-la programación y la comunidad open source. Quiero ser parte de un lugar en
+la programación y la comunidad _open source_. Quiero ser parte de un lugar en
 donde pueda aprender y debatir apasionadamente respecto a todos los cambios que
 están sucediendo en el mundo de la tecnología.
 
