@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presentación de Erickson Gallardo 🎉
+title: Presentación de Daniel Mansilla 🎉
 subtitle: Presentación nuevo integrante de coordinación
 author: Python Chile
 image: coordinacion_daniel_mansilla.jpg
