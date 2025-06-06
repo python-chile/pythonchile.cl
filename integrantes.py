@@ -332,4 +332,14 @@ INTEGRANTES = {
             "Uso Python para automatizar procesos y tareas en mi vida diaria."
         ),
     },
+    "Daniel Mansilla": {
+        "img": "coordinacion_daniel_mansilla.jpg",
+        "linkedin": "daniel-mansilla",
+        "github": "Mansilla1",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero de Software con trayectoria en startups de alto crecimiento. "
+            "Enfocado en construir soluciones tecnológicas eficientes y escalables."
+        ),
+    },
 }
