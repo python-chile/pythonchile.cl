@@ -342,4 +342,14 @@ INTEGRANTES = {
             "Enfocado en construir soluciones tecnológicas eficientes y escalables."
         ),
     },
+    "Eduardo Sandoval": {
+        "img": "coordinacion_eduardo_sandoval.jpg",
+        "linkedin": "eduardo-sandoval",
+        "github": "s44ndovvl",
+        "activo": "1",
+        "descripcion": (
+            "Estudiante de Ingeniería Civil Informática en la Universidad Catolica de Valparaiso. "
+            "Me encanta aprender y son un apasionado por las nuevas tecnologías. "
+        ),
+    },
 }
