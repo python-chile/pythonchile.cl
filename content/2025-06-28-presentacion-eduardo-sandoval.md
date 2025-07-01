@@ -3,7 +3,7 @@ layout: post
 title: Presentación de Eduardo Sandoval 🎉
 subtitle: Presentación nuevo integrante de coordinación
 author: Python Chile
-image: coordinacion_nombre_apellido.jpg
+image: coordinacion_eduardo_sandoval.jpg
 tags: coordinación, presentación, pythonchile2025
 category: presentación
 ---
@@ -58,7 +58,7 @@ Pues la verdad, que muchas gracias por recibir, estoy motivado a todo y espero p
 
 ### Encuéntrame en:
 
-- GitHub: https://github.com/s44ndovvl
-- LinkedIn: https://www.linkedin.com/in/eduardo-sandoval-632505369/
+- [GitHub] (https://github.com/s44ndovvl)
+- [LinkedIn] (https://www.linkedin.com/in/eduardo-sandoval-632505369/)
 
 ¡Gracias por leer mi presentación!
