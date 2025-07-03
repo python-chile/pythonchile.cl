@@ -15,11 +15,11 @@ Mi nombre es Yoel González y soy graduado de Ingeniería en Ciencias Informáti
 
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
-La primera vez que lo escuché, ya hace varios lustros años, fue por amigos de la Universidad. En ese entonces bregaba con PHP y sus frameworks y pues ni caso. Hace par de años atrás reapareció como navaja suiza y pues totalmente enganchado de su versatilidad, facilidad de aprendizaje y la rapidez en que se transforma una idea fugaz en un producto funcional.
+La primera vez que lo escuché, ya hace varios lustros años, fue por amigos de la Universidad. En ese entonces bregaba con PHP y sus _frameworks_ y pues ni caso. Hace par de años atrás reapareció como navaja suiza y pues totalmente enamorado de su versatilidad, facilidad de aprendizaje y la rapidez en que se transforma una idea fugaz en un producto funcional.
 
 ## ¿Qué proyectos has trabajado o estás trabajando actualmente en Python?
 
-He trabajado en proyectos personales de tipo scrapping, análisis y representación gráfica de los datos obtenidos, exposición de apis, etc. Ello combinado con determinados frameworks para generar aplicaciones web con Python puro. Actualmente estoy enfocado al desarrollo y personalización de aplicaciones empresariales usando Odoo, también escrito en Python. 
+He trabajado en proyectos personales de tipo _scrapping_, análisis y representación gráfica de los datos obtenidos, exposición de _apis_, etc. Ello combinado con determinados _frameworks_ para generar aplicaciones web con Python puro. Actualmente estoy enfocado al desarrollo y personalización de aplicaciones empresariales usando Odoo, también escrito en Python. 
 
 ## ¿Cuál es tu experiencia previa en tecnología o programación?
 
@@ -39,11 +39,11 @@ En primer lugar aprender todo lo posible, colaborar y aportar en sus proyectos y
 
 ## ¿Hay alguna área específica de Python o la tecnología que te apasione?
 
-Me apasiona desarrollar desde el backend, crear soluciones mediante scripting, trabajar en integraciones con APIs de terceros, construir microservicios y explorar el análisis de datos. ¡Automatizar todo lo posible, con Python de la mano!
+Me apasiona desarrollar desde el _backend_, crear soluciones mediante _scripting_, trabajar en integraciones con APIs de terceros, construir microservicios y explorar el análisis de datos. ¡Automatizar todo lo posible, con Python de la mano!
 
 ## ¿Qué recursos o consejos le darías a alguien que está comenzando con Python?
 
-Mi primer consejo es: código, código, código. La única forma real de aprender a programar es escribiendo código, enfrentándote a problemas, cometiendo errores y corrigiéndolos. ¡Comente todo!, su yo del futuro lo agradecerá. Piense en otras variantes de solución, incluso cuando ya lo haya logrado. Estudie en paralelo no solo sintaxis del lenguaje y funciones propias, sino también literatura de buenas prácticas, clean code y patrones. Un paso a la vez, la frustación es normal y los picos de dopamina cuando logra algo, por pequeño que sea, renueva sus fuerzas. Utilice espacios comunitarios como este, rodéese de buenas vibras. el camino será menos escarpado. No olvide agradecer ayudando a los que vienen detrás.
+Mi primer consejo es: código, código, código. La única forma real de aprender a programar es escribiendo código, enfrentándote a problemas, cometiendo errores y corrigiéndolos. ¡Comente todo!, su yo del futuro lo agradecerá. Piense en otras variantes de solución, incluso cuando ya lo haya logrado. Estudie en paralelo no solo sintaxis del lenguaje y funciones propias, sino también literatura de buenas prácticas, clean code y patrones. Un paso a la vez, la frustación es normal y los picos de dopamina cuando logra algo, por pequeño que sea, renueva sus fuerzas. Utilice espacios comunitarios como este, rodéese de buenas vibras. El camino será menos escarpado. No olvide agradecer ayudando a los que vienen detrás.
 
 ## ¿Qué te gusta hacer fuera del mundo de la programación?
 
@@ -51,7 +51,7 @@ Me gusta la lectura, el buen cine, jugar voleibol y tenis de mesa (no soy bueno 
 
 ## ¿Hay algo más que quieras compartir con la comunidad?
 
-Esperando ser útil para los objetivos de la comunidad. Deseoso de participar con ideas y acciones al servicio de los demás y hacer crecer, con mi granito de arena, Python en Chile y el mundo. Por cierto. si no has hecho pip install coffe hoy, estás a tiempo. 
+Esperando ser útil para los objetivos de la comunidad. Deseoso de participar con ideas y acciones al servicio de los demás y hacer crecer, con mi granito de arena, Python en Chile y el mundo. Por cierto, si no has hecho `pip install coffe` hoy, estás a tiempo. 
 
 ¡Nos vemos en el camino! 😄
 

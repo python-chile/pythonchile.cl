@@ -350,7 +350,7 @@ INTEGRANTES = {
         "descripcion": (
             "Ingeniero en Ciencias Informáticas. Apasionado por la programación, tecnologías, videojuegos y running. "
             "Disfruto ver y hacer que Python haga su magia detrás de un browser, una consola o integrando sistemas. "
-            "Minimiza errores siempre con pip install coffee"
+            "Minimizo errores siempre con `pip install coffee`."
         ),
     },
 }
