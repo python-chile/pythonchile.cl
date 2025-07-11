@@ -342,4 +342,15 @@ INTEGRANTES = {
             "Enfocado en construir soluciones tecnológicas eficientes y escalables."
         ),
     },
+    "Yoel González Díaz": {
+        "img": "coordinacion_yoel_gonzalez.jpg",
+        "linkedin": "ygyoelito",
+        "github": "ygyoelito",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero en Ciencias Informáticas. Apasionado por la programación, tecnologías, videojuegos y running. "
+            "Disfruto ver y hacer que Python haga su magia detrás de un browser, una consola o integrando sistemas. "
+            "Minimizo errores siempre con `pip install coffee`."
+        ),
+    },
 }
