@@ -208,7 +208,7 @@ INTEGRANTES = {
         "activo": "1",
         "descripcion": (
             "Ingeniero Matemático y líder en Analítica Avanzada. "
-            "Experto en machine learning y automatización en la nube,"
+            "Experto en machine learning y automatización en la nube, "
             "con experiencia docente en matemáticas y ciencia de datos."
         ),
     },
