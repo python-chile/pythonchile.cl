@@ -200,6 +200,30 @@ INTEGRANTES = {
             "Coorganizadora de la comunidad PyLadies Valparaiso."
         ),
     },
+    "Francisco Alfaro": {
+        "img": "coordinacion_francisco_alfaro.png",
+        "linkedin": "faam",
+        "github": "fralfaro",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniero Matemático y líder en Analítica Avanzada. "
+            "Experto en machine learning y automatización en la nube, "
+            "con experiencia docente en matemáticas y ciencia de datos."
+        ),
+    },
+    "Valeska Canales": {
+        "img": "coordinacion_valeska_canales.png",
+        "linkedin": "vcanalesp",
+        "github": "vcanalesp",
+        "twitter": "",
+        "activo": "1",
+        "descripcion": (
+            "Ingeniera en Bioprocesos y especialista en ciencia de datos aplicada a la educación. "
+            "Fundadora de Seth&Nut y activa en comunidades tecnológicas, combina programación, "
+            "docencia e innovación educativa."
+        ),
+    },
     "Kalfukoyam Treuquil": {
         "img": "coordinacion_kalfukoyam.jpeg",
         "linkedin": "kalfukoyam-Treuquil-calfumil",
