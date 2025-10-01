@@ -1,14 +1,16 @@
-name: Deploy Blog Python Chile
+name: Deploy Python Chile Static Site
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
@@ -16,7 +18,7 @@ jobs:
 
     steps:
       - name: checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: setup python
         uses: actions/setup-python@v4

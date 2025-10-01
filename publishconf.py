@@ -5,7 +5,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 #SITEURL = "https://www.pythonchile.cl"
-SITEURL = "https://pythonchile.cl.github.io"
+SITEURL = "https://python-chile.github.io/pythonchile.cl/"
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
