@@ -1,0 +1,49 @@
+name: Deploy Blog Python Chile
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: build static site
+        run: pelican content -s publishconf.py -o output
+
+      - name: upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./output
+
+  deploy:
+    needs: build-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: deploy to github pages
+        id: deployment
+        uses: actions/deploy-pages@v4
