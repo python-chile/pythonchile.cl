@@ -52,7 +52,7 @@ jobs:
         run: ls -R .
 
       - name: build static site
-        run: pelican content -s publishconf.py -o output
+        run: pelican -s publishconf.py -o output
 
       - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
