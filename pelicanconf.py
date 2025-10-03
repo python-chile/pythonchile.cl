@@ -108,6 +108,8 @@ REDES = {
     },
 }
 
+PLUGINS = ["pelican.plugins.image_process"]
+
 IMAGE_PROCESS = {
     "large-photo": {
         "type": "responsive-image",
