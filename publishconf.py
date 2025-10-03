@@ -5,5 +5,9 @@ sys.path.append(os.curdir)
 
 SITEURL = "https://python-chile.github.io/pythonchile.cl"
 RELATIVE_URLS = False
-
 DELETE_OUTPUT_DIRECTORY = True
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
