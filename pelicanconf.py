@@ -2,6 +2,7 @@
 
 import os
 import sys
+import logging
 sys.path.append(".")
 from integrantes import INTEGRANTES
 
@@ -133,4 +134,4 @@ DEFAULT_PAGINATION = 6
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-print(f"✅ Path var THEME: {THEME}")
+logging.warning(f"💡 Using custom theme path: {THEME}")
