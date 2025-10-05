@@ -2,7 +2,6 @@
 
 import os
 import sys
-import logging
 sys.path.append(".")
 from integrantes import INTEGRANTES
 
