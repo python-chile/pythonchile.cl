@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 import sys
 sys.path.append(".")
 from integrantes import INTEGRANTES
@@ -12,13 +13,12 @@ DESCRIPTION = (
     "a lo largo del país, fortaleciendo a los miembros de la comunidad para generar un impacto "
     "positivo en el desarrollo de Python a nivel nacional y mundial."
 )
+
 SITEURL = ""
-
 PATH = "content"
-
 TIMEZONE = "America/Santiago"
-
 DEFAULT_LANG = "es"
+THEME = os.path.join(os.path.dirname(__file__), "pycltheme")
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -133,4 +133,4 @@ DEFAULT_PAGINATION = 6
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "pycltheme"
+print(f"✅ Path var THEME: {THEME}")
