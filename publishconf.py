@@ -2,6 +2,7 @@ import os
 import sys
 
 sys.path.append(os.curdir)
+from pelicanconf import *
 
 SITEURL = "https://python-chile.github.io/pythonchile.cl"
 RELATIVE_URLS = False
