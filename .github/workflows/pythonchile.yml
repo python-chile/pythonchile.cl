@@ -1,6 +1,9 @@
 name: Deploy Python Chile Static Site
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
