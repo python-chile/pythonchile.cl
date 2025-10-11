@@ -378,7 +378,7 @@ INTEGRANTES = {
         ),
     },
     "Alexis Alva": {
-            "img": "coordinacion_alexis_alva.jpeg",
+            "img": "coordinacion_alexis_alva.jpg",
             "linkedin": "alexis-alva",
             "github": "aalvan",
             "twitter": "",
