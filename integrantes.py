@@ -385,7 +385,7 @@ INTEGRANTES = {
             "activo": "1",
             "descripcion": (
                 "Ingeniero Civil Telemático y Machine Learning Engineer. Apasionado por la inteligencia artificial, el MLOps y la robótica. "
-        "Disfruto explorar cómo Python puede dar vida a proyectos que van desde la visión por computador hasta el Reinforcement Learning. "
+        "Disfruto explorar como Python puede dar vida a proyectos que van desde la visión por computador hasta el Reinforcement Learning. "
             ),
         }
 }
