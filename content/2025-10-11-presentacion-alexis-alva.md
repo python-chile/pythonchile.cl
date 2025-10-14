@@ -12,7 +12,7 @@ category: presentación
 
 ¡Hola Comunidad!
 
-Mi nombre es Alexis Alva, soy ingeniero Civil Telemático de la UTFSM. Actualmente, me desempeño como _Machine Learning Engineer_, además me encuentro realizando un magíster en informática enfocado en el _Reinforcement Learning_. La inteligencia artificial es un área que siempre me ha gustado mucho, y esto me ha llevado a participar en distintos proyectos que van desde la videovigilancia hasta la neurociencia. Además, disfruto mucho explorar el mundo del MLOps, donde puedo combinar la ingeniería con la escalabilidad y la eficiencia en el desarrollo de modelos.
+Mi nombre es Alexis Alva, soy ingeniero Civil Telemático de la UTFSM. Actualmente, me desempeño como _Machine Learning Engineer_, además me encuentro realizando un magíster en informática enfocado en _Reinforcement Learning_. La inteligencia artificial es un área que siempre me ha gustado mucho, y esto me ha llevado a participar en distintos proyectos que van desde la videovigilancia hasta la neurociencia. Además, disfruto mucho explorar el mundo del MLOps, donde puedo combinar la ingeniería con la escalabilidad y la eficiencia en el desarrollo de modelos.
 ## ¿Cómo descubriste Python y qué te motivó a aprenderlo?
 
 Python fue uno de los primeros lenguajes que aprendí en la universidad, y algo que siempre me fascinó de este es su versatilidad. Gracias a Python realicé mis primeros proyectos enfocados en el desarrollo con microcontroladores. Además, como es uno de los lenguajes más utilizados en el área de la inteligencia artificial, fui profundizando cada vez más para adentrarme en ese campo.
