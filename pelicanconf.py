@@ -37,7 +37,13 @@ MENUELEMENTS = {
         "url": "pages/codigo-de-conducta.html",
         "children": None,
     },
-    "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
+    "Organización": {
+        "title": "Organización",
+        "children": {
+            "corporación": {"title": "Corporación", "url": "pages/corporacion.html"},
+            "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
+        }
+    },
     "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
     "eventos": {
         "title": "Eventos",
