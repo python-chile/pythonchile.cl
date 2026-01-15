@@ -18,3 +18,6 @@ En esta sección encontrarás las recomendaciones para organizar una PyDay basad
 En el sitio de Python en Español encontrarás recursos educativos desde principiante a avanzado: 
 
 * [Hablemos Python](https://hablemospython.dev)
+
+### Memorias
+* [2025](https://drive.google.com/file/d/1QaeDUhbzPesGJV85ZFIv6HI9vWtPQ8TJ/view?usp=drive_link)

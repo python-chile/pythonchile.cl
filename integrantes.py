@@ -157,7 +157,7 @@ INTEGRANTES = {
         "linkedin": "leonardo-guedez",
         "github": "leolas95",
         "twitter": "",
-        "activo": "1",
+        "activo": "0",
         "descripcion": (
             "Backend software engineer, apasionado por Python, la comunidad "
             "y contenido alrededor de él. Entusiasta de ingeniería de datos."
@@ -217,7 +217,7 @@ INTEGRANTES = {
         "linkedin": "vcanalesp",
         "github": "vcanalesp",
         "twitter": "",
-        "activo": "1",
+        "activo": "0",
         "descripcion": (
             "Ingeniera en Bioprocesos y especialista en ciencia de datos aplicada a la educación. "
             "Fundadora de Seth&Nut y activa en comunidades tecnológicas, combina programación, "
@@ -261,7 +261,7 @@ INTEGRANTES = {
         "img": "coordinacion_yeriel_paz.jpg",
         "linkedin": "yeriel-paz",
         "github": "yeriel",
-        "activo": "1",
+        "activo": "0",
         "descripcion": (
             "Ingeniero Civil Telemático, UTFSM.<br>"
             "ML engineer & Data Scientist.<br>"
@@ -339,7 +339,7 @@ INTEGRANTES = {
         "linkedin": "marifervl",
         "github": "marifervl",
         "twitter": "",
-        "activo": "1",
+        "activo": "0",
         "descripcion": (
 	    "Fullstack Dev & DevOps en formación. Fonoaudióloga reconvertida que encontró su voz en el código.<br>"  
         "Creo en programar con propósito: claro, accesible y con espacio para ser auténticamente tú.  "
@@ -354,27 +354,6 @@ INTEGRANTES = {
             "Ingeniero Civil Informático, apasionado por el desarrollo Maker y proyectos DIY. "
             "Más de 5 años de experiencia aplicando programación, electrónica y fabricación digital en el aula. "
             "Uso Python para automatizar procesos y tareas en mi vida diaria."
-        ),
-    },
-    "Daniel Mansilla": {
-        "img": "coordinacion_daniel_mansilla.jpg",
-        "linkedin": "daniel-mansilla",
-        "github": "Mansilla1",
-        "activo": "1",
-        "descripcion": (
-            "Ingeniero de Software con trayectoria en startups de alto crecimiento. "
-            "Enfocado en construir soluciones tecnológicas eficientes y escalables."
-        ),
-    },
-    "Yoel González Díaz": {
-        "img": "coordinacion_yoel_gonzalez.jpg",
-        "linkedin": "ygyoelito",
-        "github": "ygyoelito",
-        "activo": "1",
-        "descripcion": (
-            "Ingeniero en Ciencias Informáticas. Apasionado por la programación, tecnologías, videojuegos y running. "
-            "Disfruto ver y hacer que Python haga su magia detrás de un browser, una consola o integrando sistemas. "
-            "Minimizo errores siempre con `pip install coffee`."
         ),
     },
     "Alexis Alva": {
