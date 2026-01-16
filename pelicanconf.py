@@ -129,6 +129,7 @@ IMAGE_PROCESS = {
 }
 
 DEFAULT_PAGINATION = 6
+PAGINATED_DIRECT_TEMPLATES = ["index", "archives"]
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
