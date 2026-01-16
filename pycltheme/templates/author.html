@@ -4,13 +4,41 @@
 
 {% block content %}
 <h2 class="pb-5">Artículos por {{ author }}</h2>
-    <div class="row">
-      {% for article in articles_page.object_list %}
-        {% include 'card.html' %}
-      {% endfor %}
+<div class="row pb-5">
+  {% if author.image %}
+  <div class="col-md-4 d-flex justify-content-center mb-3 mb-md-0">
+    <img src="{{ SITEURL }}/images/{{ author.image }}" alt="{{ author }}" class="img-fluid rounded-circle w-90 ">
+  </div>
+  {% endif %}
+  <div class="col-md-8 p-2 p-md-4 p-lg-5 ">
+    {% if author.bio %}
+    <p>{{ author.bio }}</p>
+    {% endif %}
+    <div class="social-links">
+      {% if author.github %}
+      <a href="https://github.com/{{ author.github }}" target="_blank" class="mr-3"><i
+          class="fab fa-github fa-2x"></i></a>
+      {% endif %}
+      {% if author.linkedin %}
+      <a href="https://linkedin.com/in/{{ author.linkedin }}" target="_blank" class="mr-3"><i
+          class="fab fa-linkedin fa-2x"></i></a>
+      {% endif %}
+      {% if author.twitter %}
+      <a href="https://x.com/{{ author.twitter }}" target="_blank" class="mr-3"><i class="fab fa-twitter fa-2x"></i></a>
+      {% endif %}
+      {% if author.website %}
+      <a href="{{ author.website }}" target="_blank" class="mr-3"><i class="fas fa-globe fa-2x"></i></a>
+      {% endif %}
     </div>
+  </div>
+</div>
+<div class="row">
+  {% for article in articles_page.object_list %}
+  {% include 'card.html' %}
+  {% endfor %}
+</div>
 
 {% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
-{% endif %}    
+{% include 'pagination.html' %}
+{% endif %}
 {% endblock %}
