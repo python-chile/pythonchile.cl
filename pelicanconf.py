@@ -129,6 +129,43 @@ IMAGE_PROCESS = {
 }
 
 DEFAULT_PAGINATION = 6
+PAGINATED_DIRECT_TEMPLATES = ["index", "archives"]
+
+# Implement author metadata loading
+from pelican import signals
+
+def load_author_metadata(generator):
+    for author, articles in generator.authors:
+        author_slug = author.slug
+        author_file = os.path.join("authors", f"{author_slug}.md")
+        
+        if os.path.exists(author_file):
+            with open(author_file, "r", encoding="utf-8") as f:
+                content = f.read()
+                
+            # Manual frontmatter parsing to avoid PyYAML dependency
+            if content.startswith("---"):
+                parts = content.split("---", 2)
+                if len(parts) >= 3:
+                    frontmatter = parts[1]
+                    author.bio = parts[2].strip()
+                    
+                    # Parse key-value pairs
+                    metadata = {}
+                    for line in frontmatter.splitlines():
+                        if ":" in line:
+                            key, value = line.split(":", 1)
+                            metadata[key.strip()] = value.strip()
+                    
+                    author.image = metadata.get("image")
+                    author.github = metadata.get("github")
+                    author.linkedin = metadata.get("linkedin")
+                    author.twitter = metadata.get("x") or metadata.get("twitter")
+                    author.website = metadata.get("website")
+                    author.name = metadata.get("nombre") or author.name
+
+# Connect signal directly
+signals.article_generator_finalized.connect(load_author_metadata)
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
