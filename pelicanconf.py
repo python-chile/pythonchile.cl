@@ -18,7 +18,7 @@ SITEURL = ""
 PATH = "content"
 TIMEZONE = "America/Santiago"
 DEFAULT_LANG = "es"
-THEME = os.path.join(os.path.dirname(__file__), "pycltheme")
+THEME = os.path.join(os.path.dirname(__file__), "pycltheme2026")
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,6 +26,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+STATIC_PATHS = ['images']
 
 DATE_FORMATS = { "es": "%d-%m-%Y"}
 
@@ -108,7 +110,7 @@ REDES = {
     },
 }
 
-PLUGINS = ["pelican.plugins.image_process"]
+# PLUGINS = ["pelican.plugins.image_process"]
 
 IMAGE_PROCESS = {
     "large-photo": {
@@ -131,4 +133,4 @@ IMAGE_PROCESS = {
 DEFAULT_PAGINATION = 6
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True

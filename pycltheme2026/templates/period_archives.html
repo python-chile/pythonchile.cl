@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Archivo de {{ period | reverse | join(' ') }} - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="max-w-4xl mx-auto">
+    <div class="mb-12 border-b pb-6">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Archivo: {{ period | reverse | join(' ') }}</h1>
+        <p class="text-gray-500 dark:text-gray-400 mt-2">Publicaciones realizadas durante este periodo.</p>
+    </div>
+
+    <div class="space-y-6">
+        {% for article in dates %}
+        <article
+            class="flex items-center space-x-6 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all">
+            <time
+                class="text-sm font-medium text-python-blue bg-blue-50 dark:bg-blue-900/30 dark:text-blue-200 px-3 py-1 rounded-md shrink-0">
+                {{ article.locale_date }}
+            </time>
+            <h2 class="text-xl font-semibold text-gray-900 dark:text-white hover:text-python-blue transition-colors">
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            </h2>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

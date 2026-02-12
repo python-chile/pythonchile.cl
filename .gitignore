@@ -3,3 +3,5 @@ output/
 *.DS_Store
 env/
 venv/
+.venv/
+node_modules/

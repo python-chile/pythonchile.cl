@@ -1,0 +1,128 @@
+<header class="bg-white dark:bg-slate-900 border-b border-gray-100 dark:border-gray-800">
+    <!-- Tier 1: Top Navigation Bar -->
+    <nav
+        class="bg-python-blue dark:bg-slate-900 sticky top-0 z-50 border-b border-blue-700 dark:border-gray-800 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-14 items-center">
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="{{ SITEURL }}/"
+                        class="text-sm font-medium text-white hover:text-python-yellow transition-colors">Inicio</a>
+                    {% for title, link in MENUITEMS %}
+                    <a href="{{ link }}"
+                        class="text-sm font-medium text-white/80 hover:text-python-yellow transition-colors">{{
+                        title }}</a>
+                    {% endfor %}
+
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for p in pages %}
+                    <a href="{{ SITEURL }}/{{ p.url }}"
+                        class="text-sm font-medium text-white/80 hover:text-python-yellow transition-colors">{{
+                        p.title }}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+
+                <!-- Logo (Mobile only) -->
+                <div class="md:hidden flex items-center">
+                    <a href="{{ SITEURL }}/">
+                        <img src="{{ SITEURL }}/theme/images/pythonchile_logo.png" class="h-8 w-auto" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex items-center space-x-4">
+                    <!-- Theme Toggle -->
+                    <button id="theme-toggle" type="button"
+                        class="text-white/80 hover:bg-blue-700 dark:text-gray-400 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-gray-700 rounded-full text-sm p-2 transition-colors">
+                        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                            viewBox="0 0 20 20">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Mobile menu button -->
+                    <button id="mobile-menu-btn" type="button"
+                        class="md:hidden inline-flex items-center p-2 text-sm text-white/80 rounded-lg hover:bg-blue-700 dark:text-gray-400 dark:hover:bg-gray-700">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Tier 1 Overlay) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-python-blue dark:bg-slate-900 border-b border-blue-700 dark:border-gray-800">
+            <div class="px-4 py-4 space-y-1">
+                <a href="{{ SITEURL }}/"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-700">Inicio</a>
+                {% for title, link in MENUITEMS %}
+                <a href="{{ link }}"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-white/80 hover:bg-blue-700">{{
+                    title }}</a>
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for p in pages %}
+                <a href="{{ SITEURL }}/{{ p.url }}"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-white/80 hover:bg-blue-700">{{
+                    p.title }}</a>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tier 2: Logo (Left) & Phrase (Right) -->
+    <div class="py-12 md:py-16 bg-python-blue dark:bg-slate-900">
+        <div
+            class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start md:justify-center gap-8 md:gap-12">
+            <a href="{{ SITEURL }}/" class="transition-transform duration-500 hover:scale-105 flex-shrink-0">
+                <img src="{{ SITEURL }}/theme/images/pythonchile_logo.png"
+                    class="h-24 sm:h-32 w-auto filter drop-shadow-lg" alt="Python Chile">
+            </a>
+            <div class="text-center md:text-left flex flex-col justify-center">
+                <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-2">
+                    {{ SITENAME }}
+                </h1>
+                <p class="text-lg sm:text-xl text-blue-100 dark:text-gray-400 max-w-2xl leading-relaxed italic">
+                    {{ SITESUBTITLE }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tier 3: Social Media Bar -->
+    <div class="bg-python-blue dark:bg-slate-900 border-b border-blue-700 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex flex-wrap justify-center items-center gap-6 sm:gap-12">
+                {% for name, d in REDES.items() %}
+                <a href="{{ d.url }}" target="_blank"
+                    class="text-white/80 hover:text-python-yellow transition-all duration-300 transform hover:scale-125 flex items-center gap-2"
+                    title="{{ d.alt }}">
+                    <i class="fab {{ d.icon }} fa-xl"></i>
+                    <span class="hidden lg:inline text-xs font-semibold tracking-wider uppercase">{{ d.alt }}</span>
+                </a>
+                {% endfor %}
+                <!-- Special Platform icons -->
+                <div class="h-6 w-px bg-white/20 mx-2 hidden sm:block"></div>
+                {% for name, d in PLATAFORMAS.items() %}
+                <a href="{{ d.url }}" target="_blank"
+                    class="text-white/80 hover:text-python-yellow transition-all duration-300 transform hover:scale-125 flex items-center gap-2"
+                    title="{{ d.alt }}">
+                    <i class="fab {{ d.icon }} fa-xl"></i>
+                    <span class="hidden lg:inline text-xs font-semibold tracking-wider uppercase">{{ d.alt }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</header>

@@ -39,11 +39,17 @@
 
 ## Información adicional
 
-* El tema que se utiliza actualmente, es un tema basado en el tema oficial
-  `simple`, pero utilizando componentes de bootstrap para poder mejorar el
-  diseño. Más información relacionada a la configuración del tema y como
-  modificarlo, en la
-  [documentación oficial](https://docs.getpelican.com/en/latest/themes.html).
-  El tema está ubicado en el directorio `pycltheme`.
+* El tema utilizado actualmente es **pycltheme2026**, una evolución moderna basada en Tailwind CSS que reemplaza la versión anterior de Bootstrap.
+* El tema se encuentra en el directorio `pycltheme2026`.
+
+### Gestión de Estilos (Tailwind CSS)
+
+El tema utiliza Tailwind CSS con un flujo de trabajo local basado en Node.js. Para realizar cambios en el diseño:
+
+1. Entra a la carpeta del tema: `cd pycltheme2026`
+2. Instala las dependencias: `npm install`
+3. Ejecuta el compilador en modo escucha: `npm run watch` (esto regenerará `static/css/tailwind.css` automáticamente).
+
+Para más detalles técnicos, consulta el [README del tema](pycltheme2026/README.md).
 
 

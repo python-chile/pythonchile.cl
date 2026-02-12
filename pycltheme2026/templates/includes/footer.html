@@ -1,0 +1,86 @@
+<footer class="bg-python-blue dark:bg-slate-950 border-t border-blue-700 dark:border-gray-800 mt-auto text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Branding -->
+            <div class="md:col-span-1">
+                <div class="flex items-center gap-2 mb-4">
+                    <img class="h-10 w-auto filter drop-shadow-sm transition-all duration-500"
+                        src="{{ SITEURL }}/theme/images/pythonchile_logo.png" alt="Python Chile Logo">
+                </div>
+                <p class="text-sm text-blue-100 dark:text-gray-400 mb-6 leading-relaxed">
+                    Comunidad de entusiastas de Python en Chile. Únete a nosotros para aprender, compartir y crecer
+                    juntos.
+                </p>
+                <!-- Social Icons -->
+                <div class="flex space-x-4">
+                    {% for name, d in REDES.items() %}
+                    <a href="{{ d.url }}" target="_blank"
+                        class="text-white/70 hover:text-python-yellow transition-colors">
+                        <span class="sr-only">{{ d.alt }}</span>
+                        <i class="fab {{ d.icon }} fa-lg"></i>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Navegación
+                </h3>
+                <ul class="space-y-3">
+                    <li><a href="{{ SITEURL }}/"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Inicio</a>
+                    </li>
+                    <li><a href="{{ SITEURL }}/archives.html"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Blog</a>
+                    </li>
+                    <li><a href="{{ SITEURL }}/pages/eventos.html"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Eventos</a>
+                    </li>
+                    <li><a href="{{ SITEURL }}/pages/grupos.html"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Grupos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Community -->
+            <div>
+                <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Comunidad
+                </h3>
+                <ul class="space-y-3">
+                    <li><a href="{{ SITEURL }}/pages/coordinacion.html"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Coordinación</a>
+                    </li>
+                    <li><a href="{{ SITEURL }}/pages/codigo-de-conducta.html"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Código
+                            de Conducta</a></li>
+                    <li><a href="https://discord.gg/dTHMfJvauS" target="_blank"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Discord</a>
+                    </li>
+                    <li><a href="https://t.me/pythonchile" target="_blank"
+                            class="text-base text-blue-100 hover:text-python-yellow transition-colors">Telegram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Newsletter / Contact (Placeholder) -->
+            <div>
+                <h3 class="text-sm font-semibold text-white tracking-wider uppercase mb-4">Contacto
+                </h3>
+                <p class="text-sm text-blue-100 dark:text-gray-400 mb-4">
+                    ¿Tienes dudas o sugerencias? Escríbenos.
+                </p>
+                <a href="mailto:contacto@pythonchile.cl"
+                    class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-python-blue bg-white hover:bg-python-yellow transition-colors shadow-sm w-full sm:w-auto">
+                    Contactar
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-blue-700/50 dark:border-gray-800">
+            <p class="text-base text-white/60 text-center">
+                &copy; {{ YEAR or 2026 }} Python Chile. Todos los derechos reservados. Hecho con ❤️ y 🐍.
+            </p>
+        </div>
+    </div>
+</footer>

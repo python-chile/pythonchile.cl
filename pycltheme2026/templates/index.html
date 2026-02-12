@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="max-w-6xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {% for article in articles_page.object_list %}
+    {% include 'includes/article_card.html' %}
+    {% endfor %}
+  </div>
+
+  <!-- Pagination -->
+  {% include 'includes/pagination.html' %}
+
+  <!-- Comunidades Amigas -->
+  {% include 'includes/communities.html' %}
+
+
+</section>
+{% endblock %}

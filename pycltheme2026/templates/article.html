@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+
+{% block extra_head %}
+{% if article.image %}
+<meta property="og:image" content="{{ SITEURL }}/images/{{ article.image }}">
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<article
+  class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden prose dark:prose-invert lg:prose-xl mx-auto px-6 py-8">
+
+  <header class="mb-8 border-b pb-4">
+    <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-2">{{ article.title }}</h1>
+    <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+      <span>Posted on {{ article.locale_date }} by <a href="{{ SITEURL }}/{{ article.author.url }}"
+          class="text-blue-500 hover:underline">{{ article.author
+          }}</a></span>
+      <span class="mx-2">•</span>
+      <a href="{{ SITEURL }}/{{ article.category.url }}" class="hover:text-python-blue dark:hover:text-python-yellow">{{
+        article.category }}</a>
+    </div>
+  </header>
+
+  {% if article.image %}
+  <img src="{{ SITEURL }}/images/{{ article.image }}" alt="{{ article.title }}"
+    class="w-full h-auto mb-8 rounded-lg shadow-md">
+  {% endif %}
+
+  <div class="article-content">
+    {{ article.content }}
+  </div>
+
+  <footer class="mt-8 pt-4 border-t border-gray-200 dark:border-gray-700">
+    {% if article.tags %}
+    <div class="flex flex-wrap gap-2 mb-4">
+      {% for tag in article.tags %}
+      <a href="{{ SITEURL }}/{{ tag.url }}"
+        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 transition-colors">#{{
+        tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Previous/Next Navigation -->
+    <div class="flex justify-between items-center text-sm font-medium text-gray-500 dark:text-gray-400">
+      {% if article.prev_article %}
+      <a href="{{ SITEURL }}/{{ article.prev_article.url }}"
+        class="hover:text-python-blue dark:hover:text-python-yellow">« {{ article.prev_article.title }}</a>
+      {% endif %}
+      {% if article.next_article %}
+      <a href="{{ SITEURL }}/{{ article.next_article.url }}"
+        class="ml-auto hover:text-python-blue dark:hover:text-python-yellow">{{ article.next_article.title }} »</a>
+      {% endif %}
+    </div>
+  </footer>
+
+</article>
+{% endblock %}
