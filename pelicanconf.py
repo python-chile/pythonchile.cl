@@ -38,6 +38,7 @@ MENUELEMENTS = {
         "children": None,
     },
     "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
+    "asociación": {"title": "Asociación", "url": "pages/asociacion.html", "children": None},
     "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
     "eventos": {
         "title": "Eventos",
