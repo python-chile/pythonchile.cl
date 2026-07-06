@@ -1,3 +1,4 @@
-pelican[markdown,images]
+pelican[markdown]
+pelican-image-process
 typogrify
 pillow
