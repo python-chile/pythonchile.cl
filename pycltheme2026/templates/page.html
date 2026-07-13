@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+    <div class="p-8 sm:p-10">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white mb-6 border-b pb-4">{{ page.title }}
+      </h1>
+
+      <div class="prose dark:prose-invert max-w-none">
+        {{ page.content }}
+      </div>
+
+      {% if page.title == 'Coordinación' %}
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 border-b pb-2">Integrantes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {% for nombre, datos in INTEGRANTES.items() %}
+          {% if datos['activo'] == "1" %}
+          <div
+            class="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center">
+            <img
+              class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white dark:border-gray-600 shadow-sm"
+              src="{{ SITEURL }}/images/{{ datos['img'] }}" alt="{{ nombre }}">
+            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-1">{{ nombre }}</h3>
+
+            <div class="flex justify-center space-x-3 mb-4 text-gray-500 dark:text-gray-400">
+              {% if datos['linkedin'] %}
+              <a href="https://linkedin.com/in/{{ datos['linkedin'] }}" target="_blank"
+                class="hover:text-python-blue transition-colors">
+                <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+              {% endif %}
+              {% if datos['github'] %}
+              <a href="https://github.com/{{ datos['github'] }}" target="_blank"
+                class="hover:text-gray-900 dark:hover:text-white transition-colors">
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              {% endif %}
+              {% if datos['twitter'] %}
+              <a href="https://x.com/{{ datos['twitter'] }}" target="_blank"
+                class="hover:text-blue-400 transition-colors">
+                <i class="fab fa-x-twitter fa-lg"></i>
+              </a>
+              {% endif %}
+            </div>
+
+            <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed italic">
+              {{ datos['descripcion'] }}
+            </p>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="mt-16">
+          <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4 border-b pb-2">Integrantes inactivos</h2>
+          <p class="text-gray-600 dark:text-gray-300 mb-8">
+            Estamos conscientes de que todo tiene un ciclo. Queremos expresar nuestro agradecimiento a
+            las personas que han participado activamente en la comunidad en el pasado. Les deseamos éxito
+            y prosperidad en sus trayectorias profesionales.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {% for nombre, datos in INTEGRANTES.items() %}
+            {% if datos['activo'] == "0" %}
+            <div
+              class="bg-gray-50 dark:bg-gray-700/30 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow text-center opacity-75 hover:opacity-100">
+              <img
+                class="w-20 h-20 rounded-full mx-auto mb-3 object-cover grayscale hover:grayscale-0 transition-all border-2 border-gray-200 dark:border-gray-600"
+                src="{{ SITEURL }}/images/{{ datos['img'] }}" alt="{{ nombre }}">
+              <h4 class="text-lg font-medium text-gray-800 dark:text-gray-200 mb-1">{{ nombre }}</h4>
+
+              <div class="flex justify-center space-x-2 mb-2 text-gray-400">
+                {% if datos['linkedin'] %}
+                <a href="https://linkedin.com/in/{{ datos['linkedin'] }}" target="_blank"
+                  class="hover:text-python-blue transition-colors text-sm">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                {% endif %}
+                {% if datos['github'] %}
+                <a href="https://github.com/{{ datos['github'] }}" target="_blank"
+                  class="hover:text-gray-900 dark:hover:text-white transition-colors text-sm">
+                  <i class="fab fa-github"></i>
+                </a>
+                {% endif %}
+                {% if datos['twitter'] %}
+                <a href="https://x.com/{{ datos['twitter'] }}" target="_blank"
+                  class="hover:text-blue-400 transition-colors text-sm">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+                {% endif %}
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+{% endblock %}

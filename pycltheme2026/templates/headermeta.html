@@ -1,0 +1,149 @@
+{% block headermeta %}
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}" class="scroll-smooth">
+
+<head>
+        {% block head %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+        <!-- Meta -->
+        {% if article %}
+        <meta name="description" content="{{ article.summary|striptags|truncate(160) }}" />
+        {% elif page %}
+        <meta name="description" content="{{ page.summary|striptags|truncate(160) }}" />
+        {% else %}
+        <meta name="description" content="{{ SITESUBTITLE }}" />
+        {% endif %}
+
+        <meta name="author" content="{{ AUTHOR }}" />
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="{{ SITENAME }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{% block og_title %}{{ SITENAME }}{% endblock %}" />
+        <meta property="og:description" content="{% block og_description %}{{ SITESUBTITLE }}{% endblock %}" />
+        <meta property="og:url" content="{{ SITEURL }}" />
+        <meta property="og:image" content="{{ SITEURL }}/theme/images/pythonchile_logo.png" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon.png" />
+
+        <!-- Tailwind CSS -->
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/tailwind.css">
+
+
+        <!-- Dark Mode Script -->
+        <script>
+                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                        document.documentElement.classList.add('dark')
+                } else {
+                        document.documentElement.classList.remove('dark')
+                }
+        </script>
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap"
+                rel="stylesheet">
+
+        <!-- Pygments Syntax Highlighting -->
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygment.css" />
+
+        <!-- Feeds -->
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
+                type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
+                type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113857044-3"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-113857044-1');
+        </script>
+
+        <!-- Custom CSS -->
+        <style>
+                /* CustomScrollbar */
+                ::-webkit-scrollbar {
+                        width: 8px;
+                }
+
+                ::-webkit-scrollbar-track {
+                        background: #f1f1f1;
+                }
+
+                .dark ::-webkit-scrollbar-track {
+                        background: #2d3748;
+                }
+
+                ::-webkit-scrollbar-thumb {
+                        background: #888;
+                        border-radius: 4px;
+                }
+
+                ::-webkit-scrollbar-thumb:hover {
+                        background: #555;
+                }
+
+                /* Fix for Pygments within Tailwind Typography */
+                .prose pre {
+                        background-color: transparent !important;
+                        padding: 0 !important;
+                        margin: 0 !important;
+                        white-space: pre;
+                        overflow-x: auto;
+                }
+
+                .highlight {
+                        background-color: #f0f3f3;
+                        /* Match Pygments light theme bg */
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+                        overflow-x: auto;
+                        margin-bottom: 1.5rem;
+                        border: 1px solid #e5e7eb;
+                }
+
+                .dark .highlight {
+                        border-color: #374151;
+                        /* For now keep light theme since Pygments CSS is static light */
+                        /* To support dark mode properly, we'd need to swap CSS or override all colors */
+                }
+
+                /* Ensure code text color matches Pygments */
+                .prose code {
+                        color: inherit;
+                        background-color: transparent;
+                        font-weight: inherit;
+                }
+
+                .prose code::before {
+                        content: "" !important;
+                }
+
+                .prose code::after {
+                        content: "" !important;
+                }
+        </style>
+
+        {% block extra_head %}{% endblock %}
+        {% endblock head %}
+</head>
+{% endblock headermeta %}

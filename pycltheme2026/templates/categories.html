@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Categorías - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="max-w-4xl mx-auto">
+    <div class="mb-12 border-b pb-6">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Categorías</h1>
+        <p class="text-gray-500 dark:text-gray-400 mt-2">Explora nuestro contenido organizado por temas de interés.</p>
+    </div>
+
+    <div class="flex flex-wrap gap-4">
+        {% for category, articles in categories|sort %}
+        <a href="{{ SITEURL }}/{{ category.url }}"
+            class="group px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-python-blue transition-all duration-300 flex items-center space-x-3">
+            <span class="w-3 h-3 rounded-full bg-python-blue group-hover:scale-125 transition-transform"></span>
+            <span
+                class="text-lg font-semibold text-gray-800 dark:text-gray-200 group-hover:text-python-blue transition-colors">{{
+                category }}</span>
+            <span class="text-sm text-gray-500 bg-gray-100 dark:bg-gray-700 px-2 py-0.5 rounded-full">{{ articles|count
+                }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
