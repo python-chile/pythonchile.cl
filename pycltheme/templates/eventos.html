@@ -1,0 +1,75 @@
+{% extends "base-index.html" %}
+
+{% block content %}
+<section id="eventos">
+  {%if 1%}
+    <h1>Próximos eventos</h1>
+      <div class="lista-eventos">
+        {% for event in UPCOMING_EVENTS %}
+          {% include 'evento.html' %}
+        {% endfor %}
+      </div>
+  {% endif %}
+  <h1>Eventos pasados</h1>
+    <div id="events-charts">
+      <div>
+        <h6>Eventos</h6>
+        <div id="events-count-chart"/>
+        <div id="events-count-legend"/>
+      </div>
+      <div>
+        <h6>Sesiones</h6>
+        <div id="sessions-count-chart"/>
+        <div id="sessions-count-legend"/>
+      </div>
+      <div>
+        <h6>Asistentes</h6>
+        <div id="attendees-count-chart"/>
+      </div>
+    </div>
+    <div id="filter-events">
+      <p>Ciudades:</p>
+      {%for city in CITIES%}
+        <button id="etiqueta-ciudad-{{city}}" onclick="filterByCity('{{city}}')">
+          {{city}}
+        </button>
+      {%endfor%}
+      <button id="etiqueta-ciudad-all" onclick="filterByCity('all')" style="background:lightblue;">
+        Todas
+      </button>
+      <p>Tipo evento:</p>
+      {%for event_type in EVENTS_TYPES%}
+        <button id="etiqueta-tipo-{{event_type}}" onclick="filterByType('{{event_type}}')">
+          {{event_type}}
+        </button>
+      {%endfor%}
+      <button id="etiqueta-tipo-all" onclick="filterByType('all')" style="background:lightblue;">
+        Todas
+      </button>
+    </div>
+    <div id="past-events">
+      {% for year, events in PAST_EVENTS.items() %}
+        <div>
+          <h5>
+            {{ year }}
+            <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">-</span>
+          </h5>
+          <div id="eventos-{{year}}" class="lista-eventos">
+          {% for event in events %}
+            {% include 'evento.html' %}
+          {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{{ SITEURL }}/theme/js/eventos.js"/>
+<script>
+  const eventsCounts = {{EVENTS_COUNTS}}
+  const sessionsCounts = {{SESSIONS_COUNTS}}
+  const attendeesCounts = {{ATTENDEES_COUNTS}}
+  const years = {{YEARS}}
+</script>
+<script src="{{ SITEURL }}/theme/js/eventos-charts.js"/>
+{% endblock content %}

@@ -4,6 +4,16 @@ import os
 import sys
 sys.path.append(".")
 from integrantes import INTEGRANTES
+from objects.events import (
+    PAST_EVENTS,
+    UPCOMING_EVENTS,
+    CITIES,
+    YEARS,
+    EVENTS_TYPES,
+    EVENTS_COUNTS,
+    SESSIONS_COUNTS,
+    ATTENDEES_COUNTS
+    )
 
 AUTHOR = "Python Chile"
 SITENAME = "Comunidad Chilena de Python"
@@ -37,12 +47,17 @@ MENUELEMENTS = {
         "url": "pages/codigo-de-conducta.html",
         "children": None,
     },
-    "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
-    "asociación": {"title": "Asociación", "url": "pages/asociacion.html", "children": None},
+    "organización": {
+        "title": "Organización",
+        "children": {
+            "corporación": {"title": "Corporación", "url": "pages/corporacion.html"},
+            "coordinación": {"title": "Coordinación", "url": "pages/coordinacion.html"},
+        }
+    },
     "grupos": {"title": "Grupos", "url": "pages/grupos.html"},
     "eventos": {
         "title": "Eventos",
-        "url": "pages/eventos.html",
+        "url": "eventos.html",
         "children": None,
     },
     "recursos": {
@@ -130,6 +145,13 @@ IMAGE_PROCESS = {
 }
 
 DEFAULT_PAGINATION = 6
+
+# Source - https://stackoverflow.com/a/53474144
+# Posted by Sébastien Lavoie, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-08-13, License - CC BY-SA 4.0
+
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'eventos']
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
