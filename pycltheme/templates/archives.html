@@ -5,10 +5,13 @@
 {% block content %}
 <h1 class="pb-5">Entradas del Blog</h1>
 
-    <div class="row">
-      {% for article in dates%}
-        {% include 'card-page.html' %}
-      {% endfor %}
-    </div>
+<div class="row">
+  {% for article in articles_page.object_list %}
+  {% include 'card-page.html' %}
+  {% endfor %}
+</div>
+{% if articles_page.has_other_pages() %}
+{% include 'pagination.html' %}
+{% endif %}
 
 {% endblock %}

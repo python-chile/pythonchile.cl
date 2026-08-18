@@ -3,13 +3,13 @@
 {% set last_page = articles_paginator.page(articles_paginator.num_pages) %}
 <p class="paginator">
     {% if articles_page.has_previous() %}
-        <a href="{{ SITEURL }}/{{ first_page.url }}">&#8647;</a>
-        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo;</a>
+    <a href="{{ SITEURL }}/{{ first_page.url }}">Inicio</a>
+    <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo;</a>
     {% endif %}
     Página {{ articles_page.number }} / {{ articles_paginator.num_pages }}
     {% if articles_page.has_next() %}
-        <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&raquo;</a>
-        <a href="{{ SITEURL }}/{{ last_page.url }}">&#8649;</a>
+    <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&raquo;</a>
+    <a href="{{ SITEURL }}/{{ last_page.url }}">Final</a>
     {% endif %}
 </p>
 {% endif %}
