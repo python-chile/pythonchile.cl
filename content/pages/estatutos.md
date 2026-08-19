@@ -7,7 +7,7 @@ los estatutos originales de la constitución de la asociación, otorgados el 29
 de julio de 2022.
 
 Para más información sobre la asociación, visita la página de
-[Asociación]({filename}/pages/asociacion.md).
+[Corporación]({filename}/pages/corporacion.md).
 
 ## Título I: Del nombre, domicilio, objeto, duración
 

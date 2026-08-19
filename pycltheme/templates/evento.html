@@ -1,0 +1,37 @@
+<div 
+    class="evento"
+    data-city='{{event.city}}'
+    data-type='{{event.type}}'
+>
+    <h6>{{ event.type }} {{ event.track }}</h6>
+    <p>{{ event.date }}</p>
+    <p>{{ event.city }}</p>
+
+    <ul>
+        {% if event.youtube %}
+            <li>
+                <a href="https://www.youtube.com/watch?v={{event.youtube}}" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                {{ event.viewers }} viewers
+            </li>
+        {% endif %}
+        {% if event.meetup %}
+            <li>
+                <a href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">
+                    <i class="fab fa-meetup"></i>
+                </a>
+            </li>
+        {% endif %}
+        {% if event.attendees %}
+            <li>{{ event.attendees }} asistente{% if event.attendees > 1 %}s{% endif %}</li>
+        {% endif %}
+        {% if event.talks %}
+            <li>{{ event.talks }} charla{% if event.talks > 1 %}s{% endif %}</li>
+        {% endif %}
+        {% if event.workshops %}
+            <li>{{ event.workshops }} taller{% if event.workshops > 1 %}es{% endif %}</li>
+        {% endif %}
+    </ul>
+
+</div>

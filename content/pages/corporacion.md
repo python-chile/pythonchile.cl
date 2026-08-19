@@ -1,4 +1,4 @@
-Title: Asociación
+Title: Corporación
 Date: 2026-07-04 10:00
 
 La **Asociación Python Software Chile** es la entidad legal que respalda a la
