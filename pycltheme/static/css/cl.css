@@ -567,6 +567,7 @@ ul.navbar-nav {
 .lista-eventos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .evento {
   border: solid 1px black;

@@ -59,4 +59,4 @@ for year, items in sessions_counts.items():
     for label, count in items.items():
         SESSIONS_COUNTS.append({'year': year, 'label': label, 'count': count})
 ATTENDEES_COUNTS = [{'year': year, 'label': 'asistentes', 'count': count} for year, count in attendees_counts.items()]
-
+CURRENT_YEAR = date.today().year

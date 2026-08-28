@@ -9,6 +9,7 @@ from objects.events import (
     UPCOMING_EVENTS,
     CITIES,
     YEARS,
+    CURRENT_YEAR,
     EVENTS_TYPES,
     EVENTS_COUNTS,
     SESSIONS_COUNTS,

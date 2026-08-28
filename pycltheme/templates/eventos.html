@@ -54,7 +54,11 @@
             {{ year }}
             <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">-</span>
           </h5>
-          <div id="eventos-{{year}}" class="lista-eventos">
+          <div
+            id="eventos-{{year}}"
+            class="lista-eventos"
+            style="display: {% if year == CURRENT_YEAR %}flex{% else %}none{% endif %};"
+          >
           {% for event in events %}
             {% include 'evento.html' %}
           {% endfor %}
