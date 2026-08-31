@@ -2,7 +2,7 @@
     <div class="evento-destacado-badge">Próximo evento</div>
     <h4 class="evento-destacado-titulo">{{ event.type }} {{ event.track }}</h4>
     <div class="evento-destacado-info">
-        <span><i class="far fa-calendar-alt"></i> {{ event.date }}</span>
+        <span><i class="far fa-calendar-alt"></i> {{ event.date_display }}</span>
         {% if event.city %}
             <span><i class="fas fa-map-marker-alt"></i> {{ event.city }}</span>
         {% endif %}

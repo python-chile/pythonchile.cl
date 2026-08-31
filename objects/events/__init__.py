@@ -16,14 +16,51 @@ EVENTS = [
     *EVENTS_2025,
     *EVENTS_2026
 ]
+MESES = [
+    '', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
+]
+
+TYPE_SLUGS = {
+    'Meetup': 'meetup',
+    'PyCon Chile': 'pycon',
+    'PyDay': 'pyday',
+    'Hackaton': 'hackaton',
+}
+
 for event in EVENTS:
     if 'city' not in event:
         event['city'] = 'Online'
+    event_date = event['date']
+    event['date_display'] = '{} de {} de {}'.format(
+        event_date.day, MESES[event_date.month], event_date.year
+    )
+    event['type_slug'] = TYPE_SLUGS.get(event['type'], 'otro')
 
 today = date.today()
-EVENTS_TYPES = list({event.get('type') for event in EVENTS})
-CITIES = list({event.get('city') for event in EVENTS})
-YEARS = list({event.get('date').year for event in EVENTS})
+
+
+def _unique_ordered(values):
+    """Devuelve los valores unicos preservando el orden de aparicion."""
+    seen = set()
+    result = []
+    for value in values:
+        if value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
+
+
+# Orden preferido para los tipos de evento (de mayor a menor escala).
+# Los tipos no listados aqui se agregan al final en orden de aparicion.
+TYPE_ORDER = ['PyCon Chile', 'PyDay', 'Meetup', 'Hackaton']
+_present_types = _unique_ordered(event.get('type') for event in EVENTS)
+EVENTS_TYPES = (
+    [t for t in TYPE_ORDER if t in _present_types]
+    + [t for t in _present_types if t not in TYPE_ORDER]
+)
+CITIES = _unique_ordered(event.get('city') for event in EVENTS)
+YEARS = sorted({event.get('date').year for event in EVENTS})
 UPCOMING_EVENTS = [event for event in EVENTS if event['date'] >= today]
 PAST_EVENTS = {}
 for event in reversed(EVENTS):
