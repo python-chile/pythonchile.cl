@@ -49,7 +49,7 @@
     </div>
     <div id="past-events">
       {% for year, events in PAST_EVENTS.items() %}
-        <div>
+        <div class="year-block" id="year-{{year}}">
           <h5>
             {{ year }}
             <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">{% if year == CURRENT_YEAR %}-{% else %}+{% endif %}</span>
