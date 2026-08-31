@@ -61,7 +61,10 @@ EVENTS_TYPES = (
 )
 CITIES = _unique_ordered(event.get('city') for event in EVENTS)
 YEARS = sorted({event.get('date').year for event in EVENTS})
-UPCOMING_EVENTS = [event for event in EVENTS if event['date'] >= today]
+UPCOMING_EVENTS = sorted(
+    [event for event in EVENTS if event['date'] >= today],
+    key=lambda e: e['date']
+)
 PAST_EVENTS = {}
 for event in reversed(EVENTS):
     if event['date'] >= today:
@@ -97,3 +100,12 @@ for year, items in sessions_counts.items():
         SESSIONS_COUNTS.append({'year': year, 'label': label, 'count': count})
 ATTENDEES_COUNTS = [{'year': year, 'label': 'asistentes', 'count': count} for year, count in attendees_counts.items()]
 CURRENT_YEAR = date.today().year
+
+# Estadisticas de impacto (se calculan solas a partir de los eventos).
+STATS = {
+    'eventos': len(EVENTS),
+    'charlas': sum(e.get('talks', 0) for e in EVENTS),
+    'talleres': sum(e.get('workshops', 0) for e in EVENTS),
+    'viewers': sum(e.get('viewers', 0) for e in EVENTS),
+    'ciudades': len({e.get('city') for e in EVENTS if e.get('city') and e['city'] != 'Online'}),
+}

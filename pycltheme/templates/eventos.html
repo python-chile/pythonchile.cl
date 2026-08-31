@@ -2,15 +2,80 @@
 
 {% block content %}
 <section id="eventos">
+
+  <!-- Introducción -->
+  <div class="eventos-intro">
+    <h1>Eventos</h1>
+    <p>
+      A lo largo del país organizamos distintas instancias para aprender y
+      compartir en torno a Python. Filtra por ciudad o tipo de evento, o revisa
+      las grabaciones de nuestras actividades anteriores.
+    </p>
+
+    <div class="eventos-stats">
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.eventos }}</span>
+        <span class="ev-stat-label">Eventos</span>
+      </div>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.charlas }}</span>
+        <span class="ev-stat-label">Charlas</span>
+      </div>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.talleres }}</span>
+        <span class="ev-stat-label">Talleres</span>
+      </div>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ '{:,}'.format(STATS.viewers).replace(',', '.') }}</span>
+        <span class="ev-stat-label">Visualizaciones</span>
+      </div>
+    </div>
+
+    <div class="tipos-evento">
+      <div class="tipo-evento-item">
+        <h5>Meetups</h5>
+        <p>Encuentros mensuales, presenciales y online, con charlas y talleres para todos los niveles.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PyDay</h5>
+        <p>Jornadas regionales de un día para acercar Python a nuevas ciudades y personas.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PyCon Chile</h5>
+        <p>La conferencia nacional de Python: días de charlas, talleres y comunidad.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PySchool</h5>
+        <p>Iniciativa educativa que acerca Python a estudiantes, con material abierto en <a href="https://pyschool.cl" target="_blank">pyschool.cl</a>.</p>
+      </div>
+    </div>
+
+    <p class="eventos-cta">
+      Siempre estamos buscando nuevos temas de charlas o talleres. ¿Te gustaría
+      dar una charla o facilitar un espacio para un meetup? Escríbenos a
+      <a href="mailto:meetup@pythonchile.cl">meetup@pythonchile.cl</a> o únete a
+      nuestro <a href="https://meetup.com/es/pythonchile" target="_blank">grupo de Meetup</a>.
+    </p>
+  </div>
+
   {% if UPCOMING_EVENTS %}
     <h1>Próximos eventos</h1>
-      <div class="lista-eventos">
-        {% for event in UPCOMING_EVENTS %}
-          {% include 'evento.html' %}
+      {# El primer evento (más cercano) se muestra destacado #}
+      <div class="lista-proximos">
+        {% with event = UPCOMING_EVENTS[0] %}
+          {% include 'evento-proximo.html' %}
+        {% endwith %}
+      </div>
+      {# El resto de próximos eventos, en cards compactos #}
+      {% if UPCOMING_EVENTS|length > 1 %}
+      <div class="lista-proximos-compactos">
+        {% for event in UPCOMING_EVENTS[1:] %}
+          {% include 'evento-proximo-compacto.html' %}
         {% endfor %}
       </div>
+      {% endif %}
   {% endif %}
-  <h1>Eventos pasados</h1>
+  <h1 id="eventos-pasados">Eventos pasados</h1>
     <div id="events-charts">
       <div class="chart-box">
         <h6>Eventos</h6>
