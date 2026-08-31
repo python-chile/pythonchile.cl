@@ -558,4 +558,30 @@ ul.navbar-nav {
   max-height: 75vh;
   object-fit: cover;
 }
-
+#eventos {
+  text-align: center;
+}
+#eventos ul {
+  text-align: left;
+}
+.lista-eventos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.evento {
+  border: solid 1px black;
+  margin: 4px;
+  width: 256px;
+}
+.evento p {
+  margin: 0px;
+}
+.etiqueta-eventos {
+  cursor: pointer;
+}
+#events-charts {
+  display: flex;
+  margin: 0 8px;
+  flex-wrap: balance;
+}
