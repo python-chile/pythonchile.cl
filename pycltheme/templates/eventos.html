@@ -2,7 +2,7 @@
 
 {% block content %}
 <section id="eventos">
-  {%if 1%}
+  {% if UPCOMING_EVENTS %}
     <h1>Próximos eventos</h1>
       <div class="lista-eventos">
         {% for event in UPCOMING_EVENTS %}
@@ -12,19 +12,19 @@
   {% endif %}
   <h1>Eventos pasados</h1>
     <div id="events-charts">
-      <div>
+      <div class="chart-box">
         <h6>Eventos</h6>
-        <div id="events-count-chart"/>
-        <div id="events-count-legend"/>
+        <div id="events-count-chart"></div>
+        <div id="events-count-legend"></div>
       </div>
-      <div>
+      <div class="chart-box">
         <h6>Sesiones</h6>
-        <div id="sessions-count-chart"/>
-        <div id="sessions-count-legend"/>
+        <div id="sessions-count-chart"></div>
+        <div id="sessions-count-legend"></div>
       </div>
-      <div>
+      <div class="chart-box">
         <h6>Asistentes</h6>
-        <div id="attendees-count-chart"/>
+        <div id="attendees-count-chart"></div>
       </div>
     </div>
     <div id="filter-events">
@@ -52,7 +52,7 @@
         <div>
           <h5>
             {{ year }}
-            <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">-</span>
+            <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">{% if year == CURRENT_YEAR %}-{% else %}+{% endif %}</span>
           </h5>
           <div
             id="eventos-{{year}}"
@@ -68,12 +68,12 @@
     </div>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="{{ SITEURL }}/theme/js/eventos.js"/>
+<script src="{{ SITEURL }}/theme/js/eventos.js"></script>
 <script>
   const eventsCounts = {{EVENTS_COUNTS}}
   const sessionsCounts = {{SESSIONS_COUNTS}}
   const attendeesCounts = {{ATTENDEES_COUNTS}}
   const years = {{YEARS}}
 </script>
-<script src="{{ SITEURL }}/theme/js/eventos-charts.js"/>
+<script src="{{ SITEURL }}/theme/js/eventos-charts.js"></script>
 {% endblock content %}

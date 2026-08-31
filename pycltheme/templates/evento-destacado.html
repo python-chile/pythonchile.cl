@@ -1,0 +1,33 @@
+<div class="evento-destacado">
+    <div class="evento-destacado-badge">Próximo evento</div>
+    <h4 class="evento-destacado-titulo">{{ event.type }} {{ event.track }}</h4>
+    <div class="evento-destacado-info">
+        <span><i class="far fa-calendar-alt"></i> {{ event.date }}</span>
+        {% if event.city %}
+            <span><i class="fas fa-map-marker-alt"></i> {{ event.city }}</span>
+        {% endif %}
+    </div>
+    <ul class="evento-destacado-detalles">
+        {% if event.talks %}
+            <li><strong>{{ event.talks }}</strong> charla{% if event.talks > 1 %}s{% endif %}</li>
+        {% endif %}
+        {% if event.workshops %}
+            <li><strong>{{ event.workshops }}</strong> taller{% if event.workshops > 1 %}es{% endif %}</li>
+        {% endif %}
+        {% if event.attendees %}
+            <li><strong>{{ event.attendees }}</strong> asistente{% if event.attendees > 1 %}s{% endif %}</li>
+        {% endif %}
+    </ul>
+    <div class="evento-destacado-acciones">
+        {% if event.meetup %}
+            <a class="btn-evento" href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">
+                <i class="fab fa-meetup"></i> Inscríbete
+            </a>
+        {% endif %}
+        {% if event.youtube %}
+            <a class="btn-evento btn-evento-yt" href="https://www.youtube.com/watch?v={{event.youtube}}" target="_blank">
+                <i class="fab fa-youtube"></i> Ver en vivo
+            </a>
+        {% endif %}
+    </div>
+</div>

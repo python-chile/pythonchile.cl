@@ -9,13 +9,10 @@
     {% block content_title %}
     {% endblock %}
     {% for event in UPCOMING_EVENTS[:1] %}
-      <div class="row flex-column-reverse flex-md-row">
-        <div class="col-4 col-12">
-          <h3 class="text-center titulo-bold">PRÓXIMO EVENTO</h3>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
           <div class="text-center" style="margin-bottom:32px;">
-            <div style="display:inline-block;">
-              {% include 'evento.html' %}
-            </div>
+            {% include 'evento-destacado.html' %}
           </div>
         </div>
       </div>

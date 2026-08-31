@@ -20,7 +20,6 @@ function filter(){
 }
 
 function filterByCity(city){
-    console.log(`etiqueta-city-${cityFilter}`)
     document.getElementById(`etiqueta-ciudad-${cityFilter}`).style.background = 'white';
     document.getElementById(`etiqueta-ciudad-${city}`).style.background = 'lightblue';
     cityFilter = city;

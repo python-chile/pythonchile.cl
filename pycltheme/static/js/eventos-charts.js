@@ -29,7 +29,9 @@ function legend(color, {
       .attr("height", height)
       .attr("viewBox", [0, 0, width, height])
       .style("overflow", "visible")
-      .style("display", "block");
+      .style("display", "block")
+      .style("max-width", "100%")
+      .style("height", "auto");
 
   let tickAdjust = g => g.selectAll(".tick line").attr("y1", marginTop + marginBottom - height);
   let x;
@@ -148,10 +150,10 @@ function legend(color, {
 function plot(containerTag, data){
     const width = 300;
     const height = 200;
-    const marginTop = 0;
+    const marginTop = 10;
     const marginRight = 16;
-    const marginBottom = 16;
-    const marginLeft = 16;
+    const marginBottom = 20;
+    const marginLeft = 32;
 
     const series = d3.stack()
       .keys(d3.union(data.map(d => d.label)))
