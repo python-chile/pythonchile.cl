@@ -1,37 +1,53 @@
-<div 
-    class="evento"
+<div
+    class="evento tipo-{{ event.type_slug }}"
     data-city='{{event.city}}'
     data-type='{{event.type}}'
 >
-    <h6>{{ event.type }} {{ event.track }}</h6>
-    <p>{{ event.date }}</p>
-    <p>{{ event.city }}</p>
-
-    <ul>
+    <div class="evento-thumb">
+        <!-- Caso principal: Tiene YouTube (usa la miniatura automática) -->
         {% if event.youtube %}
-            <li>
-                <a href="https://www.youtube.com/watch?v={{event.youtube}}" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                {{ event.viewers }} viewers
-            </li>
+            <a href="https://www.youtube.com/watch?v={{event.youtube}}" target="_blank" aria-label="Ver en YouTube">
+                <img loading="lazy" src="https://img.youtube.com/vi/{{event.youtube}}/hqdefault.jpg" alt="{{ event.type }} {{ event.track }}" />
+                <span class="evento-thumb-play"><i class="fab fa-youtube"></i></span>
+            </a>
+        {% elif event.image %}
+        <!-- Caso secundario: No tiene YouTube, pero sí una imagen personalizada -->
+        <img loading="lazy" src="/{{ event.image }}" alt="{{ event.type }} {{ event.track }}" />
+        {% else %}
+            <div class="evento-thumb-placeholder">
+                <i class="fab fa-python"></i>
+            </div>
         {% endif %}
-        {% if event.meetup %}
-            <li>
-                <a href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">
-                    <i class="fab fa-meetup"></i>
-                </a>
-            </li>
-        {% endif %}
-        {% if event.attendees %}
-            <li>{{ event.attendees }} asistente{% if event.attendees > 1 %}s{% endif %}</li>
-        {% endif %}
-        {% if event.talks %}
-            <li>{{ event.talks }} charla{% if event.talks > 1 %}s{% endif %}</li>
-        {% endif %}
-        {% if event.workshops %}
-            <li>{{ event.workshops }} taller{% if event.workshops > 1 %}es{% endif %}</li>
-        {% endif %}
-    </ul>
+    </div>
 
+    <div class="evento-body">
+        <span class="evento-badge">{{ event.type }}</span>
+        <h6>{{ event.track }}</h6>
+        <p class="evento-fecha"><i class="far fa-calendar-alt"></i> {{ event.date_display }}</p>
+        {% if event.city %}
+            <p class="evento-ciudad"><i class="fas fa-map-marker-alt"></i> {{ event.city }}</p>
+        {% endif %}
+
+        <ul>
+            {% if event.youtube %}
+                <li><i class="fab fa-youtube"></i> {{ event.viewers }} viewers</li>
+            {% endif %}
+            {% if event.meetup %}
+                <li>
+                    <a href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">
+                        <i class="fab fa-meetup"></i> Meetup
+                    </a>
+                </li>
+            {% endif %}
+            {% if event.attendees %}
+                <li>{{ event.attendees }} asistente{% if event.attendees > 1 %}s{% endif %}</li>
+            {% endif %}
+            {% if event.talks %}
+                <li>{{ event.talks }} charla{% if event.talks > 1 %}s{% endif %}</li>
+            {% endif %}
+            {% if event.workshops %}
+                <li>{{ event.workshops }} taller{% if event.workshops > 1 %}es{% endif %}</li>
+            {% endif %}
+        </ul>
+    </div>
 </div>
