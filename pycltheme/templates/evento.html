@@ -4,11 +4,15 @@
     data-type='{{event.type}}'
 >
     <div class="evento-thumb">
+        <!-- Caso principal: Tiene YouTube (usa la miniatura automática) -->
         {% if event.youtube %}
             <a href="https://www.youtube.com/watch?v={{event.youtube}}" target="_blank" aria-label="Ver en YouTube">
                 <img loading="lazy" src="https://img.youtube.com/vi/{{event.youtube}}/hqdefault.jpg" alt="{{ event.type }} {{ event.track }}" />
                 <span class="evento-thumb-play"><i class="fab fa-youtube"></i></span>
             </a>
+        {% elif event.image %}
+        <!-- Caso secundario: No tiene YouTube, pero sí una imagen personalizada -->
+        <img loading="lazy" src="/{{ event.image }}" alt="{{ event.type }} {{ event.track }}" />
         {% else %}
             <div class="evento-thumb-placeholder">
                 <i class="fab fa-python"></i>
