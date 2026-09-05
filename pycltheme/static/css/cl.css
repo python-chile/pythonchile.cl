@@ -100,10 +100,24 @@ a:hover {
     p {
         font-size: 1em;
     }
-    #custom-nav {
-        background-color: rgba(0,0,0,0);
+    .cabecera-index, .cabecera {
+        padding: 0px !important; 
+        height: auto !important;
+        min-height: 0 !important;
+        padding-bottom: 16px; 
     }
-
+   #custom-nav .navbar-collapse.show {
+        background-color: var(--color-background-dark) !important; 
+        padding: 0px !important;       
+        margin: 0px !important;      
+        border-radius: 0px !important; 
+        box-shadow: none !important;  
+    }
+    
+    #custom-nav .navbar-nav {
+        padding: 12px 16px !important;
+        margin: 0px !important;
+    }
 }
 
 
