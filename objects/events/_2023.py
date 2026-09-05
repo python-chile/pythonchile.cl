@@ -96,7 +96,8 @@ EVENTS = [
         'track': 'EY',
         'date': date(2023, 7, 1),
         'city': 'Santiago',
-        'challenges': 1
+        'challenges': 1,
+        'image': 'images/2023-07-hackaton-ey.webp'
     },
     {
         'type': 'Meetup',
@@ -122,7 +123,9 @@ EVENTS = [
         'track': 'Noviembre 2023',
         'date': date(2023, 11, 9),
         'talks': 1,
-        'meetup': 297124086
+        'meetup': 297124086,
+        'image': 'images/meetup/2023-11-meetup.webp'
+
     },
     {
         'type': 'PyCon Chile',

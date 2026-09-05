@@ -2,31 +2,114 @@
 
 {% block content %}
 <section id="eventos">
-  {%if 1%}
-    <h1>Próximos eventos</h1>
-      <div class="lista-eventos">
-        {% for event in UPCOMING_EVENTS %}
-          {% include 'evento.html' %}
-        {% endfor %}
+
+  <!-- Introducción -->
+  <div class="eventos-intro">
+    <h1>Eventos</h1>
+    <p>
+      A lo largo del país organizamos distintas actividades para aprender y
+      compartir en torno a Python. 
+      Conoce nuestros formatos, revisa nuestros próximos eventos y explora nuestro historial por ciudad y tipo de evento.
+    </p>
+
+    <div class="eventos-stats">
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.eventos }}</span>
+        <span class="ev-stat-label">Eventos</span>
       </div>
-  {% endif %}
-  <h1>Eventos pasados</h1>
-    <div id="events-charts">
-      <div>
-        <h6>Eventos</h6>
-        <div id="events-count-chart"/>
-        <div id="events-count-legend"/>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.charlas }}</span>
+        <span class="ev-stat-label">Charlas</span>
       </div>
-      <div>
-        <h6>Sesiones</h6>
-        <div id="sessions-count-chart"/>
-        <div id="sessions-count-legend"/>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{ STATS.talleres }}</span>
+        <span class="ev-stat-label">Talleres</span>
       </div>
-      <div>
-        <h6>Asistentes</h6>
-        <div id="attendees-count-chart"/>
+      <div class="ev-stat">
+        <span class="ev-stat-num">+{{  (STATS.viewers | round(-3) // 1000) | int }}K</span>
+        <span class="ev-stat-label">Visualizaciones</span>
       </div>
     </div>
+
+    <!-- BOTONES DE ACCESO RÁPIDO (Llevan al usuario directo a los filtros e historial) -->
+    <div class="eventos-nav-rapida" style="margin: 25px 0 35px 0; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <!-- CORREGIDO: Apunta a #filter-events para dejar al usuario encima de los botones de ciudades -->
+      <a href="#filter-events" class="btn-proximo btn-proximo-ghost" style="padding: 8px 16px; font-size: 0.9rem; text-decoration: none;">
+        <i class="fas fa-filter"></i> Explorar eventos pasados
+      </a>
+      <a href="#eventos-analiticas" class="btn-proximo btn-proximo-ghost" style="padding: 8px 16px; font-size: 0.9rem; text-decoration: none;">
+        <i class="fas fa-chart-bar"></i> Ver Estadísticas Históricas
+      </a>
+    </div>
+
+    <div class="tipos-evento">
+      <h4>Nuestros formatos</h4>
+      <div class="tipo-evento-item">
+        <h5>Meetups</h5>
+        <p>Encuentros mensuales, presenciales y online, con charlas y talleres para todos los niveles.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PyDay</h5>
+        <p>Jornadas regionales de un día para acercar Python a nuevas ciudades y personas.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PyCon Chile</h5>
+        <p>La conferencia nacional de Python: días de charlas, talleres y comunidad.</p>
+      </div>
+      <div class="tipo-evento-item">
+        <h5>PySchool</h5>
+        <p>Iniciativa educativa que acerca Python a estudiantes, con material abierto en <a href="https://pyschool.cl" target="_blank">pyschool.cl</a>.</p>
+      </div>
+    </div>
+
+    <p class="eventos-cta">
+      Siempre estamos buscando nuevos temas de charlas o talleres. ¿Te gustaría
+      dar una charla o facilitar un espacio para un meetup? Escríbenos a
+      <a href="mailto:meetup@pythonchile.cl">meetup@pythonchile.cl</a> o únete a
+      nuestro <a href="https://meetup.com/es/pythonchile" target="_blank">grupo de Meetup</a>.
+    </p>
+    <p class="eventos-cta">
+    ¿Quieres apoyar a la comunidad Python en Chile? Si tu empresa u organización
+    está interesada en patrocinar o colaborar con nuestras iniciativas,
+    escríbenos a <a href="mailto:financiamiento@pythonchile.cl">financiamiento@pythonchile.cl</a>.
+    </p>
+  </div>
+
+  {% if UPCOMING_EVENTS %}
+    <h1>Próximos eventos</h1>
+      {# El primer evento (más cercano) se muestra destacado #}
+      <div class="lista-proximos">
+        {% with event = UPCOMING_EVENTS[0] %}
+          {% include 'evento-proximo.html' %}
+        {% endwith %}
+      </div>
+      {# El resto de próximos eventos, en cards compactos #}
+      {% if UPCOMING_EVENTS|length > 1 %}
+      <div class="lista-proximos-compactos">
+        {% for event in UPCOMING_EVENTS[1:] %}
+          {% include 'evento-proximo-compacto.html' %}
+        {% endfor %}
+      </div>
+      {% endif %}
+  {% endif %}
+  <h3 id="eventos-analiticas" style="margin-top: 40px;">Estadísticas históricas</h3>
+    <div id="events-charts">
+      <div class="chart-box">
+        <h6>Eventos</h6>
+        <div id="events-count-chart"></div>
+        <div id="events-count-legend"></div>
+      </div>
+      <div class="chart-box">
+        <h6>Sesiones</h6>
+        <div id="sessions-count-chart"></div>
+        <div id="sessions-count-legend"></div>
+      </div>
+      <div class="chart-box">
+        <h6>Asistentes</h6>
+        <div id="attendees-count-chart"></div>
+      </div>
+    </div>
+  <h2 id="eventos-pasados" style="margin-top: 50px;">Eventos pasados</h2>
     <div id="filter-events">
       <p>Ciudades:</p>
       {%for city in CITIES%}
@@ -49,10 +132,10 @@
     </div>
     <div id="past-events">
       {% for year, events in PAST_EVENTS.items() %}
-        <div>
+        <div class="year-block" id="year-{{year}}">
           <h5>
             {{ year }}
-            <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">-</span>
+            <span id="etiqueta-eventos-{{year}}" class="etiqueta-eventos" onclick="toggleYearEvents(this)">{% if year == CURRENT_YEAR %}-{% else %}+{% endif %}</span>
           </h5>
           <div
             id="eventos-{{year}}"
@@ -68,12 +151,12 @@
     </div>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="{{ SITEURL }}/theme/js/eventos.js"/>
+<script src="{{ SITEURL }}/theme/js/eventos.js"></script>
 <script>
   const eventsCounts = {{EVENTS_COUNTS}}
   const sessionsCounts = {{SESSIONS_COUNTS}}
   const attendeesCounts = {{ATTENDEES_COUNTS}}
   const years = {{YEARS}}
 </script>
-<script src="{{ SITEURL }}/theme/js/eventos-charts.js"/>
+<script src="{{ SITEURL }}/theme/js/eventos-charts.js"></script>
 {% endblock content %}

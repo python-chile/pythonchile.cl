@@ -36,6 +36,7 @@ EVENTS = [
         'city': 'Copiapó',
         'viewers': 505,
         'talks': 23,
+        'attendees': 90,
     },
     {
         'type': 'Meetup',
@@ -79,7 +80,8 @@ EVENTS = [
         'track': 'Noviembre 2025',
         'date': date(2025, 11, 11),
         'talks': 2,
-        'meetup': 311855939
+        'meetup': 311855939,
+        'image': 'images/meetup/2025-11-meetup-checkr.webp'
     },
     {
         'type': 'Meetup',

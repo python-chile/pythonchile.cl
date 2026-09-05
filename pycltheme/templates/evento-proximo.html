@@ -1,0 +1,35 @@
+{% set iconos = {'meetup': 'fa-users', 'pycon': 'fa-python', 'pyday': 'fa-calendar-day', 'hackaton': 'fa-code', 'otro': 'fa-calendar-alt'} %}
+<div class="evento-proximo tipo-{{ event.type_slug }}">
+    <div class="evento-proximo-media">
+        {% if event.image %}
+             <img loading="lazy" src="/{{ event.image }}" alt="{{ event.type }} {{ event.track }}" style="width: 100%; height: 100%; object-fit: cover;" />
+        {% else %}
+            <div class="evento-proximo-media-icono">
+                <i class="fab {{ iconos.get(event.type_slug, 'fa-calendar-alt') }}"></i>
+            </div>
+        {% endif %}
+    </div>
+    <div class="evento-proximo-body">
+        <span class="evento-proximo-badge">{{ event.type }}</span>
+        <h4>{{ event.type }} {{ event.track }}</h4>
+        <p class="evento-proximo-meta">
+            <span><i class="far fa-calendar-alt"></i> {{ event.date_display }}</span>
+            {% if event.city %}<span><i class="fas fa-map-marker-alt"></i> {{ event.city }}</span>{% endif %}
+        </p>
+        <div class="evento-proximo-cta">
+            {% if event.registro %}
+                <a class="btn-proximo btn-proximo-primary" href="{{ event.registro }}" target="_blank">
+                    <i class="fas fa-ticket-alt"></i> Inscríbete
+                </a>
+            {% elif event.meetup %}
+                <a class="btn-proximo btn-proximo-primary" href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">
+                    <i class="fab fa-meetup"></i> Inscríbete
+                </a>
+            {% else %}
+                 <a class="btn-proximo btn-proximo-primary" href="https://cl.linkedin.com/company/pythonchiledev" target="_blank">
+                    <i class="fab fa-linkedin"></i> Más info en nuestras redes
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</div>

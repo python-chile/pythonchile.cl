@@ -13,7 +13,8 @@ from objects.events import (
     EVENTS_TYPES,
     EVENTS_COUNTS,
     SESSIONS_COUNTS,
-    ATTENDEES_COUNTS
+    ATTENDEES_COUNTS,
+    STATS
     )
 
 AUTHOR = "Python Chile"

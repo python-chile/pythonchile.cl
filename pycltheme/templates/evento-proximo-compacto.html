@@ -1,0 +1,19 @@
+{% set iconos = {'meetup': 'fa-users', 'pycon': 'fa-python', 'pyday': 'fa-calendar-day', 'hackaton': 'fa-code', 'otro': 'fa-calendar-alt'} %}
+<div class="evento-compacto tipo-{{ event.type_slug }}">
+    <div class="evento-compacto-icono">
+        <i class="fab {{ iconos.get(event.type_slug, 'fa-calendar-alt') }}"></i>
+    </div>
+    <div class="evento-compacto-body">
+        <span class="evento-compacto-badge">{{ event.type }}</span>
+        <h5>{{ event.type }} {{ event.track }}</h5>
+        <p class="evento-compacto-meta">
+            <i class="far fa-calendar-alt"></i> {{ event.date_display }}
+            {% if event.city %} · {{ event.city }}{% endif %}
+        </p>
+        {% if event.registro %}
+            <a class="evento-compacto-link" href="{{ event.registro }}" target="_blank">Inscríbete <i class="fas fa-arrow-right"></i></a>
+        {% elif event.meetup %}
+            <a class="evento-compacto-link" href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">Inscríbete <i class="fas fa-arrow-right"></i></a>
+        {% endif %}
+    </div>
+</div>

@@ -37,18 +37,25 @@ EVENTS = [
         'track': 'Rancagua 2026',
         'city': 'Rancagua',
         'date': date(2026, 8, 19),
-        'talks': 4
+        'youtube': 'up60em_ycSQ',
+        'viewers': 52,
+        'talks': 4,
+        'attendees': 121
     },
     {
         'type': 'Meetup',
         'track': 'Agosto 2026',
         'date': date(2026, 8, 26),
-        'talks': 1
+        'youtube': 'Bf2-ZQQiSF0',
+        'viewers': 280,
+        'talks': 1,
+        'meetup': 316161132
     },
     {
         'type': 'PyCon Chile',
         'track': '2026 Santiago',
         'city': 'Santiago',
-        'date': date(2026, 11, 7)
+        'date': date(2026, 11, 7),
+        'image': 'images/pycon2026/anuncio-pycon.webp'
     },
 ]
