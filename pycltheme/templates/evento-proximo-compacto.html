@@ -10,8 +10,10 @@
             <i class="far fa-calendar-alt"></i> {{ event.date_display }}
             {% if event.city %} · {{ event.city }}{% endif %}
         </p>
-        {% if event.registro %}
-            <a class="evento-compacto-link" href="{{ event.registro }}" target="_blank">Inscríbete <i class="fas fa-arrow-right"></i></a>
+        {% if event.url %}
+                <a class="evento-compacto-link" href="{{ event.url }}" target="_blank">
+                    <i class="fas fa-globe"></i> Visitar web del evento
+                </a>
         {% elif event.meetup %}
             <a class="evento-compacto-link" href="https://www.meetup.com/pythonchiledev/events/{{event.meetup}}" target="_blank">Inscríbete <i class="fas fa-arrow-right"></i></a>
         {% endif %}
