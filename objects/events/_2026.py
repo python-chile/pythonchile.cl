@@ -52,10 +52,19 @@ EVENTS = [
         'meetup': 316161132
     },
     {
+        'type': 'Meetup',
+        'track': 'Septiembre 2026',
+        'date': date(2026, 9, 23),
+        'youtube': 'CDZbDjkXPdo',
+        'talks': 1,
+        'meetup': 316547611
+    },
+    {
         'type': 'PyCon Chile',
         'track': '2026 Santiago',
         'city': 'Santiago',
-        'date': date(2026, 11, 7),
-        'image': 'images/pycon2026/anuncio-pycon.webp'
+        'date': date(2026, 11, 14),
+        'image': 'images/pycon2026/anuncio-pycon.webp',
+        'url': "https://pycon.cl"
     },
 ]
