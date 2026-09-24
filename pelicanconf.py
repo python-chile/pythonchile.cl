@@ -94,11 +94,11 @@ REDES = {
         "icon": "fa-facebook-f",
         "url": "https://www.facebook.com/groups/pythonchiledev/",
     },
-    #"twitter": {
-    #   "alt": "Twitter",
-    #   "icon": "fa-x-twitter",
-    #    "url": "https://x.com/pythonchiledev",
-   # },
+    "twitter": {
+      "alt": "Twitter",
+      "icon": "fa-x-twitter",
+       "url": "https://x.com/pythonchiledev",
+    },
     "instagram": {
         "alt": "Instagram",
         "icon": "fa-instagram",
