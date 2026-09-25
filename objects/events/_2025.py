@@ -78,6 +78,7 @@ EVENTS = [
     {
         'type': 'Meetup',
         'track': 'Noviembre 2025',
+        'city': 'Santiago',
         'date': date(2025, 11, 11),
         'talks': 2,
         'meetup': 311855939,

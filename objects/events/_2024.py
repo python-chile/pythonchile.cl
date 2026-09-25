@@ -66,6 +66,7 @@ EVENTS = [
     {
         'type': 'PyCon Chile',
         'track': '2024 Auditorio',
+        'city': 'Santiago',
         'date': date(2024, 11, 30),
         'youtube': 'c1aCTyExabM',
         'viewers': 603,
@@ -75,6 +76,7 @@ EVENTS = [
     {
         'type': 'PyCon Chile',
         'track': '2024 Laboratorios',
+        'city': 'Santiago',
         'date': date(2024, 11, 30),
         'workshops': 8
     },
