@@ -56,6 +56,7 @@ EVENTS = [
         'track': 'Septiembre 2026',
         'date': date(2026, 9, 23),
         'youtube': 'CDZbDjkXPdo',
+        'viewers': 222,
         'talks': 1,
         'meetup': 316547611
     },
