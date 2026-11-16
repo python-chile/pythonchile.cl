@@ -7,7 +7,7 @@ EVENTS = [
         'date': date(2025, 5, 6),
         'youtube': 'vSAz68kHCM4',
         'city': 'Santiago',
-        'viewers': 240,
+        'viewers': 245,
         'talks': 1,
         'meetup': 306960065
     },
@@ -34,7 +34,7 @@ EVENTS = [
         'date': date(2025, 6, 25),
         'youtube': 'jvo6Y0DV514',
         'city': 'Copiapó',
-        'viewers': 505,
+        'viewers': 508,
         'talks': 23,
         'attendees': 90,
     },
@@ -43,7 +43,7 @@ EVENTS = [
         'track': 'Agosto 2025',
         'date': date(2025, 8, 26),
         'youtube': 'OXghExeqToc',
-        'viewers': 308,
+        'viewers': 322,
         'talks': 1,
         'meetup': 310462090
     },
@@ -52,7 +52,7 @@ EVENTS = [
         'track': 'Septiembre 2025',
         'date': date(2025, 9, 30),
         'youtube': 'nXfNgrUE_ZE',
-        'viewers': 126,
+        'viewers': 139,
         'talks': 1,
         'meetup': 310899974
     },
@@ -62,7 +62,7 @@ EVENTS = [
         'city': 'Viña del Mar',
         'date': date(2025, 11, 8),
         'youtube': 'qCe_SSpnSno',
-        'viewers': 874,
+        'viewers': 901,
         'talks': 9,
         'workshops': 7,
         'attendees': 132
@@ -72,7 +72,7 @@ EVENTS = [
         'track': '2025 Online',
         'date': date(2025, 11, 9),
         'youtube': 'mT1tC5IkABY',
-        'viewers': 1187,
+        'viewers': 1227,
         'talks': 13,
     },
     {
@@ -89,6 +89,6 @@ EVENTS = [
         'track': 'Diciembre 2025',
         'date': date(2025, 12, 11),
         'youtube': 'WS4bz9jBjfw',
-        'viewers': 120
+        'viewers': 126
     }
 ]
